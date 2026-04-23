@@ -1,0 +1,105 @@
+
+=======================================================================
+                         CALL FOR PAPERS
+                  (Deadline: February 28, 2011)
+
+              The COMPUTER STANDARD & INTERFACES journal
+                          Special Issue on
+
+           "THE REFERENCE MODEL OF OPEN DISTRIBUTED PROCESSING:
+               FOUNDATIONS, EXPERIENCES AND APPLICATIONS"
+
+              http://www.rm-odp.net/event/CSI/CSI-cfp.pdf
+=======================================================================
+
+AIMS AND SCOPE
+
+The RM-ODP (Reference Model of Open Distributed Processing, 
+www.rm-odp.net) is a joint standardization effort by ISO/IEC 
+and ITU-T that defines a system of interrelated essential concepts 
+necessary to understand and specify any open distributed systems. 
+In particular, it provides a well-developed enterprise architecture 
+framework for structuring the specifications of such systems.
+
+The RM-ODP reference model is based on precise concepts derived from
+current distributed processing developments and, as far as possible, on
+the use of formal description techniques for specification of the
+architecture. Many RM-ODP concepts, possibly under different names,
+have been around for a long time and have been rigorously described and
+explained in exact philosophy (for example, in the works of Mario 
+Bunge) and in systems thinking (for example, in the works of Friedrich 
+Hayek). Some of these concepts-such as abstraction, composition or 
+emergence-have recently been provided with a solid mathematical
+foundation in category theory.
+
+The RM-ODP was published at the end of 1995 to provide a simple and
+elegant way to consider the specification, design, development and
+maintenance of large open distributed systems. Quite a few business
+systems have been understood and specified using the RM-ODP system of 
+concepts. Since then, much has happened in the field of system and
+software model engineering, and in particular in the realm of 
+Enterprise Computing. Several international standards were based on
+RM-ODP, such as the Trader, UML4ODP, and others; other standards were 
+not so explicit, but might have used the RM-ODP concepts, raising the 
+issue of standard interoperability.
+
+Furthermore, the RM-ODP has taken on a new significance in the light of 
+the Model-Driven Architecture (MDA®) initiative from the OMG®, the 
+wide-scale adoption of Service-Oriented Architectures (SOA) and the 
+emerging concepts of Enterprise Architecture and Cloud Computing. Thus 
+it seems important to look at the old and new objectives, the 
+theoretical and practical achievements, the challenges ahead, the 
+ongoing efforts, the work to be done, and the research and practical 
+roadmap. 
+
+It would be the objective of this special issue to contribute to such 
+an assessment.
+
+Thus, the Computer Standards & Interfaces journal invites original,
+high-quality submissions from academia and industry for its theme issue 
+on "RM-ODP: Foundations, Experiences and Applications" to appear in 
+Q4 2011, focusing on topics related to RM-ODP. In particular, we would 
+like to put emphasis on experiences in projects that have been based on 
+the RM-ODP ideas and architecture, on foundational and retrospective 
+issues, and on new lines of research and application related to the 
+Reference Model that allow to outline a roadmap addressing the key 
+challenges in the areas of understanding and specifying business and IT 
+systems. Industrial submissions, including short communications, are 
+especially welcome.
+
+IMPORTANT DATES:
+
+* Intent to submit: 1 Dec. 2010
+* Paper submission: 28 Feb. 2011
+* Notification: 31 May 2011
+* Revised versions: 31 July 2011
+* Second round reviews: 30 Sep. 2011
+* Camera ready versions	 31 Oct. 2011
+
+GUEST EDITORS
+
+* Haim Kilov          Independent Consultant, US <haimk@acm.org>
+* Peter Linington     University Kent, UK <P.F.Linington@kent.ac.uk>
+* José Raúl Romero    Universidad de Córdoba, Spain <jrromero@uco.es>
+* Akira Tanaka.       view5 LLC, Japan <a.tanaka@acm.org>
+* Antonio Vallecillo  Universidad de Málaga, Spain <av@lcc.uma.es>
+
+INSTRUCTIONS FOR AUTHORS
+
+* Please consult the journal guidelines for submitting papers, available 
+  at http://www.elsevier.com/wps/find/journaldescription.cws_home/505607/authorinstructions
+
+* Communicate your intention to submit a paper by emailing the guest 
+  editors before 1 December 2010 (this does not imply any formal 
+  obligation to submit).
+
+* Submit your work through the journal online system: 
+  http://ees.elsevier.com/csi
+
+* During the submission process please select 
+  "SI:RM ODP:Foundations/Experiences/Applic" in the Article Type step.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+If you have any questions of require additional information about this 
+   theme issue, do not hesitate to contact the guest editors.
+=======================================================================
