@@ -1,0 +1,146 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Language" content="es">
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<title>A metamodel for Twitter</title>
+</head>
+
+<body>
+
+<h1 align="center">
+A Metamodel for Twitter</h1>
+<p align="center">
+<img border="0" src="TwitterMM.png"></p>
+<h2>Integrity constraints</h2>
+
+<code><b>context</b> Twitter <b><br>
+&nbsp; inv</b> usernameIsKey: <br>
+&nbsp;&nbsp;&nbsp;
+self.users-&gt;isUnique(username) </code>
+<p><code><b>context</b> User <br>
+<b>&nbsp; inv </b>noAutoFollow: <br>
+&nbsp;&nbsp;&nbsp;
+self.following-&gt;excludes(self) <br>
+&nbsp;&nbsp;&nbsp; <b>and</b> 
+self.followedBy-&gt;excludes(self) </code>
+</p>
+<p><code><b>context </b>TextMsg <b><br>
+&nbsp; inv </b>140charsIsEnough: <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; self.text.size()&lt;=140 </p>
+<p><b>context </b>Tweet <b><br>
+&nbsp; inv </b>validMention: <br>
+&nbsp;&nbsp;&nbsp; self.mentionedUser-&gt;forAll(u | (self.text.indexOf(&quot;@&quot; 
++ u.username)&lt;&gt;0)) <br>
+&nbsp; <b>inv </b>mentionedTag: <br>
+&nbsp;&nbsp;&nbsp; self.tag-&gt;forAll(t | (self.text.indexOf(t.text)&lt;&gt;0))
+<br>
+<b>&nbsp; inv </b>isNotDirectMessage: <br>
+&nbsp;&nbsp;&nbsp; self.text.indexOf(&quot;D @&quot;+self.to.userName)&lt;&gt;1 -- does not 
+start with &quot;D and then a username</code></p>
+<p><code><b>context </b>HashTag <b><br>
+&nbsp; inv </b>validTag: <br>
+&nbsp;&nbsp;&nbsp; self.text.indexOf(&quot;#&quot;)=1 <b>and </b>-- startsWith &quot;#&quot; 
+<b><br>
+&nbsp;&nbsp;&nbsp; </b>self.text.substring(2,self.text.size()).indexOf(&quot;#&quot;) = 0 
+<b>and </b>-- does not contain 
+another &quot;#&quot; <br>
+&nbsp;&nbsp;&nbsp; self.text.indexOf(&quot; &quot;) = 0 -- and does not contain spaces</code></p>
+<p><code><b>context </b>DirectMessage <b><br>
+&nbsp; inv </b>validMsg: <br>
+&nbsp;&nbsp;&nbsp; self.text.indexOf(&quot;D @&quot;+self.to.userName)=1 
+-- starts with &quot;D and then a username</code></p>
+<h2>
+Operations</h2>
+<p><code><b>context </b>Twitter::<font color="#000080">post</font>(u:User,t:Tweet) <br>
+&nbsp; -- A user u posts a tweet with text t.text<br>
+&nbsp; <b>pre</b>: <br>
+&nbsp;&nbsp;&nbsp;&nbsp; t.text.indexOf(&quot;D @&quot;) &lt;&gt; 1 -- it is not 
+a direct message <br>
+&nbsp; <b>post</b>: <br>
+&nbsp;&nbsp;&nbsp;&nbsp; self.tweets-&gt;includes(t) <b>and </b><br>
+&nbsp;&nbsp;&nbsp;&nbsp; u.tweets-&gt;includes(t) <b>and </b><br>
+&nbsp;&nbsp;&nbsp;&nbsp; 
+t.creator = u <b>and</b> <br>
+&nbsp;&nbsp;&nbsp;&nbsp; t.tags-&gt;includesAll(t.mentionedTags()) <b>and </b>
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp; t.mentionedUsers-&gt;includesAll(t.mentionedUsers())</code></p>
+<p><code><b>context </b>Twitter::<font color="#000080">directMsg</font>(u:User,d:DirectMsg) 
+<br>
+&nbsp; <b>pre</b>: -- user u can send direct 
+messages only to users that follow u <br>
+&nbsp;&nbsp;&nbsp;&nbsp; <b>let</b> uname : String = 
+d.text.substring(d.text.indexOf(&quot;@&quot;)+1,d.text.substring(d.text.indexOf(&quot;@&quot;)+1,d.text.size()).indexOf(&quot; 
+&quot;)) <b>in </b><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; u.followedBy-&gt;any(u | u.username = uname) 
+<br>
+&nbsp; <b>post</b>: <br>
+&nbsp;&nbsp;&nbsp;&nbsp; <b>let</b> uname : String = 
+d.text.substring(d.text.indexOf(&quot;@&quot;)+1,d.text.substring(d.text.indexOf(&quot;@&quot;)+1,d.text.size()).indexOf(&quot; 
+&quot;)) <b>in</b>
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; self.directMsgs-&gt;includes(d) 
+<b>and</b> <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; d.to = self.users-&gt;one(username = uname) 
+<b>and</b> <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; d.from = u </code></p>
+<p><code><b>context</b> Twitter::<font color="#000080">search</font>(h : HashTag) 
+: OrderedSet{Tweet}<br>
+&nbsp; -- returns the set of Tweets in the system that contain the tag<br>
+&nbsp; <b>post</b>: <b><br>
+&nbsp;&nbsp;&nbsp;&nbsp; result</b> = self.tweets-&gt;select(tags.includes(h))</code></p>
+<p><code><b>context</b> Twitter::<font color="#000080">userProfile</font>(username 
+: String) : OrderedSet{Tweet}<br>
+&nbsp; -- returns the Tweets posted of the users and lists followed by the user 
+defined by username <br>
+&nbsp; <b>post</b>: <b><br>
+&nbsp;&nbsp;&nbsp;&nbsp; result</b> = self.tweets-&gt;union(self.following.tweets)-&gt;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+union(self.followedList.member.tweets)-&gt;sortedBy(date)</code></p>
+<p><code><b>context</b> User::<font color="#000080">follow</font>(u : User)<br>
+&nbsp; <b>post</b>: <br>
+&nbsp;&nbsp;&nbsp;&nbsp; self.followedBy-&gt;includes(u) <b>and </b>u.following-&gt;includes(self)</code></p>
+<p><code><b>context</b> User::<font color="#000080">unfollow</font>(u : User)<br>
+&nbsp; <b>post</b>:<br>
+&nbsp;&nbsp;&nbsp;&nbsp; self.followedBy-&gt;excludes(u) <b>and </b>u.following-&gt;excludes(self)</code></p>
+<p><code><b>context</b> User::<font color="#000080">addUserToList</font>(u : 
+User, l : List)<br>
+&nbsp; <b>pre</b>: <br>
+&nbsp;&nbsp;&nbsp;&nbsp; self.ownedLists-&gt;includes(l)<br>
+&nbsp; <b>post</b>:<br>
+&nbsp;&nbsp;&nbsp;&nbsp; l.member-&gt;includes(u)</code></p>
+<p><code><b>context</b> User::<font color="#000080">rmUserToList</font>(u : User, 
+l : List)<br>
+&nbsp; <b>pre</b>:<br>
+&nbsp;&nbsp;&nbsp;&nbsp; self.ownedLists-&gt;includes(l)<br>
+&nbsp; <b>post</b>:<br>
+&nbsp;&nbsp;&nbsp;&nbsp; l.member-&gt;excludes(u)</code></p>
+<p><code><b>context</b> User::<font color="#000080">followList</font>(u : User, 
+l : List)<br>
+&nbsp; <b>pre</b>: <br>
+&nbsp;&nbsp;&nbsp;&nbsp; self.ownedLists-&gt;includes(l)<br>
+&nbsp; <b>post</b>: <br>
+&nbsp;&nbsp;&nbsp;&nbsp; l.followedBy-&gt;includes(u) <b>and </b>u.followedLists-&gt;includes(l)</code></p>
+<p><code><b>context</b> User::<font color="#000080">unfollowList</font>(u : User, 
+l : List)<br>
+&nbsp; <b>pre</b>: <br>
+&nbsp;&nbsp;&nbsp;&nbsp; self.ownedLists-&gt;includes(l)<br>
+&nbsp; <b>post</b>:<br>
+&nbsp;&nbsp;&nbsp;&nbsp; l.followedBy-&gt;excludes(u) <b>and </b>u.followedLists-&gt;excludes(l)</code></p>
+<h3>Auxiliary operations</h3>
+<p><code><b>context</b> Tweet::mentionedTags() : Set{HashTag} <br>
+-- returns the set of tags 
+mentioned in a tweet <br>
+&nbsp; <b>body</b>: result = ... </code></p>
+<p><code><b>context</b> Tweet::mentionedUsers() : Set{User} <br>
+-- returns the set of users 
+mentioned in a tweet <br>
+&nbsp; <b>body</b>: result = ...</code></p>
+<p>
+&nbsp;</p>
+<p>
+&nbsp;</p>
+
+</body>
+
+</html>

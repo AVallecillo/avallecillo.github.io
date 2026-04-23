@@ -1,0 +1,50 @@
+<HTML>
+<HEAD> 
+<TITLE>PhD thesis of Antonio Vallecillo</TITLE>
+</HEAD>
+<BODY background="../gif/fondo.gif">
+<P><B><FONT SIZE=+1>PhD thesis: A Component Model for the Development of Distributed Applications</B></FONT>
+<P><FONT SIZE=+1>Advisor: Prof. Jos&eacute; Mar&iacute;a Troya Linero</FONT><BR>
+Dpto. Lenguajes y Ciencias de la Computaci&oacute;n.<BR>
+Universidad de M&aacute;laga.<BR>
+May 1999.</FONT>
+<HR>
+<H4>Abstract</H4>
+Apart from the difficulties involved in the development of software applications from components (like reusability, late composition and correctness), new issues appear when building up applications for Open and Distributed Systems: heterogeneity, evolution and dissemination of their parts, dynamic configuration, lack of a global view of the systems, and the occurrence of communication failures or security violations. 
+<P>
+Our approach is based on the separation of computation from the rest of the concerns, which are independently encapsulated in "controllers", reusable meta-components that can be added to components in a modular way.
+<P>
+Our work proposes a component model, specifically designed for the modular development of applications in Open Systems, in which components encapsulate computation and the controllers implement the rest of the user particular requirements.
+The component model defines some specific mechanisms for the development of applications in open and distributed systems, like local broadcasts, inspection of services, and tubes (bi-directional channels for the efficient transmission of data among components). It also allows the integration of components from other component platforms (CORBA, DCOM, JavaBeans, ...).
+<P>
+The model is also supported by a formal framework that uses Object-Z and temporal logic for specifying the model's concepts and mechanisms, reasoning about the behavior of the components and the controllers, and expressing some of the important concepts in open systems, like evolution or substitutability of components. 
+<P>We have also defined a methodology for the development of the reusable controllers, the new entities that it introduces. This methodology covers all their life cycle, from their formal specifications to their final implementation in an object-oriented language.
+<P>
+<HR>
+<H4>Main contributions and future extensions</H4>
+<P>
+The thesis main contributions are the following:
+<OL>
+<LI>A new component model for open systems, with reflective capabilities for modifying the behavior of components according to the application's specific requirements, together with a set of mechanisms for developing applications in open systems in a natural and modular way.
+<LI>A working prototype of the model, developed to test its viability and study the real possibilities (and limitations) of the component model.
+<LI>We have identified some of the properties (component requirements) of special relevance for components to incorporate when building up applications from them in open environments, and that can be implemented by means of reusable controllers.
+<LI>A formal framework in Object-Z and temporal logic to support the model and reason about the applications built with it.
+<LI>A methodology for the development of applications based on components and reusable controllers, which includes as well a process for the systematic construction of reusable controllers.
+<LI>A new component description language, that extends and complements current IDLs to account for some specific features needed in component-based software development.
+<LI>The model also allows the integration of heterogeneous components (CORBA, DCOM, beans,...), so reuse can be really achieved when building applications.
+<LI>Most of the typical example applications in open systems have been successfully implemented using the model: distributed auctions, reconfigurable process farms, producers-consumers dynamically evolving, etc.
+</OL>
+As current extensions, we are working on a visual environment for the design and execution of applications based on heterogeneous components, and trying to improve the prototype, making it a real competitive component model with efficient mechanisms.
+<P>
+<P>For further information on this work, please refer to the <A HREF="../publicaciones.html">publications</A> page, or just read the full dissertation (available only in Spanish), that can be obtained electronically <A HREF="tesis.html">here</A>.
+<P>
+<HR>
+<P>
+<B>Prototype</B>
+<P>The access to the prototype we have built for the model is currently under preparation.
+<P>
+<HR>
+Last modified: May 26, 1999.<BR>
+Comments to <A HREF="mailto:av@lcc.uma.es">av@lcc.uma.es</A>
+</BODY>
+</HTML>
