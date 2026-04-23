@@ -48,9 +48,12 @@
       align-items: start;
     }
 
+    .photo {
+      align-self: stretch;
+    }
     .photo img {
       width: 130px;
-      height: 170px;
+      height: 100%;
       object-fit: cover;
       object-position: top;
       border-radius: 3px;
@@ -106,14 +109,14 @@
 
     .logos {
       display: flex;
-      flex-direction: column;
-      gap: .8rem;
-      align-items: flex-end;
+      flex-direction: row;
+      gap: .6rem;
+      align-items: flex-start;
       padding-top: .3rem;
     }
     .logos img {
-      max-height: 40px;
-      max-width: 130px;
+      max-height: 50px;
+      max-width: 110px;
       object-fit: contain;
       opacity: .85;
     }
@@ -224,7 +227,7 @@
 <!-- ══════════════ HEADER ══════════════ -->
 <header>
   <div class="photo">
-    <img src="AVallecillo-2024-escalera2.JPG" alt="Antonio Vallecillo">
+    <img src="AVallecillo-2024-escalera2.jpg" alt="Antonio Vallecillo">
   </div>
 
   <div class="identity">
@@ -262,12 +265,8 @@
   </div>
 
   <div class="logos">
-    <a href="http://www.gisum.uma.es/" target="_blank"><img src="logos/logoGisum.png" alt="GISUM"></a>
     <a href="http://itis.uma.es/" target="_blank"><img src="logos/LogoITIStransp.png" alt="ITIS"></a>
     <a href="http://atenea.lcc.uma.es" target="_blank"><img src="logos/AteneaLogo.png" alt="Atenea"></a>
-    <a href="http://www.sosym.org/" target="_blank"><img src="http://www.sosym.org/banner/sosymed.jpg" alt="SoSyM Editor"></a>
-    <a href="http://www.jot.fm/" target="_blank"><img src="logos/JOT-banner-editor.png" alt="JOT Editor"></a>
-    <a href="https://www.springer.com/journal/12599" target="_blank"><img src="logos/bise_logo2.PNG" alt="BISE"></a>
   </div>
 </header>
 
