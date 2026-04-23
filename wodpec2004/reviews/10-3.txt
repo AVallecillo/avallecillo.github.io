@@ -1,0 +1,89 @@
+
+=======================================================
+*** WODPEC 2004 REVIEW FORM
+
+1) PAPER and REVIEW DETAILS
+
+- PAPER No.: 10
+- TITLE: Proposal for a Model Driven Approach to Creating a Tool 
+to Support the RM-ODP
+- AUTHORS: D. Akehurst
+
+2) EVALUATION:
+
+Please rate the following qualities from 0 to 5, 
+with 5 being the highest.
+
+- Technical accuracy: 3
+
+- Scientific quality/originality: 4
+
+- Appropriateness for the conference: 4
+
+- Quality of presentation: 3
+
+- Overall evaluation: 3.5
+  (0 = outside the scope of WODPEC,
+   1 = Very poor,
+   2 = Poor,
+   3 = Acceptable, 
+   4 = Good,
+   5 = Excellent )
+
+- CONFIDENCE LEVEL (low, medium, high): m
+
+
+4) JUSTIFICATION AND GENERAL COMMENTS:
+  (A few lines are mandatory here to justify 
+   the numerical evaluation. You may also include 
+   general comments, relevant for both author(s) 
+   and the Programme Committee. 
+   
+- Weak points of the paper:
+
+a) Inter-Viewpoint correspondence between Computational 
+viewpoint and Engineering Viewpoint is a relatively simple one.  
+The discussion on the corresponcence including Enterprise and 
+Information Viewpoint was expected.
+
+b) Lack of concrete proposals for revising RM-ODP: for instance, 
+suggestion on additional concepts/definitions for technology 
+viewpoint is expected.
+
+
+- Strong points of the paper:
+
+An effort to investigate in possible tool support of RM-ODP 
+is a strong point.
+
+- Any suggestions for improvements: 
+
+
+5) FURTHER COMMENTS FOR AUTHORS:
+
+a) Clarify the rationale for the need to introducing new "viewpoint," 
+Correspondence Specification Viewpoint.  Is it also the suggestion 
+to revise Part 3 clause 4?
+
+b) In 2. Viewpoint Metamodels, it was not clear what the author 
+means by "common Foundations metamodel."  It seems like metamodel 
+of Part 2 concepts, but then why "(at least)" is placed here?
+
+c) Short explanation of what the author means by "core of design 
+EMF and KMF generate" is expected.
+
+d) In 3. Viewpoint Notations, also short explanation of defined 
+syntax in reference [3], other than those in Figure 4, is expected.
+
+e) In 4. Inter-Viewpoint Consistency, top paragraph on the second 
+column, the descriptions like "The relations are ..." seem to 
+be too strong.  Also the value of including Figure 6 is not clear, 
+since it is possible to raise the same issue  with the quoted 
+correspondence rule.
+
+
+6) CONFIDENTIAL COMMENTS FOR PC:
+   (not to be sent to authors)
+
+
+===================================================

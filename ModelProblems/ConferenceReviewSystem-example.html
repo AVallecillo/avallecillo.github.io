@@ -1,0 +1,248 @@
+<html>
+
+<head>
+<title>The Conference Review System Example -- MDWE Model Problems</title>
+</head>
+
+<body>
+
+<h2><a name="arriba">The Conference Review System Example</a></h2>
+<p>The purpose of the system is to support the process of submission, evaluation 
+and selection of papers for a conference. It is an example of a typical workflow-based 
+application</p>
+
+<ol>
+	<li><a href="#design"><strong>Design considerations and requirements</strong></a></li>
+	<li><a href="#solutions"><strong>Solutions</strong></a></li>
+	<li><a href="#discussion"><strong>Discussion and comparison</strong></a></li>
+	<li><a href="#contributors"><strong>Contributors</strong></a></li>
+	<li><a href="#bibliography"><strong>Bibliography and references</strong></a></li>
+</ol>
+<hr>
+<h3><a name="design">Design considerations and requirements</a></h3>
+<p>The following <b>main actors </b>participate in this system: </p>
+<ul>
+	<li><i>PC Chair</i>: He is responsible for creating the conference, 
+	determining the conference topics (or tracks) and subjects, establishing the 
+	Program Committee, and, advised by the PC Members, defining the final list 
+	of accepted and rejected papers. The conference is supposed to have a set of 
+	tracks (or topics), and optionally a set of subjects. The PC Chair also 
+	defines the conference deadlines: submission, review, and notification. </li>
+	<li><i>PC Member</i>: He is responsible for evaluating a set of papers 
+	assigned to him. A PC Member may indicate another person as a reviewer of a 
+	paper. The PC Members are responsible for advising the PC Chair in 
+	determining the final list of accepted and rejected papers. </li>
+	<li><i>Reviewer</i>: He is responsible for reviewing a paper </li>
+	<li><i>Author</i>: He is responsible for submitting a paper for acceptance at 
+	the conference. Since PC Members and Reviewers may also be Authors, they 
+	must have different Ids for each role. </li>
+</ul>
+<p>The <b>functions (processes) </b>that must be supported by the system are as 
+follows</p>
+<ul>
+	<li><i>Registration</i><ul>
+	<li>With the exception of the PC Chair, all other actors must register in the 
+system in order to participate in all processes. </li>
+	<li>PC Members are pre-registered by the PC Chair, but must confirm their 
+registration personally, including changing their password and entering 
+affiliation and contact information. PC Members may also indicate their 
+preferences for conference topics and subjects, when defined. </li>
+	<li>Reviewers may be pre-registered by the PC Chair or by any other PC Member, 
+but must also confirm their registration, in the same way as PC Members. 
+Reviewers may not indicate any preferences regarding topics or subjects. </li>
+	<li>Authors must register before submitting any papers. An author may 
+pre-register a co-author, in which case the co-author must register himself as 
+well, in order to have access to the system. </li>
+</ul>
+	</li>
+	<li><i>Submission</i><ul>
+		<li>Any registered author may submit a paper. To do this, 
+the author must inform the paper authors (all of whom must be registered), the 
+title, the abstract, the conference track, and a set of subjects chosen from a 
+list previsously determined by the PC Chair, if there is one. The system, after 
+checking the authors’ registrations, assigns a paper ID to the new paper, and 
+allows the user to submit it by uploading a file. </li>
+		<li>At any moment, an author is allowed to check the data about his submitted 
+papers. Until the submission deadline, the author is also allowed to substitute 
+the uploaded file by a new one, or to change any of the informed data about the 
+paper. </li>
+	</ul>
+	</li>
+	<li><i>Assignment of Papers to PC Members</i> 
+	<ul>
+		<li>Once a submission has been made, the 
+PC Chair may browse the list of papers, and indicate potential conflicts of 
+interest between PC Members and submitted papers. In particular, any paper 
+authored by a PC Member automatically constitutes conflict of interest. </li>
+		<li>Once the submission deadline has been reached, the PC Chair opens the list of 
+submitted papers for perusal by the PC Members, who may indicate their interest 
+(an integer in the range [0,1,2], where 0 indicates no interest, 1 indicates 
+moderate interest and 2 indicates strong interest), and also conflicts of 
+interest with some papers. Once a conflict of interest has been established 
+between a PC Member and a paper, the PC Member will not see any information 
+whatsover about the paper, until the final decision about acceptance and 
+rejection of papers. </li>
+		<li>The PC Chair, looking at the list of preferred papers of the PC Members, as 
+well as their indicated preferred topics and subjects, assings papers to PC 
+Members for reviewing. Once this assignment has been made, each PC Member 
+receives an email message with the list of papers, and a URL to a page where he 
+can access these papers. </li>
+		<li>Typically the PC Chair will assign the same paper for review by three or more 
+reviewers. </li>
+		<li>The PC Chair may also change the track/topic furnished by an author for a 
+given paper. </li>
+	</ul>
+	</li>
+	<li><i>Assignment of Papers to Reviewers</i> 
+	<ul>
+		<li>A PC Member may re-assing a paper to a 
+Reviewer. In this case, the reviewer will be responsible for entering the paper 
+evaluation, but the PC Member is the final responsible for the paper evaluation 
+during the selection process. Each time a reviewer enters a review, the 
+associated PC Member is notified of this event by the system. </li>
+	</ul>
+	</li>
+	<li><i>Entering the reviews</i> 
+	<ul>
+		<li>A PC Member, or a Reviewer, may enter a review for a 
+paper assigned to him. Each paper review is made up of a set of evaluation 
+items, each of which may be graded in the range [1-5]. One of these items is a 
+final recommendation, also in the range 1-5, where 1 means Strong Reject; 2 
+means Reject; 3 means Indiference; 4 means Accept; and 5 means Strong Accept. 
+There are also two text fields, the first one “Confidential Comments to the PC”, 
+and the second one “Comments for the Authors”. </li>
+		<li>The review is entered by accessing a form containing all the evaluation 
+items. In addition to these items, the PC Member/Reviewer may indicate if the 
+review is final or not. If the review is not final, he may change any part of 
+the review up until the review deadline defined by the PC Chair. </li>
+		<li>A PC Member may see other reviews (entered by others) for any of the papers 
+he is reviewing, but only after he has entered his own review. Even if he has 
+not entered his review, however, he may know how many reviews have already been 
+entered for any paper he has the right to access, and their status (final or 
+not). </li>
+		<li>The PC Chair has full access to all papers and all reviews. </li>
+	</ul>
+	</li>
+	<li><i>Deciding on the accepted and rejected papers</i> 
+	<ul>
+		<li>Once the review deadline has been 
+reached, the review process is closed. All PC Members are allowed to see all the 
+papers and their respective reviews. The system is able to show the list of 
+papers ranked by a number of relevant criteria, such ordered by any of the 
+evaluation items (including final recommendation), author, title, affiliation, 
+subject, etc. </li>
+		<li>After deliberation, the PC Chair, taking into account the recommendations of 
+the PC Members and reviewers, chooses the papers that will be accepted and 
+rejected, marking them appropriately through an interface furnished by the 
+system. During this selection process, the PC Chair and PC Members may visualize 
+the status of the process at any stage, by looking at the list of papers already 
+marked for acceptance, for rejection, and still undecided. Several statistics 
+are also shown, such a totals for each category, acceptance rates, number of 
+papers per track per status, etc. </li>
+		<li>Once the process is marked as finalized by the PC Chair, the system issues a 
+notification message to paper authors, which includes the appropriate parts of 
+the reviews submitted by the PC Members and reviewers. It is also possible to 
+visualise the list of accepted and rejected papers.</li>
+	</ul>
+	</li>
+</ul>
+<h5><img border="0" src="subir_gris.gif" width="14" height="14">&nbsp;
+<a href="#arriba">Top</a></h5>
+<hr>
+<h3><a name="solutions">Solutions</a></h3>
+<p>The following papers describe solutions to the Conference Review System using 
+different Web Engineering approaches. They were all published at the IWWOST'01 
+proceedings (Please note that some of the approaches have evolved since then, 
+and now may incorporate improved features):</p>
+<ul>
+	<li>
+	<a href="http://www.dsic.upv.es/~west/iwwost01/files/contributions/NoraKoch/Uwe.pdf">
+	The Authoring Process of the UML-based Web Engineering Approach</a><br>
+	<i>Nora Koch, Andreas Kraus, Rolf HennickerLudwig-Maximilians. University of 
+	Munich, Germany</i><br>
+&nbsp;</li>
+	<li>
+	<a href="http://www.dsic.upv.es/~west/iwwost01/files/contributions/OlgaDeTroyer/WSDMPape.pdf">
+	The Conference Review System with WSDM</a><br>
+	<a href="http://www.dsic.upv.es/~west/iwwost01/files/contributions/OlgaDeTroyer/WSDMAppe.pdf">
+	Appendix to the Conference Review System with WSDM</a><br>
+	<i>Olga De Troyer, Sven Casteleyn. Vrije Universiteit Brussel, Belgium</i><br>
+&nbsp;</li>
+	<li>
+	<a href="http://www.dsic.upv.es/~west/iwwost01/files/contributions/PaoloAtzeni/atzeniValencia.pdf">
+	Specification of Web applications with ADM-2</a><br>
+	<a href="http://www.dsic.upv.es/~west/iwwost01/files/contributions/PaoloAtzeni/atzeniValenciaSchemes.pdf">
+	Specification of Web applications with ADM-2 - Schemes</a><br>
+	<i>Paolo Atzeni, Alessio Parente. Universit`a di Roma Tre, Italy</i><br>
+&nbsp;</li>
+	<li>
+	<a href="http://www.dsic.upv.es/~west/iwwost01/files/contributions/StefanoCeri/CeriEtAl.pdf">
+	Designing multi-role, collaborative Web sites with WebML: a conference 
+	management system case study</a><br>
+	<i>Stefano Ceri, Piero Fraternali, Maristella Matera, Andrea Maurino. 
+	Politecnico di Milano, Italy</i><br>
+&nbsp;</li>
+	<li>
+	<a href="http://www.dsic.upv.es/~west/iwwost01/files/contributions/StephenLiddle/PaperReviewSystemDesign.pdf">
+	Paper Review System Overview</a><br>
+	<i>Stephen Liddle. Brigham Young University, USA</i><br>
+&nbsp;</li>
+	<li>
+	<a href="http://www.dsic.upv.es/~west/iwwost01/files/contributions/AntjeDusterhoft/Valencia2001.pdf">
+	Storyboard Design of Web Sites - Example Paper Submission System</a><br>
+	<i>Antje Düsterhöft, Bernhard Thalheim. Brandenburg University of Technology 
+	at Cottbus, Germany</i><br>
+&nbsp;</li>
+	<li>
+	<a href="http://www.dsic.upv.es/~west/iwwost01/files/contributions/JaimeGomez/oo-hmethodIWWOST01.pdf">
+	Conference Review System: A Case of Study</a><br>
+	<i>Cristina Cachero, Jaime Gómez, Antonio Párraga and Oscar Pastor. 
+	Universidad de Alicante y Universitat Politècnica de València, Spain</i><br>
+&nbsp;</li>
+	<li>
+	<a href="http://www.dsic.upv.es/~west/iwwost01/files/contributions/DanielSchwabe/ConferenceReviewSystemInOOHDM.pdf">
+	Conference Review System in OOHDM</a><br>
+	<i>Daniel Schwabe and Gustavo Rossi. PUC-Rio, Brazil and Universidad de La 
+	Plata, Argentine</i><br>
+&nbsp;</li>
+</ul>
+<h3>Variants</h3>
+<p>A similar problem to the conference review system was proposed by Bambrilla, 
+Comai y Fraternali in [<a href="#BFC02">BCF02</a>] to analyse and classify the 
+semantic problems encountered in the computation of Web pages, characterised by 
+multiple interrelated pieces of content, inter-page and intra-page navigation, 
+and content update operations. </p>
+<p>The example is about a multi-track conference (such as WWW). Authors submit 
+papers, while reviewers review papers and are associated to a track . Finally, 
+each paper is assigned to a unique track.</p>
+<h5><img border="0" src="subir_gris.gif" width="14" height="14">&nbsp;
+<a href="#arriba">Top</a></h5>
+<hr>
+<h3><a name="discussion">Discussion and comparison</a></h3>
+<p>...</p>
+<h5><img border="0" src="subir_gris.gif" width="14" height="14">&nbsp;
+<a href="#arriba">Top</a></h5>
+<hr>
+<h3><a name="contributors">Contributors</a></h3>
+<p>This version of the Conference Review System example was proposed by the 
+organizers of the 
+<a href="http://www.dsic.upv.es/~west/iwwost01/IWWOSTContent_e.htm">IWWOST 2001</a> 
+workshop (First International Workshop on Web-Oriented Software Technologies, 
+2001)&nbsp; to facilitate the exchange and 
+comparison of the ideas presented at the workshop. Authors of papers were asked to use that example to illustrate their proposals. </p>
+<h5><img border="0" src="subir_gris.gif" width="14" height="14">&nbsp;
+<a href="#arriba">Top</a></h5>
+<hr>
+<h3><a name="bibliography">Bibliography and references</a></h3>
+<p><a name="BFC02"></a>[BCF02] M. Brambilla, S. Comai, P. Fraternali: &quot;<a href="http://www.webml.org/webml/upload/ent5/1/SEBD.pdf">Hypertext 
+Semantics for Web Applications</a>&quot;. SEBD Italian National Conference on 
+DataBase Systems, Portoferraio, June 2002</p>
+<h5><img border="0" src="subir_gris.gif" width="14" height="14">&nbsp;
+<a href="#arriba">Top</a></h5>
+<hr>
+<font size="2">Back to the <a href="index.html">MDWE Model Problems</a> 
+main page. <a href="index.html">
+<img border="0" src="go_prev.gif" width="18" height="19"></a></font></p>
+</body>
+
+</html>

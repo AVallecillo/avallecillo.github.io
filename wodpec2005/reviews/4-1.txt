@@ -1,0 +1,75 @@
+
+=======================================================
+*** WODPEC 2005 REVIEW FORM
+
+1) PAPER and REVIEW DETAILS
+
+- PAPER No.: 4
+- TITLE: ODP-RM & architectural approaches
+- AUTHORS: R. Radhakrishnan
+
+2) EVALUATION:
+
+Please rate the following qualities from 0 to 5, 
+with 5 being the highest.
+
+- Technical accuracy: 1
+
+- Scientific quality/originality: 2
+
+- Appropriateness for the conference: 4
+
+- Quality of presentation: 2
+
+- Overall evaluation: 1
+  (0 = outside the scope of WODPEC,
+   1 = Very poor,
+   2 = Poor,
+   3 = Acceptable, 
+   4 = Good,
+   5 = Excellent )
+
+- CONFIDENCE ON YOUR RATINGS (low, medium, high): high
+
+
+4) JUSTIFICATION AND GENERAL COMMENTS:
+  (A few lines are mandatory here to justify 
+   the numerical evaluation. You may also include 
+   general comments, relevant for both author(s) 
+   and the Programme Committee.) 
+
+- Summary and main contributions:
+
+The author presents RM-ODP and tries to align it with other architectural approaches, namely SOA, MDA, EDA, CBA and UCA.
+   
+- Weak points of the paper:
+
+The paper is a conglomerate of ideas, literally copied from other works (e.g., the RM-ODP part is literally copied from the standard!), and fails to provide any convincing justification of any of its claims.
+
+Furthermore, the mappings described in the last page (Conslusions) are too simplistic and even misleading. The viewpoints cannot be aligned with the architectural approaches -- this does not make any sense. Viewpoints are perspectives of a system, whilst MDA, UCA, etc are approaches to software design and development. Trying to map the EV with SOA, or the IV with MDA is really confusing and does not make sense.
+
+The paper is full of misconceptions about ODP and even wrong terms are used (e.g., it's "Computational", not "Computation"; it's "RM-ODP, not ODP-RM) 
+
+There is no real technical contribution. The author mention that his team developed some RM-ODP to UML mappings for a project (Intelligrid), but there is no description about these mappings. A description and discussion about these mappings would have provided a very interesting and valuable contribution.
+
+
+
+- Strong points of the paper:
+
+None.
+
+- Any suggestions for improvements: 
+
+
+5) FURTHER COMMENTS FOR AUTHORS:
+
+Pages 7 to 15 are copied from the RM-ODP standards, and do not add anything to the ODP community (WODPEC is a workshop about ODP!). Besides, literally copying the text from the standard is not a good practice.
+
+
+
+6) CONFIDENTIAL COMMENTS FOR PC:
+   (not to be sent to authors)
+
+
+===================================================
+

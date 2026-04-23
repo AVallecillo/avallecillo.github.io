@@ -1,0 +1,61 @@
+
+=======================================================
+*** MDWE 2005 REVIEW FORM
+
+1) PAPER and REVIEW DETAILS
+
+- PAPER No.: 12
+- TITLE: Integrating Web Systems Design and Business Process Modeling
+
+- AUTHORS: Bochicchio, Longo
+
+2) EVALUATION:
+
+Please rate the following qualities from 0 to 5,
+with 5 being the highest.
+
+- Technical accuracy: 4
+
+- Scientific quality/originality: 4
+
+- Appropriateness for the conference: 5
+
+- Quality of presentation: 4
+
+- Overall evaluation: 4
+  (0 = outside the scope of the workshop,
+   1 = Very poor,
+   2 = Poor,
+   3 = Acceptable,
+   4 = Good,
+   5 = Excellent )
+
+- CONFIDENCE ON YOUR RATINGS (low, medium, high): high
+
+
+4) JUSTIFICATION AND GENERAL COMMENTS:
+
+Good contribution, well written addressing a very important problem.  I enjoyed reading it, the background section is pretty good, and it is a good summary of the problem.  Perhaps the weaker aspect seems to be that the work appears somewhat preliminary, but the direction is good and really worth pursuing.  Very relevant to the workshop.
+ 
+- Summary and main contributions:
+  Very important problem, good attempt at solving it.
+
+- Weak points of the paper:
+ The paper is well written, but here and there you can find a few glitches, such as "needs to buy a trip, he/she enter the travel agency".  I would recommend a careful revision of the paper to make sure that these typos are fixed.
+
+- Strong points of the paper:
+ Ditto.
+
+- Any suggestions for improvements:
+A good editing pass ...
+Figure 1 was unreadable
+
+
+5) FURTHER COMMENTS FOR AUTHORS:
+None
+
+6) CONFIDENTIAL COMMENTS FOR PC:
+   (not to be sent to authors)
+Interesting, good for discussion, accept ...
+
+===================================================

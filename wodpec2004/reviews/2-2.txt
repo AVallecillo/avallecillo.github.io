@@ -1,0 +1,75 @@
+>1) PAPER and REVIEW DETAILS
+>
+>- PAPER No.: 2
+>- TITLE: "The role of  the RM-ODP Computational Viewpoint Concepts in the 
+MDA approach"
+>- AUTHORS: J.P. Almeida, M. van Sinderen and L. Ferreira Pires
+>
+>2) EVALUATION:
+>
+>Please rate the following qualities from 0 to 5,
+>with 5 being the highest.
+>
+>- Technical accuracy: 3
+>
+>- Scientific quality/originality: 3
+>
+>- Appropriateness for the conference: 5
+>
+>- Quality of presentation: 4
+>
+>- Overall evaluation: 4
+>   (0 = outside the scope of WODPEC,
+>    1 = Very poor,
+>    2 = Poor,
+>    3 = Acceptable,
+>    4 = Good,
+>    5 = Excellent )
+>
+>- CONFIDENCE LEVEL (low, medium, high): high
+>
+>
+>4) JUSTIFICATION AND GENERAL COMMENTS:
+
+
+RM-ODP does not provide a vocabulary and grammar for each viewpoint (p.2). 
+Rather, it provides a system of concepts and structuring rules that demonstrate 
+the relationships between concepts. Clause 7 (Part 2) of RM-ODP provides only 
+a very general linguistic framework.
+
+
+It is essential to observe that viewpoint concepts and structuring rules are 
+based on fundamentals described in Part 2 of RM-ODP, and therefore usage of 
+these Part 2 concepts ought to be made explicit in any (kind of) modeling.
+
+
+The semantics of a model is defined not only by "the vocabulary and rules of 
+the computational language" (page 4) because fundamental concepts and rules 
+(of Part 2) are essential for specifying and understanding of this semantics.
+
+
+The authors' observations that "During platform-independent modelling, a 
+pre-defined abstract platform model may be composed with the model of the 
+distributed application" is very important and deserve more detailed discussion, 
+especially taking into account the RM-ODP definition of a composition explicitly 
+based on property determination. See also [1,2].
+
+
+References
+
+
+1. B.Cohen. Being served: the purposes, strengths and limitations of formal 
+service modeling. Behavioral specifications of businesses and systems, Kluwer, 
+1999 pp. 15-26
+2. H.Kilov. Business models. Prentice-Hall, 2003.
+
+
+
+
+>6) CONFIDENTIAL COMMENTS FOR PC:
+>    (not to be sent to authors)
+>
+
+Even, and especially, for a "plumbing"-related paper, usage of RM-ODP as a 
+whole rather than only of its computational and engineering viewpoints, ought to 
+be emphasized. 

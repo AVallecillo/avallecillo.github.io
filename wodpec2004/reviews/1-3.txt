@@ -1,0 +1,139 @@
+2) EVALUATION 
+
+Please rate the following qualities from 0 to 5, 
+with 5 being the highest.
+
+- Technical accuracy: 4
+
+- Scientific quality/originality: 4
+
+- Appropriateness for the conference: 5
+
+- Quality of presentation: 3
+
+- Overall evaluation: 4
+  (0 = outside the scope of WODPEC,
+   1 = Very poor,
+   2 = Poor,
+   3 = Acceptable, 
+   4 = Good,
+   5 = Excellent )
+
+- CONFIDENCE LEVEL (low, medium, high): High
+
+4) JUSTIFICATION AND GENERAL COMMENTS:
+  (A few lines are mandatory here to justify 
+   the numerical evaluation. You may also include 
+   general comments, relevant for both author(s) 
+   and the Programme Committee. 
+
+The Paper provides a case study of using OMG EDOC for ODP Enterprise
+Language models.  
+
+The models shown are sketchy, but serve to roughly illustrate the 
+points being raised.
+
+It does not provide much detail on the actual modeling approach used, 
+but for an overview intended to raise discussion points it seems adequate.
+
+The mapping of ODP viewpoints to MDA concepts (i.e, CIM, PIM and PSM) 
+provides an interesting starting point for discussion at the workshop.
+
+The points where RM-ODP could be enhanced in this area are worthy of 
+discussion at the workshop.
+
+There are several grammar errors (mostly involving the use of “the” “a” 
+and plurality) which I found, and have attached proposed corrections for.
+
+5) FURTHER COMMENTS FOR AUTHORS:
+
+Page: 1
+
+Sequence number: 1
+
+Abstract: Grammar error: change to either "a seamless development process" 
+or "seamless development processes"
+
+Sequence number: 2
+
+1. Introduction: grammar: change to " Moreover, certain mechanisms" or 
+"Moreover, a certain mechanism"
+
+ 
+Sequence number: 3
+
+2. Grammar: 2nd para "This paper shows an overview"
+
+Page: 2
+
+Sequence number: 1
+
+3. grammar: should be "In the Enterprise Viewpont" in first sentence also: 
+"for a unit called Community" in fourth sentence.
+
+Sequence number: 2
+
+4: grammar: should be "In the Information Viewpoing"
+
+Sequence number: 3
+
+Top Right Page 2: Grammar should be "enablses description of primary key ..." 
+and should be "number of remote accesses"
+
+Sequence number: 4
+
+5. Grammar: should be "In the Computational Viewpoint"
+
+Page: 3
+
+Sequence number: 1
+
+6. Grammar: should be "In the Engineering Viewpoing" and in second para 
+should be "mapping a Component Model onto platforms"
+
+Sequence number: 2
+
+Under Fig 5: grammar: should be "In the Technology Viewpint, a PIM .... 
+to derive a PSM from it."
+
+Sequence number: 3
+
+Table 1: the mapping in the table of Flow Port to operation port 
+should be explained, or deleted as an unnecessary detail for the
+scope of this overview paper.
+
+Page: 4
+
+Sequence number: 1
+
+7. Grammar : should be "Based on the experience of the project explained 
+above," and change "following isues are to be considered" to "following 
+issues should be considered"
+
+ 
+Sequence number: 2
+
+7.1 para 1: should be "the resulting model should be considered as a 
+Computational Viewpoint Model."
+
+Sequence number: 3
+
+7.2 last sentence :grammar: should be "designing a new system model to include"
+
+ 
+Sequence number: 4
+
+7.3 last line : grammar: should be "binding to CCA components representing 
+user interfaces."
+
+Sequence number: 5
+
+8.1 grammar: should be "our process to an Electronic Health Record system." 
+and in last sentence should be "to implement an Electronic Health Record system"
+
+6) CONFIDENTIAL COMMENTS FOR PC:
+   (not to be sent to authors) 
+
+With the Grammar fixes I believe this paper provides important points 
+for discussion at the workshop.
+ 

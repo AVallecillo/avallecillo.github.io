@@ -1,0 +1,317 @@
+
+
+=======================================================
+
+*** MDWE 2006 REVIEW FORM
+
+
+
+1) PAPER and REVIEW DETAILS
+
+
+
+- PAPER No.: 9
+
+- TITLE: A UML 2.0 Profile for WebML Modeling
+
+- AUTHORS: Nathalie Moreno, Piero Fraternali, Antonio Vallecillo
+
+
+
+
+2) EVALUATION:
+
+
+
+Please rate the following qualities from 0 to 5,
+
+with 5 being the highest.
+
+
+
+- Technical accuracy: 3
+
+
+
+- Scientific quality/originality: 4
+
+
+
+- Appropriateness for the conference: 5
+
+
+
+- Quality of presentation: 4
+
+
+
+- Overall evaluation: 4
+
+  (0 = outside the scope of the workshop,
+
+   1 = Very poor,
+
+   2 = Poor,
+
+   3 = Acceptable,
+
+   4 = Good,
+
+   5 = Excellent )
+
+
+
+- CONFIDENCE ON YOUR RATINGS (low, medium, high): high
+
+
+
+
+
+4) JUSTIFICATION AND GENERAL COMMENTS:
+
+  (A few lines are mandatory here to justify
+
+   the numerical evaluation. You may also include
+
+   general comments, relevant for both author(s)
+
+   and the Programme Committee.)
+
+
+
+- Summary and main contributions:
+
+=> Motivation:
+
+The WebML modeling language, which is a Domain Specific Language for modeling Web applications, is not based on current modeling standards, i.e., MOF and UML. Yet, there is an increasing interest for interoperability with other notations and tools.
+
+=> Solution:
+
+This paper proposes a UML 2.0 profile for WebML.
+
+=> Methodology:
+
+The authors first concentrate on WebML's concepts by defining a MOF-based metamodel for WebML. In a second step, they identify appropriate UML meta-classes in order to derive stereotypes for each WebML concept.
+
+The profile is then explained using the CD store example by comparing WebMLs's original data model and hypertext model representations with the corresponding UML profile representations.
+
+
+
+
+
+
+
+- Weak points of the paper:
+
+A related work section is missing! There have already been proposals for web modeling metamodels (e.g., for W2000 and UWE)
+
+
+
+No information on how the metamodel has been derived, in particular, if all WebML concepts have been incorporated in the metamodel, if additional concepts have been introduced.
+
+
+
+It is not explained which elements from figure 5 belong to which packages from figure 4.
+
+
+
+
+
+
+
+- Strong points of the paper:
+
+CD store modeling example to illustrate the UML profile, comparison with original WebML models
+
+
+
+
+
+
+
+- Any suggestions for improvements:
+
+***Questions***
+
+You provide no information if there is a one-to-one mapping between the original WebML concepts and the concepts currently present in the WebML metamodel, e.g., why has the PageElement (Figure 5) meta-class been introduced?
+
+=> How did you derive the metamodel from the existing WebML concepts. What was your concrete methodology?
+
+
+
+Section 1
+
+Doesn't the OMG provide 3 mechanisms for defining DSLs?
+
+1) a new MOF-based metamodel (example W2000 metamodel, maybe a more appropriate example than the CWM)
+
+2) heavy-weight extension of the UML metamodel (example: UWE metamodel)
+
+3) light-weight extension with UML profiles (example: Profile of Conallen)
+
+
+
+Section 2.1
+
+"Regarding WebML data types, we have metamodeled them using MOF metaclasses for constructing primitive types. Consequently, with the exception of primitive types like Integer and String, all WebML types have been defined as user-defined types."
+
+=> Unfortunately, I was not able to understand the meaning of this sentence. How does this sentence related to the enumeration WebMLType, to the class WebMLType and to the class Domain?
+
+
+
+Figure 1
+
+Could you please provide information which elements are grouped within the PresentationView package?
+
+
+
+Figure 2
+
+ModelElement should be italic, since it is an abstract meta-class (according to the accompanying text). Shouldn't some of the other meta-classes also be abstract and thus depicted italic (such as IdentifiedElement etc.)?
+
+
+
+Figure 3
+
+- Modeling that an entity has got an OID attribute: I would suggest modeling an extra 1:1 association between entity and attribute and a role name of "OID" and changing the multiplicity from the existing association from 1..* to 0..*.
+
+- If you really want to introduce the new concept "RelationshipRole" with multiplicity 2, the "inverse" association for "Relationship" is not necessary anymore.
+
+- Isn't there an attribute of type <<enumeration>> WebMLType missing in class WebMLType?
+
+
+
+
+
+Section 3.3
+
+Selecting content from the datamodel seems to work according to a certain pattern (<<focus>> class, ...). Could you explain more explicitely the purpose of, for example, the <<focus>> stereotype.
+
+
+
+Figure 5
+
+How do you cope with the different semantics of OKLinks & KOLinks and AutomaticLinks & TransportLinks?
+
+You do not provide information on which elements of WebML have been included and which elements have currently been omitted in the metamodel, e.g., the "alternative page" concept is missing. Although mentioned in the text, the "selector" concept is not represented in the metamodel either.
+
+
+
+Figure 4 and 5
+
+It is not explained which elements from figure 5 belong to which packages from figure 4.
+
+
+
+Figure 6
+
+I'm aware of your motivation for using classes instead of associations for represention relationships in the UML profile. Still, I think that you have to state your reasons more explicitly, maybe present an example.
+
+ - Why don't you consider using association classes instead of normal classes. I'm sure you are aware of the semantic difference between using association classes and normal classes. But wouldn't association classes be more appropriate for specifying the unique character of your relationships? If not, please explain it to the reader. Interestingly enough, in WebML associations seemed to be appropriate to illustrate the relationship between entities (cf. Figure 7)
+
+ - I personally found the notation, i.e., the relationships and their cardinalities, difficult to read.
+
+ 	=> How do you resolve the multiplicities?
+
+ 	=> What about navigation of the associations? This seems to be problematic because of the Relationship class.
+
+ 	=> Maybe you could propose a croncret syntax that enhances readability (skip the multiplicities at the entities' sides, since they are always 1 anyway)
+
+ - In the Figure there is no example that confirms the need for specifying Relationship classes => there is no example that presents additional information that could not be specified using normal associations.
+
+
+
+***Typos and suggestions for improving readability***
+
+- Please use a large font in the figures.
+
+- Figure 6: move multiplicities of relationships User2WishItem, CD2OrderItem, CD2WishItem
+
+- Figure 8: move multiplicity '1' of <<entity>> Track and multiplicities '0..*' of TrackView1 and ReviewView1
+
+
+
+Abstract
+
+- However, it cannot fully interoperatie with other notations, nor CAN IT BE integrated with other tools.
+
+
+
+Section 1
+
+- This is reflected BY the fact...
+
+- However, with the advent of UML 2.0, the situation has changed, since not only its semantics have been defined MORE PRECISELY...
+
+- These languages allow extending and refining the semantics of the basic UML elements, and we will SHOW HOW ....
+
+- The second alternative is based on the particularization of UML by SPECIALIZING SOME of its elements...
+
+- However, it cannot fully interoperatie with other notations, nor CAN IT BE integrated with other tools.
+
+- On THE BASIS of this, Section 3 ...
+
+- Section 4 discusses some criteria and PRINCIPLES required for building a UML-based DSL representation and points TO open problems requiring further investigation in dealing with THE use of ...
+
+
+
+Section 2
+
+- Basically, MOF 2.0 is a subset of UML 2.0
+
+- CommonELEMENTS
+
+
+
+Section 2.1
+
+- the other packages have dependencies on the COMMONELEMENT package, due to ...
+
+
+
+Section 2.3
+
+- Move header of Section to next column.
+
+- Pages can be clustered in to Areas, dealing with A homogeneous...
+
+- The existence of the above metamodel ALLOWS us to tackle in an easy way the definition of a UML profile for WebML, as we describe in THE next section.
+
+
+
+Section 3
+
+- Based on THE PREVIOUSLY INTRODUCED metamodel...
+
+- When THE user starts the application...
+
+
+
+Section 3.2
+
+- In this last case, we will consider that each WebML Domain represents A UML enumeration datatype...
+
+
+
+
+
+5) FURTHER COMMENTS FOR AUTHORS:
+
+If you have any questions with respect to our comments, please feel free to send an e-mail to schauerhuber@wit.tuwien.ac.at and/or wimmer@big.tuwien.ac.at.
+
+
+
+
+
+6) CONFIDENTIAL COMMENTS FOR PC:
+
+   (not to be sent to authors)
+
+
+
+
+
+===================================================
+
+
+

@@ -1,0 +1,72 @@
+=======================================================
+*** MDWE 2005 REVIEW FORM
+
+1) PAPER and REVIEW DETAILS
+
+- PAPER No.: 12	
+- TITLE: integrating web systems design and business process modeling
+- AUTHORS: m.a. bochicchio, a. longo
+
+2) EVALUATION:
+
+Please rate the following qualities from 0 to 5, with 5 being the highest.
+
+- Technical accuracy:4
+
+- Scientific quality/originality:3
+
+- Appropriateness for the conference:4
+
+- Quality of presentation:3
+
+- Overall evaluation:4
+   (0 = outside the scope of the workshop,
+    1 = Very poor,
+    2 = Poor,
+    3 = Acceptable,
+    4 = Good,
+    5 = Excellent )
+
+- CONFIDENCE ON YOUR RATINGS (low, medium, high):h
+
+
+4) JUSTIFICATION AND GENERAL COMMENTS:
+   (A few lines are mandatory here to justify
+    the numerical evaluation. You may also include
+    general comments, relevant for both author(s)
+    and the Programme Committee.)
+
+- Summary and main contributions:
+
+The authors propose a framework to reduce the gap between business process modeling (BPR) and web systems design (WSD). The framework is presented as an extension of the UWA methodology (UWA+).
+
+- Weak points of the paper:
+
+I think the subject is important but you need to focus more on the contribution by expanding the description on how BPR can be integrated within the WSD.
+
+The contribution of your paper starts in section 4. In a workshop-focused paper, perhaps it will be more interesting to expand this section and reduce sections 2 and 3. 
+
+The running example is not at all clear. A set of questions arise to this reviewer. For example, in Figure 2 you present the piDiagram but what is the relation between this diagram and the standards diagrams provided by WDM such as navigation and/or presentation diagrams? In other words, how can a designer integrate in a navigation view the services belonging to the business model in a coherent way? If you describe this process in a detailed manner your paper would be improved and would be a subject of interest for the workshop audience. 
+  
+
+- Strong points of the paper:
+
+The problem that is addressed in the paper is very interesting for the web engineering community. 
+
+Well-written paper with an excellent background.
+
+
+- Any suggestions for improvements:
+
+See section "weak points". 
+
+Also, you should try to describe the relationship of your work to the MDD/MDA initiative. This is one of the main goals of the workshop. 
+
+5) FURTHER COMMENTS FOR AUTHORS:
+
+
+6) CONFIDENTIAL COMMENTS FOR PC:
+    (not to be sent to authors)
+
+
+=================================================== 

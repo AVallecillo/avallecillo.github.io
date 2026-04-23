@@ -1,0 +1,86 @@
+=======================================================
+*** MDWE 2005 REVIEW FORM
+
+1) PAPER and REVIEW DETAILS
+Paper#8: Santiago Meliá and Jaime Gómez "Applying WebSA to a case study: A
+travel agency system"
+
+2) EVALUATION:
+
+Please rate the following qualities from 0 to 5,
+with 5 being the highest.
+
+- Technical accuracy: 3
+
+- Scientific quality/originality: 2
+
+- Appropriateness for the conference: 3
+
+- Quality of presentation: 2
+
+- Overall evaluation: 3-
+  (0 = outside the scope of the workshop,
+   1 = Very poor,
+   2 = Poor,
+   3 = Acceptable,
+   4 = Good,
+   5 = Excellent )
+
+- CONFIDENCE ON YOUR RATINGS (low, medium, high): high
+
+
+4) JUSTIFICATION AND GENERAL COMMENTS:
+  (A few lines are mandatory here to justify
+   the numerical evaluation. You may also include
+   general comments, relevant for both author(s)
+   and the Programme Committee.)
+
+- Summary and main contributions:
+
+A generic approach called WebSA is presented for building Web Information Systems.
+
+- Weak points of the paper:
+
+The hard points of the approach are not really explained.
+
+- Strong points of the paper:
+
+The subject is interesting
+
+- Any suggestions for improvements:
+You should be more precise about the transformations applied in this paper.
+
+The discourse is rather loose and too many generalities are provided.
+
+Also use less acronyms (OO-H, UWE, etc.) and concentrate much more on 
+
+the precise nature of your personal and original contribution
+
+5) FURTHER COMMENTS FOR AUTHORS:
+
+There are some wrong choices of words and some mispellings
+
+even if the paper is easy to read.
+
+The presentation of QVT is much too abstract.
+Remember that a graphical presentation is far from capturing
+
+the precise specification of a transformation.
+
+The related section of your paper is very specific and selects only a few
+
+of the published work. The rational for this specific selection of related
+
+work remains unclear to the present reviewer.
+
+
+6) CONFIDENTIAL COMMENTS FOR PC:
+   (not to be sent to authors)
+
+This paper seems to me acceptable for a workshop, probably not for 
+
+a conference where it would be likely  considered as premature.
+
+The work is thus interesting but remains a bit too superficial.
+
+

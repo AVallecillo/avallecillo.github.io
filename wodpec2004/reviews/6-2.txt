@@ -1,0 +1,90 @@
+1) PAPER and REVIEW DETAILS
+
+- PAPER No.: 6
+- TITLE: What Foundations does the RM-ODP Need?
+- AUTHORS: Peter F. Linington.
+
+2) EVALUATION:
+
+Please rate the following qualities from 0 to 5,
+with 5 being the highest.
+
+- Technical accuracy: 5
+
+- Scientific quality/originality: 5
+
+- Appropriateness for the conference: 5
+
+- Quality of presentation: 4
+
+- Overall evaluation: 5
+   (0 = outside the scope of WODPEC,
+    1 = Very poor,
+    2 = Poor,
+    3 = Acceptable,
+    4 = Good,
+    5 = Excellent )
+
+- CONFIDENCE LEVEL (low, medium, high): high
+
+
+4) JUSTIFICATION AND GENERAL COMMENTS:
+   (A few lines are mandatory here to justify
+    the numerical evaluation. You may also include
+    general comments, relevant for both author(s)
+    and the Programme Committee.
+
+- Weak points of the paper:
+
+- Strong points of the paper:
+
+- Any suggestions for improvements:
+
+This is a very well-written paper clearly presenting some areas of possible 
+improvement in Part 2 of RM-ODP. It clearly demonstrates that the Foundations 
+can be successfully used to model not only "old" concepts and constructs but 
+also such "new" ones as those used in component-oriented architectures.
+
+
+With respect to various derived definitions, it might be of interest and use 
+to consider Part 1 which, in the opinion of this reviewer, needs revision so 
+as to correspond to the letter and spirit of the Foundations. Increasing the 
+size of Part 2 in a substantial manner would probably be counterproductive. To a 
+certain extent, these considerations may apply to the very interesting 
+proposals in section 8.
+
+
+Some sections of the paper overemphasize the computational viewpoint 
+approach. At the same time, such proposals as providing definitions for some 
+interesting subtypes of interactions (section 2) ought to take into account the 
+generality of the concept, including its usage in business modelling.
+
+
+One can only agree with the proposals in section 9. While defining 
+relationships based on a (generalized) GRM approach is certainly very helpful, it may be 
+noted that some relationship definitions (such as those of subtyping and 
+composition) were already included in Part 2. This may need to be stated 
+explicitly, especially emphasizing the property determination aspect. Furthermore, 
+composition (unlike subtyping) is currently defined in Part 2 only for objects and 
+actions while it is clear that composition ought to be defined in a more 
+general way (for <X>s).
+
+
+Finally, the idea that "[i]t would also be possible to improve Part 4 by 
+interpreting some of the concepts directly in terms of the semantic domain for the 
+formal description techniques rather than writing them in the techniques 
+directly" is certainly more than welcome. Some work in this area has been 
+accomplished, for example, in "An Approach to an RMODP Toolkit in Z" by D.Randolh 
+Johnson and H.Kilov published in "Computer standards and interfaces". Note also 
+that more explicit treatment of some RM-ODP concepts becomes essential as soon 
+as the concepts described semi-formally are to be formalized. This is a very 
+important - and relatively well-known - advantage of formalisms.
+
+
+Typos: "invokes" => "invoke" (page 2, right column, line 5 from top); "it's" 
+=> "its" (page 2, right column, line 7 from top); "changed" => "changes" (page 
+3, left column, line 6 from bottom) 
+
+
+5) FURTHER COMMENTS FOR AUTHORS:
+

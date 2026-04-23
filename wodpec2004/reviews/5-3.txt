@@ -1,0 +1,55 @@
+*** WODPEC 2004 REVIEW FORM
+
+1) PAPER and REVIEW DETAILS
+
+- PAPER No.: 5
+- TITLE: Action Templates and Causalities in the ODP Computational Viewpoint 
+- AUTHORS: R. Romero and A. Vallecillo 
+
+2) EVALUATION:
+
+Please rate the following qualities from 0 to 5, 
+with 5 being the highest.
+
+- Technical accuracy: 4
+
+- Scientific quality/originality: 2
+
+- Appropriateness for the conference: 3
+
+- Quality of presentation: 4
+
+- Overall evaluation: 3
+  (0 = outside the scope of WODPEC,
+   1 = Very poor,
+   2 = Poor,
+   3 = Acceptable, 
+   4 = Good,
+   5 = Excellent )
+
+- CONFIDENCE LEVEL (low, medium, high): medium
+
+
+4) JUSTIFICATION AND GENERAL COMMENTS:
+  (A few lines are mandatory here to justify 
+   the numerical evaluation. You may also include 
+   general comments, relevant for both author(s) 
+   and the Programme Committee. 
+   
+- Weak points of the paper:
+
+Aspects discussed are very small and iterates something 
+that has been discussed earlier in the development of 
+the standard set. 
+
+Is ODP that great? No critique? 
+
+- Strong points of the paper:
+
+I agree that the points made are valid.
+
+- Any suggestions for improvements: 
+
+More critical relationship to the standard.
+
+5) FURTHER COMMENTS FOR AUTHORS:

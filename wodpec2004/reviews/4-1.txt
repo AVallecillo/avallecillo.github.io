@@ -1,0 +1,57 @@
+1) PAPER and REVIEW DETAILS
+
+- PAPER No.: 4
+- TITLE: A Model-Driven Approach for  Information System Migration
+- AUTHORS: R. Le Delliou, N. Ploquin, M. Belaunde, R. Bendraou and L.  Féraud.
+
+2) EVALUATION:
+
+Please rate the following qualities from 0 to 5,
+with 5 being the highest.
+
+- Technical accuracy: 4
+
+- Scientific quality/originality: 4
+
+- Appropriateness for the conference: 3
+
+- Quality of presentation: 4
+
+- Overall evaluation: 4
+  (0 = outside the scope of WODPEC,
+   1 = Very poor,
+   2 = Poor,
+   3 = Acceptable,
+   4 = Good,
+   5 = Excellent )
+
+- CONFIDENCE LEVEL (low, medium, high):high
+
+
+4) JUSTIFICATION AND GENERAL COMMENTS:
+  (A few lines are mandatory here to justify
+   the numerical evaluation. You may also include
+   general comments, relevant for both author(s)
+   and the Programme Committee.
+  
+- Weak points of the paper: 
+
+In the context of WODPEC the paper gives too much 
+attention to the overall IS migration process and not 
+enough to how ODP concepts are applied in that process.
+
+
+- Strong points of the paper: 
+
+The concept of merging the OMG Action Semantics and 
+RM-ODP metamodels to provide for a fuller specification 
+of actions in an ODP specification.
+
+
+- Any suggestions for improvements: 
+
+In the context of WODPEC the paper would be 
+improved by cutting down the discussion of the 
+migration process and expanding the discussion 
+of the metamodel merger and its application in 
+the migration process.

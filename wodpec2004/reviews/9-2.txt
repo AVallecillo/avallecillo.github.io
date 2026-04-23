@@ -1,0 +1,74 @@
+2) EVALUATION:
+
+Please rate the following qualities from 0 to 5, 
+with 5 being the highest.
+
+- Technical accuracy: 3
+
+- Scientific quality/originality: 4
+
+- Appropriateness for the conference: 3
+
+- Quality of presentation: 3
+
+- Overall evaluation: 3
+  (0 = outside the scope of WODPEC,
+   1 = Very poor,
+   2 = Poor,
+   3 = Acceptable, 
+   4 = Good,
+   5 = Excellent )
+
+- CONFIDENCE LEVEL (low, medium, high): Medium
+
+4) JUSTIFICATION AND GENERAL COMMENTS:
+  (A few lines are mandatory here to justify 
+   the numerical evaluation. You may also include 
+   general comments, relevant for both author(s) 
+   and the Programme Committee. 
+
+The paper is not specific on ODP, but is on IT architecture 
+in general. This is a weak point, as it does not focus on the 
+purpose of the Workshop. However, this is also a strong point, 
+as it puts ODP discussions into a larger context.
+
+ODP may be considered to be a framework, by which you can 
+specify systems, including their architecture. The paper 
+could have made a clearer distinction between frameworks 
+and architecture, where frameworks provide an architecture for 
+development, ie. a meta architecture, but is not an architecture 
+for the target systems. 
+  
+- Weak points of the paper: 
+
+Motivation for the use and appropriateness of the 
+categories macro-, mid- and micro is missing. 
+
+- Strong points of the paper: 
+
+Provides a good context for discussions on IT architecture.
+
+- Any suggestions for improvements: 
+
+The reference to Hoare’s challenge should be spelled out. 
+Some misspellings should be corrected. 
+
+
+5) FURTHER COMMENTS FOR AUTHORS: 
+
+Some improvement of language is needed.
+An evaluation of RM-ODP would be appreciated, eg. should the 
+architecture part of specifications of the target systems using 
+RM-ODP be better identified and separated by the framework? 
+Are the architecture aspects of the target systems appropriately covered.
+Is RM-ODP a good meta architecture? Eg. should the distinction 
+between external designs (HCIs) be better separated from internal 
+designs (of processes, databases, interoperations etc?)
+
+6) CONFIDENTIAL COMMENTS FOR PC: 
+   (not to be sent to authors) 
+
+This paper provides important high level issues for discussion of 
+IT architecture, and could be valuable as an introduction to a set 
+of more specific papers on ODP architecture.
+

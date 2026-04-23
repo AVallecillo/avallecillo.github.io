@@ -1,0 +1,65 @@
+=======================================================
+*** MDWE 2005 REVIEW FORM
+
+1) PAPER and REVIEW DETAILS
+
+- PAPER No.: 11
+- TITLE:"Mega Operations for a Meta-model based Model Integration"
+- AUTHORS: Wieland Schwinger et al.
+
+2) EVALUATION:
+
+Please rate the following qualities from 0 to 5,
+with 5 being the highest.
+
+- Technical accuracy: 4
+
+- Scientific quality/originality:4
+
+- Appropriateness for the conference:5
+
+- Quality of presentation:4
+
+- Overall evaluation:4
+   (0 = outside the scope of the workshop,
+    1 = Very poor,
+    2 = Poor,
+    3 = Acceptable,
+    4 = Good,
+    5 = Excellent )
+
+- CONFIDENCE ON YOUR RATINGS (medium):
+
+
+4) JUSTIFICATION AND GENERAL COMMENTS:
+   (A few lines are mandatory here to justify
+    the numerical evaluation. You may also include
+    general comments, relevant for both author(s)
+    and the Programme Committee.)
+
+- Summary and main contributions: The paper proposes mega operations that
+represent abstractions mechanisms to be used to specify model integrations at
+the meta-level.
+
+- Weak points of the paper:
+
+- Strong points of the paper:
+
+- Any suggestions for improvements:
+
+
+5) FURTHER COMMENTS FOR AUTHORS:
+
+
+This is a very nice paper. Clear motivations and an interesting approcah has
+benn provided. I also liked very much to see that authors were up front in
+relation to their future work and the need for their proposal to be empirically
+validated.
+
+
+6) CONFIDENTIAL COMMENTS FOR PC:
+    (not to be sent to authors)
+
+
+===================================================
+

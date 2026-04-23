@@ -1,0 +1,99 @@
+
+=======================================================
+*** WODPEC 2005 REVIEW FORM
+
+1) PAPER and REVIEW DETAILS
+
+- PAPER No.:
+- TITLE:
+- AUTHORS:
+
+- PC-MEMBER:
+- REFEREE (if different from PC member):
+
+2) EVALUATION:
+
+Please rate the following qualities from 0 to 5, 
+with 5 being the highest.
+
+- Technical accuracy: 
+
+- Scientific quality/originality: 
+
+- Appropriateness for the conference: 
+
+- Quality of presentation: 
+
+- Overall evaluation: 
+  (0 = outside the scope of WODPEC,
+   1 = Very poor,
+   2 = Poor,
+   3 = Acceptable, 
+   4 = Good,
+   5 = Excellent )
+
+- CONFIDENCE ON YOUR RATINGS (low, medium, high):
+
+
+4) JUSTIFICATION AND GENERAL COMMENTS:
+  (A few lines are mandatory here to justify 
+   the numerical evaluation. You may also include 
+   general comments, relevant for both author(s) 
+   and the Programme Committee.) 
+
+- Summary and main contributions:
+   
+- Weak points of the paper:
+
+- Strong points of the paper:
+
+- Any suggestions for improvements: 
+
+
+5) FURTHER COMMENTS FOR AUTHORS:
+
+
+6) CONFIDENTIAL COMMENTS FOR PC:
+   (not to be sent to authors)
+
+
+===================================================
+
+SOME GENERAL COMMENTS ABOUT THE REVIEWS
+
+Usually, papers submitted to a workshop present initial ideas and works, 
+which are not necessarily very mature yet, and most authors are seeking 
+some feedback from the reviewers (who are supposed to be the "experts" 
+on the topics of the workshop). This feedback can be in any form: just 
+providing comments about the work (its feasibility, relevance, 
+originality,...); indications and links to other related works, 
+projects and experiences that the authors are not aware of; etc. 
+
+Basically, the authors want to know whether their work may be relevant 
+to the community/industry interested in these topics, whether it is worth 
+continuing (starting :-) working on the project presented in the paper, 
+and some hints and guidance on how to do it properly.
+
+Other kind of papers just try to raise issues for discussion at the workshop. 
+In this case, the reviewer can help the authors know of other people/projects 
+also related to these issues, whether the issues are really relevant (or the 
+issues have been solved long time ago :-), and even give them indications to 
+more issues which are related to those raised in the paper.
+
+Of course, those would be the "ideal" comments. But in general, providing the 
+authors with any kind of comment based on your experience and/or knowledge about 
+their work is more than OK -- and very welcome by the authors.
+
+Your acceptance/rejection decision should consider whether the submitted work: 
+
+- is adequate to the workshop scope and list of topics;
+- seems to be feasible; 
+- presents something interesting to the potential participants and readers of the
+  workshop proceedings;
+- may foster interesting discussions during the workshop.
+
+(The evaluation is based on these ideas. Usually, unless the paper present 
+something inadequate, stupid, or outside the scope of the workshop, it is 
+accepted for presentation: it is supposed to be a "position paper" for a 
+workshop, not a full-fledge research or experience paper for a big 
+conference or journal.)

@@ -1,0 +1,64 @@
+﻿=======================================================
+*** MDWE 2006 REVIEW FORM
+
+1) PAPER and REVIEW DETAILS
+
+- PAPER No.:8	
+- TITLE: Formalizing and Validating UML Architecture Description of Web Systems
+- AUTHORS: Yujian Fu, Zhijiang Dong, Xudong He
+
+2) EVALUATION:
+
+Please rate the following qualities from 0 to 5, 
+with 5 being the highest.
+
+- Technical accuracy: 3
+
+- Scientific quality/originality: 3
+
+- Appropriateness for the conference: 2
+
+- Quality of presentation: 3
+
+- Overall evaluation: 3
+
+  (0 = outside the scope of the workshop,
+   1 = Very poor,
+   2 = Poor,
+   3 = Acceptable, 
+   4 = Good,
+   5 = Excellent )
+
+- CONFIDENCE ON YOUR RATINGS (low, medium, high): high
+
+
+4) JUSTIFICATION AND GENERAL COMMENTS:
+  (A few lines are mandatory here to justify  the numerical evaluation. You may also include general comments, relevant for both author(s) and the Programme Committee.) 
+It seems to be a correct solution which allows to validate the UML architecture web models. However, this solution is only focused on the validation process and it is not clear how it can be related with the other development phases.
+In the abstract, the author indicates that this approach is accordance with the MDA principles, but it is not explained in the rest of the paper. Furthermore, the architectural models do not present any concrete information about the Web applications. It seems that the author wants to justify the appropriateness for the MDWE workshop.
+
+- Summary and main contributions:
+It provides a mechanism to validate the UML architecture web models using a set of rules to transform them into the SO-SAM formal language.
+
+- Weak points of the paper: 
+• The paper presents the transformations between the architectural model of UML and SO-SAM using a language natural description. These descriptions could have ambiguities and are not computable. If this work wants to be MDE compliant, it should use some formal transformation language to specify the mapping between UML and SO-SAM. 
+• The UML architectural model of Components and Connectors is based on the [Hofmeister et al. 2000] work which proposes a profile of UML 1.X. However, it is not necessary to define a UML profile to represent the component and connectors elements in the current version UML 2.0. It has defined a new model called Composite Structure which provides architectural elements such as Connector, Port, Component, etc. 
+
+- Strong points of the paper: 
+• The formalization of UML architectural models is an interesting work that could be reused by other approaches.
+
+- Any suggestions for improvements: 
+• It could be interesting to define the transformations proposed by the approach using QVT (Queries/Transformation/Languages) or ATL.
+• The author must represent the UML architectural models with the Composite Structure of UML 2.0.
+
+
+5) FURTHER COMMENTS FOR AUTHORS:
+• The numeration of the pages must be introduced
+• There is an incomplete reference of the section 2.1 “please refer to [?]”.
+
+
+6) CONFIDENTIAL COMMENTS FOR PC:
+   (not to be sent to authors)
+
+
+===================================================

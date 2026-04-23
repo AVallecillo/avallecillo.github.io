@@ -1,0 +1,55 @@
+2) EVALUATION:
+
+Please rate the following qualities from 0 to 5, 
+with 5 being the highest.
+
+- Technical accuracy: 4
+
+- Scientific quality/originality: 5
+
+- Appropriateness for the conference: 5
+
+- Quality of presentation: 3
+
+- Overall evaluation: 4
+  (0 = outside the scope of WODPEC,
+   1 = Very poor,
+   2 = Poor,
+   3 = Acceptable, 
+   4 = Good,
+   5 = Excellent )
+
+- CONFIDENCE LEVEL (low, medium, high): Medium
+
+4) JUSTIFICATION AND GENERAL COMMENTS:
+  (A few lines are mandatory here to justify 
+   the numerical evaluation. You may also include 
+   general comments, relevant for both author(s) 
+   and the Programme Committee. 
+
+The paper provides (too) much technical contents, 
+and is hard to follow for a reader who has not been working 
+on infrastructures for managing dynamic b2b networks.
+   
+- Weak points of the paper: 
+
+The paper is abstract both in language and presentation style. 
+The language could be made more concrete, and the English should be improved.
+
+- Strong points of the paper: 
+
+Relevant to the Workshop, based on a considerable amount of work.
+
+- Any suggestions for improvements: 
+
+Graphical illustrations and concrete examples would help readability. 
+
+
+5) FURTHER COMMENTS FOR AUTHORS:
+
+
+6) CONFIDENTIAL COMMENTS FOR PC:
+   (not to be sent to authors) 
+
+It will be a great challenge to transform the contents 
+into a comprehendible presentation at the Workshop.

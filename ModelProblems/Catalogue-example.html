@@ -1,0 +1,227 @@
+<html>
+
+<head>
+<title>Catalogue Example -- MDWE Model Problems</title>
+</head>
+
+<body>
+
+<h2><a name="arriba">The Products Catalogue Example</a></h2>
+<p>This example is about a web application that implements the product catalogue 
+and content management system of a business shop.</p>
+<ol>
+	<li><a href="#design"><strong>Design considerations and requirements</strong></a></li>
+	<li><a href="#solutions"><strong>Solutions</strong></a></li>
+	<li><a href="#discussion"><strong>Discussion and comparison</strong></a></li>
+	<li><a href="#contributors"><strong>Contributors</strong></a></li>
+	<li><a href="#bibliography"><strong>Bibliography and references</strong></a></li>
+</ol>
+<hr>
+<h3>1. <a name="design">Design considerations and requirements</a></h3>
+<p>The catalogue is a Web application offered to the general public that 
+advertises various types of furniture, e.g., chairs, tables, lamps, and so on, 
+and also special combinations of items sold at a discounted price. Individual 
+items are described by an image, a textual description, their price, a set of 
+technical features (dimensions, available colours, etc.), and larger images. 
+Combinations are illustrated by a photograph, advertising text, and the 
+discounted price. </p>
+<p>Information about the store locations is also made available, including the 
+address and contact information, an image of the store, and a map. Users are 
+expected to visit the catalogue home page containing the offer and the product of 
+the day. From there, they can access the details of the advertised product and 
+offer, or enter dedicated areas for navigating the catalogue, using various search 
+and browsing facilities. </p>
+<p>From the page describing a combination, the individual items forming the 
+combination can be accessed, and conversely, it is possible to navigate from an 
+item to the combinations including it. From the home page, the list of stores 
+can also be reached. </p>
+<p>The employees of the company can login from the home page into a protected 
+Web application, which enables managing the content of all the objects displayed 
+in the public site.</p>
+<h5><img border="0" src="subir_gris.gif" width="14" height="14">&nbsp;
+<a href="#arriba">Top</a></h5>
+<hr>
+<h3>2. <a name="solutions">Solutions</a></h3>
+<h4>2.1 The solution in <a href="http://www.webml.org/">WebML</a></h4>
+<p>WebML [<a href="#CFB02">CFB02</a>] describes Web applications at three levels: the content objects, 
+the front-end organization, and the look&amp;feel. Content objects are specified 
+using a simplified Entity-Relationship data model (or, equivalently, a 
+simplified UML class diagram), comprising classes, entities, attributes, single 
+inheritance, binary relationships, and data derivation expressions. Figure 1 
+shows the data model of the running case, with the objects mentioned in the 
+requirements. </p>
+<p align="center">
+<img border="0" src="figures/ACMEstructure-webML.jpg" width="70%"><br>
+<b>Figure 1</b>. The data model of the running example.</p>
+<p>The front-end is specified using the <i>hypertext model</i>, which has a 
+hierarchical organization: each application corresponds to a <i>site view</i>, internally structured into
+<i>areas</i>, which in turn may contain sub-areas and <i>pages</i>. Multiple site views can be associated to the same data model, e.g., 
+to represent applications delivered to different actors or designed for 
+different access devices (Web, Digital Television, mobile phones, PDAs). Site 
+views, areas and pages are not only units of modularization, but also govern 
+access, which can be selectively granted to each individual module based on the 
+user's identity and subscription to groups. A first kind of navigation, which 
+does not depend on page content, can be expressed over site views, areas and 
+pages: if a page or area is marked as &quot;landmark&quot; (L), it is assumed to be 
+reachable (through suitable navigation commands) from all the other areas and 
+pages in the same module; if a page or area is marked as &quot;default&quot; (D), it is 
+assumed to be displayed by default when the enclosing module is accessed; if a 
+page is marked as &quot;home&quot; (H), it is displayed by default when accessing the 
+application. Figure 2shows the hypertext model of the 
+public site view of the running case, with the areas and pages mentioned in the 
+requirements, annotated with the navigation markers. </p>
+<p align="center"><img border="0" src="figures/AcmeHypertext.jpg" width="80%"><br>
+<b>Figure 2</b>. The hypertext model of the public site view.
+</p>
+
+<p>In Figure 2, the home page contains two data-driven 
+content units (for displaying the product and offer of the day) and one static 
+content unit (an entry form); the entry form is connected to a login operation 
+(placed outside the home page), for authenticating the employees before 
+accessing the protected content management site view. The outgoing link of the 
+entry unit shows the parameters transferred to the login operation units. 
+</p>
+<!--
+<p>The WebML models of this example are available for
+<a href="Models/Catalogue/Catalogue-WebML.zip">download</a>. They can be read 
+and compiled by <a href="http://www.webml.org/">WebRatio</a>, a tool enabling the 
+editing of data and hypertext models and the generation of the application 
+source code. </p>
+-->
+<hr>
+<h4>2.2 The solution using the UML Profile for WebML</h4>
+<p>In [<a href="#MFV07">MFV07</a>] the authors show 
+how the previous WebML models can be represented in UML, using the
+<a href="http://www.webml.org/webml/page5.do">UML 2.0 Profile for WebML</a> they 
+define.</p>
+<p>For example, the folowing figure shows the UML representation (using the UML 
+profile for WebML) of the data model of the running example (equivalent to the 
+WebML model shown in Figure 1).</p>
+<p align="center">
+<img border="0" src="figures/Acme_DataModel.jpg" width="70%"><br>
+<b>Figure 3</b>. The UML Data model of the Catalogue application.</p>
+<p align="left">Analogously, the rest of the UML models for this application are 
+shown in [<a href="#MFV07">MFV07</a>]. 
+<!--These UML 
+models are available for <a href="Models/Catalogue/Catalogue-UML4WebML.zip">
+download</a>.--></p>
+<h5><img border="0" src="subir_gris.gif" width="14" height="14">&nbsp;
+<a href="#arriba">Top</a></h5>
+<hr>
+<h3>3. <a name="discussion">Discussion and comparison</a></h3>
+<h4>3.1 Lesson learnt from the use of UML to represent WebML models (extracted 
+from [MFV07])</h4>
+<p>The definition of an UML 2.0 Profile equivalent to WebML demonstrates 
+practically the suitability of UML for encoding the requirements and generating 
+the complete code of complex real-world Web applications. However, several 
+issues were encountered in representing WebML with UML 2.0, both of general 
+nature and specific to the encoding of WebML. </p>
+<p><b>Expressive power</b>. The UML Profile for WebML provides the same 
+expressiveness as the native representation: all WebML concepts were mapped into 
+the corresponding UML (stereotyped) elements and the resulting UML profile 
+proved sufficient to describe complete Web applications that could be 
+successfully processed by the WebRatio model checking and code generation engine. 
+This result, which was not achieved in the previous attempts at encoding WebML 
+in UML 1.X, has been granted by the new features of UML 2.0. For example, ports 
+and connectors as defined in UML 2.0 have provided the necessary expressive 
+power to represent the interconnection of components and the associated flow of 
+parameters, which is essential to hypertext specification. Furthermore, OCL 
+invariants, involving ports, realization and view classes, can express the 
+semantics of data-centric Web components in quite a natural and compact way. The 
+notion of connector proved sufficient for expressing the linking of Web 
+components, where parameters are simply transferred from one component to the 
+other. </p>
+<p><b>Complexity</b>. Only a limited number of UML concepts proved necessary to 
+model and implement a WebML application. UML seems to contain far more concepts 
+and mechanisms than needed for Web modeling. The main advantage of the UML 
+profiling mechanism has not been found in the extension of the UML metamodel (which 
+is already too large and complex to be used in full), but in the possibility of 
+&quot;restricting&quot; the set of UML elements that are relevant to a given domain, 
+tailoring their semantics so as to capture the behavior and well-formedness 
+rules of the domain-specific concepts they represent. In this respect, the 
+complexity of UML is greatly alleviated by the use of a well-designed profile.
+</p>
+<p><b>Required skills</b>. Using UML properly requires deep knowledge of 
+specialized concepts (e.g., ports, connectors, structured classes, 
+collaborations, etc.). These concepts are mostly alien to the Web engineer, who 
+thinks in terms of Web-specific entities (Web pages, links, forms, etc.). The 
+use of stereotypes, possibly represented with icons that exploit visual objects 
+familiar to the domain expert, lowers the skill-level necessary to make 
+practical use of UML in implementing Web applications, because it helps bridging 
+the gap between the domain concepts and the UML constructs and mechanisms. </p>
+<p><b>Behavior modeling</b>. Representing behavior in UML, and generally in MDD, 
+is much more complex than representing structure. UML structural diagrams have a 
+clear semantics and can be easily customized to fit most domains. At present, 
+UML dynamic models (collaboration, sequence, and activity) are more frequently 
+used as a documentation for the human reader than as a specification usable for 
+code generation. Other models (statecharts) are more formal and naturally suited 
+for code generation, but are hard to master for practitioners. There is a 
+current lack of a concrete syntax for actions in UML, which hinders the 
+specification of executable code. The progress of tools in the field of 
+executable UML and action semantics (e.g., xUML by Mellor et al.) may change 
+this situation, by allowing the direct execution or compilation into code of 
+arbitrarily sophisticated behavioral models. This approach, which demonstrated 
+effective in such application domains like real-time embedded systems, is still 
+be proven in the Web domain, where the interplay of dynamic behavior with user 
+interfaces and business logics is more intricate. </p>
+<p>In this sense, the approach taken by WebML of not representing explicitly the 
+behavior of their elements has proved its benefits, exploiting the domain-specific 
+meaning of business components without loss of expressive power. For instance, 
+all the data-centric content and operation units have a well-defined behavior: 
+they are just the basic CRUD (Content Read, Update, Delete) operations familiar 
+to any data designer, and thus it would make no sense representing their 
+behavior in a high-level diagram; their transformation into platform-dependent 
+code can be easily delegated to a tool. The same is true for user-defined 
+components: their semantics is known to the developer and need not be expressed 
+when specifying their usage in a hypertext model. They can be modeled and coded 
+elsewhere and treated as a plugin in the Web design model. </p>
+<p><b>Usability</b>. WebML native representation is far more compact than its 
+UML counterpart. This is obviously unavoidable, when comparing a general purpose 
+language like UML and a DSL that has been refined for years in search of 
+compactness and notational economy. However, the disproportion shows that there 
+is ample room for making UML more concise. One of the areas of possible 
+improvement is in the cross-references between models. One aspect in which UML 
+2.0 proved rather cumbersome is the specification of the internal realization of 
+set-oriented content units (e.g., index units). Here, three classes (the 
+component realization class, its focus class, and a data view class) were 
+necessary to express the trivial concept of &quot;select-project&quot; view (a subset of 
+the objects of a class, possibly with a restricted set of attributes). Clever 
+mechanisms for abbreviating the expression of view relationships between 
+classifiers in different models could dramatically reduce the complexity of 
+diagrams. Another area where usage proves rather cumbersome in the specification 
+of parametric conditions, a fundamental issue in component-based applications. 
+Suitable abbreviations and a better scope mechanism for OCL variables within 
+structured classifiers could greatly simplify the task. Finally, it might be 
+possible that other UML representations of WebML are possible, different from 
+the ones proposed in [<a href="#MFV06">MFV06</a>] which are much more usable. 
+The quest for these other representations is an open line of research.</p>
+<h5><img border="0" src="subir_gris.gif" width="14" height="14">&nbsp;
+<a href="#arriba">Top</a></h5>
+<hr>
+<h3>4. <a name="contributors">Contributors</a></h3>
+<p>This version of the Catalogue example was originally described in []. </p>
+<p>A similar application of the Catalogue example is the &quot;CD-Data store system&quot;, an 
+application also used by Moreno, Fraternalli and Vallecillo [<a href="#MFV06">MFV06</a>] 
+to illustrate their
+<a href="http://www.webml.org/webml/page5.do">UML 2.0 profile for WebML</a>.</p>
+<h5><img border="0" src="subir_gris.gif" width="14" height="14">&nbsp;
+<a href="#arriba">Top</a></h5>
+<hr>
+<h3>5. <a name="bibliography">Bibliography and references</a></h3>
+<p><a name="CFB02"></a>[CFB02] S. Ceri, P. Fraternali, M. Brambilla, A. Bongio, S. Comai, and M. 
+Matera. &quot;Designing Data-Intensive Web Applications&quot;. Morgan Kaufmann, 2002.</p>
+<p><a name="MFV06"></a>[MFV06] N. Moreno, P. Fraternalli, A. Vallecillo, &quot;<a href="http://www.lcc.uma.es/~av/Publicaciones/06/vergara-mdwe2006.pdf">A UML 
+2.0 Profile for WebML Modelling</a>&quot;, in Proc. of the 2nd Model-Driven Web 
+Engineering Workshop, <a href="http://www.lcc.uma.es/~av/mdwe2006">MDWE 2006</a>, 
+Palo Alto, California (2006).</p>
+<p><a name="MFV07"></a>[MFV07] N. Moreno, P. Fraternalli, A. Vallecillo, &quot;WebML 
+Modelling in UML&quot;, submitted for publication, 2007.</p>
+<h5><img border="0" src="subir_gris.gif" width="14" height="14">&nbsp;
+<a href="#arriba">Top</a></h5>
+<hr>
+<font size="2">Back to the <a href="index.html">MDWE Model Problems</a> 
+main page. <a href="index.html">
+<img border="0" src="go_prev.gif" width="18" height="19"></a></font></p>
+</body>
+
+</html>

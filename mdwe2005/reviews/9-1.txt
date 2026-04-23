@@ -1,0 +1,59 @@
+----------------------------------------------------------
+
+
+1) PAPER and REVIEW DETAILS
+
+
+- PAPER No.: 9
+- TITLE: How to Model Aspect-Oriented Web Service
+- AUTHORS: Guadalupe Ortíz et al.
+
+
+2) EVALUATION:
+
+
+- Technical accuracy: 4
+
+
+- Scientific quality/originality: 4
+
+
+- Appropriateness for the conference: 5
+
+
+- Quality of presentation: 3
+
+
+- Overall evaluation: 4
+
+
+- CONFIDENCE ON YOUR RATINGS (low, medium, high): Medium
+
+
+
+4) JUSTIFICATION AND GENERAL COMMENTS:
+
+
+Overall I found this paper to be well-written and with valuable
+contributions to the literature in this area. The paper is structured
+appropriately and relevant to the workshop. It could potentially have been
+improved a little by providing a clearer consideration of related work in
+the area - this tends to be a distributed throughout the paper making it a
+little difficult to gain an overall view of how this work relates to other
+similalr research. The paper could also benefit from a more structured
+evaluation of how the proposed approach may actually be applied - possibly
+through a structured case study? Probably the most problematic aspect of the
+paper is that a number of the key aspects have only weak justifications
+presented - though this is not a significant problem.
+
+
+
+5) FURTHER COMMENTS FOR AUTHORS:
+
+
+N/A
+
+
+6) CONFIDENTIAL COMMENTS FOR PC:
+
+N/A 

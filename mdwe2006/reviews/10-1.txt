@@ -1,0 +1,76 @@
+
+=======================================================
+*** MDWE 2006 REVIEW FORM
+
+1) PAPER and REVIEW DETAILS
+
+- PAPER No.: 10
+- TITLE: Model Driven Design of Distribution Patterns for Web Service Compositions
+- AUTHORS: Ronan Barett
+
+2) EVALUATION:
+
+Please rate the following qualities from 0 to 5, 
+with 5 being the highest.
+
+- Technical accuracy: 
+2
+
+- Scientific quality/originality: 
+3
+
+- Appropriateness for the conference: 
+4
+
+- Quality of presentation: 
+4
+
+- Overall evaluation: 
+3
+
+- CONFIDENCE ON YOUR RATINGS (low, medium, high):
+medium
+
+
+4) JUSTIFICATION AND GENERAL COMMENTS:
+  (A few lines are mandatory here to justify 
+   the numerical evaluation. You may also include 
+   general comments, relevant for both author(s) 
+   and the Programme Committee.) 
+
+Explanation in the paper is quite high level, few details are presented. Without any further details on the seperate steps (and on specifics used, e.g. the DPLProfile), understanding how exactly the framework works is not easy, and some guessing is required on how things are done or how exactly the different phases look like concretely. The paper which probably could clarify things better is yet unavailable (reference [2]).
+
+
+- Summary and main contributions:
+
+The authors present a step-by-step modeling approach for distributed pattern modeling and web service composition. Based on the model(s), distribution pattern can be (semi) automatically generated, and automatic deployment of the web service decomposition is possible.
+
+   
+- Weak points of the paper:
+
+* EXplanation is very high-level, very few detail is given. This makes it quite difficult for the reader to assess how exactly the framework does what it is supposed to do. For example, no explanation of what exactly is contained in the DPLProflie, and how it is automatically applied (step 1) is provided. Also, for step 3, no explanation of how exactly the semantically annotated information using OWL-S is used, exactly which descriptions of OWL-S are used and what for? How are services decided to be compatible based on OWL-s? Which kind of model validation is done (step 5)? etc. Also in the implementation part, few details are given. 
+
+* section 2 mentions a UML activity diagram describing (part of) the systems distribution pattern. It is not clear to me where in the 7 steps this diagram is obtained, nor how exactly it is obtained (yet it appears from the implementation section this model is obtained after step 1).
+
+* referencing should be done more carefully. In particular, as it appears in the text, reference [6] appears to be describing how the compatibility of the web services input and output messages are assessed, based on their OWL-S atomic process models. In fact, [6] is just a general reference to Jena, and doesn't explain the aforemention at all. Other references are used carelessly as well.
+
+
+- Any suggestions for improvements: 
+
+* The steps in Figure 1 can be enhanced with extra comments (in the figure) to further clarify the how/what exactly happens in each step (for example, UML 2.0 model -> generator -> UML 2.0 Model, is not clarifying a lot to the reader).
+
+* better elaboration of the details of the approach (i.e. see above)
+
+
+5) FURTHER COMMENTS FOR AUTHORS:
+
+Please see above.
+
+
+6) CONFIDENTIAL COMMENTS FOR PC:
+   (not to be sent to authors)
+
+The author references a paper also by the author on the icwe 2006 conference, which elaborates on the work described here. As this paper is not available, it cannot be checked, but probably this workshop paper is just a shortened version of the icwe 2006 paper. If it is the case, it is questionable the paper should be accepted here. My rating tends to weak reject.
+
+===================================================
+

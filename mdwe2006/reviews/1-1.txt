@@ -1,0 +1,126 @@
+=======================================================
+*** MDWE 2006 REVIEW FORM
+
+
+1) PAPER and REVIEW DETAILS
+
+
+- PAPER No.: 1
+- TITLE: The AURA Framework: How to Make the Web Speak
+- AUTHORS: Davide Bolchini, Sebastiano Colazzo, Daniele Vitali
+
+
+2) EVALUATION:
+
+
+Please rate the following qualities from 0 to 5, 
+with 5 being the highest.
+
+
+- Technical accuracy: 4
+- Scientific quality/originality: 3
+- Appropriateness for the conference: 3
+- Quality of presentation: 3
+
+
+- Overall evaluation: 2
+  (0 = outside the scope of the workshop,
+   1 = Very poor,
+   2 = Poor,
+   3 = Acceptable, 
+   4 = Good,
+   5 = Excellent )
+
+
+- CONFIDENCE ON YOUR RATINGS (low, medium, high): medium
+
+
+
+4) JUSTIFICATION AND GENERAL COMMENTS:
+
+
+This paper addresses an interesting topic and the approach appears to have
+significant merit. The paper is, however, let down significantly by a rather
+poor overall rationale for the work and very unclear explanations of a
+number of aspects and untested or unstated assumptions in many areas. For
+example:
+
+
+- In the introduction it is asserted that aural applications should be
+"mainly (if not exclusively) aural rather than visual" - yet this is not at
+all justified. Surely many existing 'visual' applications would benefit from
+extension to incorporate 'aurality', but need not be 'mainly' aural. For
+example, surely a conventional application which aims to also (but not
+predominantly) support visually impaired users could be extended with aural
+supoprt.
+
+
+- In the related work introduction, the authors state that "aural access ...
+Requires adapting web contents'. It is not at all clear why *adaptation* is
+always required? In many cases it may be appropriate to natively design the
+aural application directly, rather than 'adapting' other content. If the
+authors are talking about a design method specifically for adapting existing
+non-aural applications then this shouls be made clear.
+
+
+- SALT is described, but there is no description of what it fails to deliver
+that the authors of AURA are aiming to address.
+
+
+- In section 3, the authors identify a set of design issues to be taken into
+account - but there is no explanation of where these have come from or why
+they are indeed appropriate issues to underpin the design approach. This is
+rather important, given that these form the basis for arguing the
+appropriateness of the approach. Are these issues simply of the "but
+everyone knows these" type, or the authors anecdotally- or
+experience-supported views? Or is there some research which supports an
+argument that these are key requirements?
+
+
+- At the beginning of the conclusion,the authors state "we have analyzed
+important design issues". This would have been useful if indeed it had been
+done - but I couldn't find in the paper anywhere any *analysis* of design
+issues! They were simply stated and then used in supporting the proposed
+approach.
+
+
+- Whilst the paper includes an example of the application of the approach,
+there is no effective evaluation, or at least a rigourous analysis of
+whether it has addressed a set of identified problems (see the following
+point, which relates to this). 
+
+
+Possibly most crucially, at the end of the section on related work the
+authors consider the differences between their work and other approaches -
+but they do not explain at all why these differences are important or what
+the problems with existing approaches are that they are explicitly trying to
+address. Because of this lack of a clear set of problems with existing
+approaches that are being addressed, it becomes very difficult to evaluate
+the proposed approach, and to see if it has indeed addressed those problems.
+In the absence of this, the proposed approach appears as just another
+alternative, rather than a clear step forward which addresses an existing
+problem. By clearly articulating the gap which this approach addresses, the
+authors would greatly strengthen the paper.
+
+
+
+Overall, the approach may well be very useful and represent an important
+contribution to the field. Basiclly the paper presents a (possibly important
+and innovative) solution, but without the problem being clearly identified
+or analysed, without an analysis of the factors which affect the solution,
+and without a clear evaluation as to whether that problem has actually been
+addressed. I would strongly encourage the authors to continue with this very
+interesting work, but to position it more carefully.
+
+
+
+5) FURTHER COMMENTS FOR AUTHORS:
+
+
+
+6) CONFIDENTIAL COMMENTS FOR PC:
+   (not to be sent to authors)
+
+
+
+===================================================

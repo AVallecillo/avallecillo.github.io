@@ -1,0 +1,133 @@
+<HTML>
+<HEAD>
+ 
+<TITLE>The Travel Agency System Example -- MDWE 2005 Workshop</TITLE>
+</HEAD>
+<BODY background="fondo.jpg">
+<H4 align="center"><FONT SIZE=+2>A Travel Agency System</FONT></h4>
+<p align="center"><b>An example for the Model-driven Web Engineering Workshop (<a href="http://www.lcc.uma.es/~av/mdwe2005/">MDWE 
+2005</a>)</b></p>
+
+
+<p><img width="100%" height=4 src=Bann03.gif vspace=10></p>
+
+
+<p>This example describes the process followed by a travel agency for selling 
+travels to its customers. It is expected that a Web Application provides these 
+services electronically. </p>
+
+
+<p>For simplicity reasons we will concentrate just on transportation services, 
+which can be carried out using planes, trains, cars, boats, or combinations of 
+those. Accommodation, tourist packages, excursions, and other services also sold 
+at travel agencies are not contemplated here. </p>
+
+
+<p>The travel agency can be regarded as an open distributed system. It uses some 
+services from other systems in order to fulfil the customer requirements. </p>
+
+
+<p>The <b>main players</b> involved in the system, together with their main 
+objectives and tasks, are as follows. </p>
+
+<ul>
+  <li>The <i>Customer</i>, who describes his or her trip and may establish some 
+  constraints and conditions on it. </li>
+  <li>The <i>Personal Travel Assistant</i> is the only entity that interacts 
+  with the Customer. It receives the requests from the Customer, tries to find a 
+  trip that matches the Customer requirements, and help refining the requests 
+  until a match is found or the Customer gives up. From the Customer perspective, 
+  it represents the travel agency. For locating the requested services, the 
+  Personal Travel Assistant interacts with the Broker Agents that work with the 
+  travel agency. A travel agency usually works with many different Broker Agents. 
+  The Personal Travel Assistant is a person in case of a conventional travel 
+  agency, but in this case it represents the interface to the customer of the 
+  computerized system (i.e., Web application). </li>
+  <li>A <i>Broker Agent</i> is an entity that uses the services provided by the 
+  Transportation Companies, combining them to implement a requested trip. A 
+  Broker Agent usually works with many different travel agencies, and with many 
+  different Transportation Companies. It represents the main business logic of 
+  the application, and can be either external Broker Agents (e.g., other Travel 
+  Agencies) or internal processes (in case the system also implements a Broker 
+  Agent). </li>
+  <li>The <i>Transportation Companies</i> are the entities that provide the 
+  actual transportation services, or rent the transportation mechanisms. 
+  Examples of Transportation Companies include commercial airlines (such as 
+  Iberia, BA, or Air France), boat and ferry companies, car rentals, etc. </li>
+  <li>The <i>Financial Companies</i> are the entities that provide the payment 
+  services, usually credit card companies (AMEX, VISA, etc.) and Banks that 
+  offer such kind of services to Customers. </li>
+</ul>
+
+
+<p>The <b>operations</b> of the travel agency are as follows. </p>
+
+<ol>
+  <li>The Customer provides a description of the required trip to the Personal 
+  Travel Assistant, including personal constraints and preferences. The trip 
+  description contains the cities of origin and destination, as well as the 
+  departure and return dates. For one-way trips, only the departure cities and 
+  dates are required. Constraints on the trip may include bounds on the total 
+  price of the trip, duration of the trip itself, and any undesired 
+  transportation method (e.g. the customer does not like planes). Preferences 
+  may include the preferred transportation mechanisms for each way, as well as 
+  rules that can be applied to the set of acceptable service offers to yield an 
+  ordered sequence of service offers. </li>
+  <li>The Personal Travel Assistant receives the request from the Customer, 
+  checks that it is well formed, and selects the Broker Agents that work with 
+  them and that can service the trip. </li>
+  <li>The Personal Travel Assistant interacts with each Broker Agent, asking 
+  them for an offer that fulfils the Customer’s requested trip. </li>
+  <li>Each Broker Agent may work with several Transportation Companies, asking 
+  them to provide an offer for the requested service. If the offer matches the 
+  customer requirements, the Broker Agent will ask the Transportation Company to 
+  temporarily book the service, and pass the offer (with the corresponding 
+  overhead in case of external Brokers) to the Personal Travel Assistant of the 
+  Travel Agency. In case the service has to be split (e.g. a plane, a train and 
+  a boat need to be used), the Broker Agent will be the one in charge of 
+  dividing it into separate services and ask different Transportation Companies 
+  for separate offers. If a complete service can be successfully put together 
+  with all the Transportation Companies’ offers, the Broker Agent will 
+  temporarily book them, and the separate offers will be then combined to 
+  provide a single offer to the Personal Travel Assistant. </li>
+  <li>The Personal Travel Assistant will then sort the list of all suitable 
+  trips and quotations received from all the Broker Agents, according to the 
+  Customer preferences, and provide that sorted list to the Customer for him or 
+  her to choose one. </li>
+  <li>The Customer may either select one of the offered trips, reject them all 
+  and quit, or refine his or her requirements and start the process again. </li>
+  <li>In case the Customer selects one of the trips, the Customer will provide 
+  the credit card details to the Personal Travel Assistant, who will process the 
+  payment through the corresponding Financial Company. Once the payment is 
+  correct, the Personal Travel Assistant will notify the corresponding Broker 
+  Agent to confirm the booking(s), who will then cascade this confirmation to 
+  the appropriate Transportation Companies. If the Personal Travel Assistant 
+  cannot process the payment (not enough credit, invalid or expired card, etc.), 
+  the Customer will be asked to either re-enter his payment details, or quit. 
+  </li>
+  <li>In any case, the Personal Travel Assistant will notify those Broker Agents 
+  whose offers have not been selected to cancel their bookings, who will then 
+  cascade this cancellation to the appropriate Transportation Companies. </li>
+  <li>Once a month, the travel agency will pay each external Broker Agent for 
+  the services it has provided during the previous month. The payment will be 
+  done by ordering a money transfer to the bank account number of the Broker 
+  Agent. </li>
+  <li>The way Broker Agents pay their Transportation Companies depends on their 
+  particular arrangements, and is not part of this specification. </li>
+</ol>
+
+
+<p>Finally, the <b>accessibility requirements</b> of the system are as follows. </p>
+
+<ol>
+  <li>Customers may access the system using three different kinds of devices: 
+  browsers, PDAs, and mobile phones. Their characteristics constrain the 
+  possible interfaces and functionality that need to be offered to each one. 
+  Potentially, the application will have to interact with new kinds of devices, 
+  although their characteristics are unknown at this moment. </li>
+  <li>Frequent customers will be able to store and modify their preferences, and 
+  will be eligible to discounts depending on the agency policies.</li>
+</ol>
+<p><img width="100%" height=4 src=Bann03.gif vspace=10></p>
+</BODY>
+</HTML>

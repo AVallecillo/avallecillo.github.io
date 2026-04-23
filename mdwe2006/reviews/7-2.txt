@@ -1,0 +1,61 @@
+
+=======================================================
+*** MDWE 2006 REVIEW FORM
+
+1) PAPER and REVIEW DETAILS
+
+- PAPER No.: 1
+- TITLE: Towards an Operation Model for Generated Web Applications
+- AUTHORS: M. Jakob, H. Schwarz, F. Kaiser, B. Mitschang
+
+2) EVALUATION:
+
+Please rate the following qualities from 0 to 5, 
+with 5 being the highest.
+
+- Technical accuracy: 4
+
+- Scientific quality/originality: 3
+
+- Appropriateness for the conference: 5
+
+- Quality of presentation: 4
+
+- Overall evaluation: 3
+  (0 = outside the scope of the workshop,
+   1 = Very poor,
+   2 = Poor,
+   3 = Acceptable, 
+   4 = Good,
+   5 = Excellent )
+
+- CONFIDENCE ON YOUR RATINGS (low, medium, high): high
+
+
+4) JUSTIFICATION AND GENERAL COMMENTS:
+  (A few lines are mandatory here to justify 
+   the numerical evaluation. You may also include 
+   general comments, relevant for both author(s) 
+   and the Programme Committee.) 
+
+- Summary and main contributions:
+The paper aims at improving data intensive web application modeling by introducing an Operation Model in order to better express complex operations that access or modify web application content. After a short state-of-the-art survey of the main web application modeling approaches, some problems related to the integration of operations into the other models are highlighted; then, an Operation Model is introduced. 
+
+- Weak points of the paper:
+The section about web application generation is too short to give the minimum idea about what is generated and how and especially the most important reference to previous work of the same authors is not available at the moment. This poses several questions which I could not answer reading the papers: (i) how the code is generated ? are the authors pursuing a model-to-model or directly a model-to-text approach ? this is not clear and I believe it is a crucial information for the scope of this workshop; the section is really too short to explain this and even when few details are given it is difficult to understand how it really works - is XML used as target "text" of the transformation? or XML is targeted as a cross technical space trasformation ? (ii) it is not clear to me how complex query operation (eg. a query involving joins among different tables) can be detected and generated (iii) in Fig. 4 elements in different views/concerns of the system are kept synchronized or in correpondence among them by means of arrows, how this mappings are practically realized ? are the authors using a shared namespace or some kind of model weaving ? recent work on this issue appeared recently at the SAC MT 2006 conference, I would suggest the authors to consider it since it is very close to their work.
+
+- Strong points of the paper:
+It is a neat and well-written paper. The separation of composition & navigation and operation concerns gives clarity and usability to the approach, respectively, while the visualization of links between modeling constructs related to different models enables the independence from name conventions.
+   
+- Any suggestions for improvements: 
+
+
+5) FURTHER COMMENTS FOR AUTHORS:
+
+
+6) CONFIDENTIAL COMMENTS FOR PC:
+   (not to be sent to authors)
+
+
+===================================================
+

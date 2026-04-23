@@ -1,0 +1,164 @@
+=======================================================
+
+*** MDWE 2006 REVIEW FORM
+
+1) PAPER and REVIEW DETAILS
+
+- PAPER No.: 5
+- TITLE: "Pattern Based Development of User Friendly Web Applications"
+- AUTHORS: Wentzlaff, Specker
+
+2) EVALUATION:
+
+Please rate the following qualities from 0 to 5,with 5 being the highest.
+
+- Technical accuracy: 3
+- Scientific quality/originality: 3
+- Appropriateness for the conference: 3
+- Quality of presentation: 3
+- Overall evaluation: 3  
+(0 = outside the scope of the workshop,  
+ 1 = Very poor,  
+ 2 = Poor,  
+ 3 = Acceptable,  
+ 4 = Good,   
+5 = Excellent )
+- CONFIDENCE ON YOUR RATINGS (low, medium, high): high
+
+4) JUSTIFICATION AND GENERAL COMMENTS:  
+(A few lines are mandatory here to justify   
+the numerical evaluation. You may also include   
+general comments, relevant for both author(s)   
+and the Programme Committee.)
+
+- Summary and main contributions:
+
+This paper proposes a methodology for requirement engineering by combiningsoftware engineering and human-computer interaction patterns and transformingthen into a solution pattern. Case-based reasoning is integrated to ease reuseof existing patterns.
+
+- Weak points of the paper:
+
+- structure of the paper (sections and subsections)
+
+- no clear separation of own work and related work
+
+- sloppy and informal description of the proposed approach
+
+- Strong points of the paper:
+
++ interesting idea
+
++ combines techniques from many different areas
+
++ holistic viewpoint on the problem
+
+- Any suggestions for improvements:
+
+I share your opinion that there are lots of papers that define "new"patterns for different areas/problems without trying to use existingones. For this reason, I think your approach is a good idea.There are three aspects of the paper that I think could be improved.
+
+First of all, the paper could be better structured. 
+
+My suggestions:
+
+* The last paragraph of Sec. 1 should contain an overview of the structure ofthe paper.
+
+* Sec. 2 is a mix of the foundations of your work and your own contributions. To my opinion, it would be better to put all your contributions in Sec. 1 and the background knowledge about case-based reasoning in Sec. 4.3 (which subsequentlycould be renamed to Sec. 5).
+
+* It is not necessary to have a Section 2.1 if there are no following subsections(same with Sections 3.1.1 and 3.2.1).
+
+* I think the distinction between Section 4.1 and 4.2 is not necessary, becausefor the mapping it does not matter whether the Problem Frame is HCI-oriented orSE-oriented. So there should be just a Section 4. Figure 8 should be a part ofSection 4.
+
+* Only the first paragraph of Section 4.3 is actually about applying case-basedreasoning (as the title of the section implies), all the other paragraphs areabout the mapping and belong to Section 4.1.
+
+Second, the contribution of the paper should be made more clear. 
+
+In the introduction, one paragraph that highlights the main contribution of the paper in one or two sentences would be very helpful.  In the Abstract and Introduction, the case-based reasoning part is not mentioned.The third improvement concerns the accuracy and preciseness of the writing.
+
+There are several problems:  
+
+* The description of the R4 cycle is inaccurate. The different steps are mixedup, e.g., "The most appropriate solution will be chosen" is actually part ofstep "Reuse" (and not step "Revise").  
+
+* In Section 3.2, the notation used for the events is mixed up. In Figure 3, you use CamelCase, but in the description you use small letters (E3). Moreover, Y2 is differently named in Figure 3 and in the textual description (TextMessage<-> content of text-message). This is especially bad because Y4 has the same name.
+
+* Your figures are not consistent. Figure 6 uses different names for the sameshared phenomena (E3, Y5). What does L mean (left corner of "descript. oftext-m.")? Why do E2 and Y2 change? Figure 7 uses a different name for Y1 (compared to Figure 5).
+
+* In the text that accompanies Figure 6 and 7 you should include explanations about how the charts are extended. In the current version, the text only explains which additional constraints are added to the chat application example. In addition to explaining the example, you need to explain the notations used in your methodology.
+
+* There should be more information about how the Problem Frames are mapped to UML class diagrams. To me this seems to be a very complicated task. 
+
+In Section 4.1, you say "that it is possible that the domains of the Problem Frame are related to the class diagram". This is a rather vague statement, and the information inthis section is only sufficient to understand the examples, but it would notpossible for me after thoroughly reading the paper to apply the method for my own problems. 
+
+Section 4 should include a systematical step-by-step descriptionof how to map Problem Frames to UML class diagrams.
+
+5) FURTHER COMMENTS FOR AUTHORS:
+
+Use a spell checker!Cf. --> cf. (throughout the paper)
+Sec. 1., para.1, line 4: "Hence,"
+Sec. 1., para.2, line 6: "For instance,"
+Sec. 1., para.2, line 7: no comma
+Sec. 1., para.3, line 2: "different" instead of variable
+Sec. 1., para.3, line 3: "For instance,"
+Sec. 1., para.3, line 4: not \cite{x},\cite{y} but \cite{x,y}
+Sec. 1., para.3, line 4: no comma after [18]
+Sec. 1., para.3, line 4: "patterns, an"
+Sec. 1., para.3, line 6: "redundant"
+Sec. 2., para.3, line 10: remove the footnote
+Sec. 2.1, title : "Case-based"
+Sec. 2.1, para.1, line 1: "Case-based"
+Sec. 2.1, para.1, line 2: "In CBR,"
+Sec. 2.1, para.2, line 2: "referred to as"
+Sec. 3, para.1, line 2: "methodology,"
+Sec. 3.1, para.2, line 8: "Both,"
+Sec. 3.1, para.3, line 7: no comma (at the end of the line)
+Sec. 3.1.1, para.2, line 5: "schema"
+Sec. 3.2, title: "situation"
+Sec. 3.2, para.1, line 3: remove "Whereas" and start with "For"
+Sec. 3.2, para.1, line 4: "subproblem, all"
+Sec. 3.2, para.2, line 6: "Fig. 2,"
+Sec. 3.2, para.4, line 4: "messages"
+Sec. 3.2, para.5, line 8: "does not need to be built up new"
+Sec. 3.2, para.5, line 10: "character"
+Sec. 3.2, para.6, line 1: "denotes"
+Sec. 3.2.1, para.1, line 2: "approach"
+Sec. 3.2.1, para.2, line 8: "so far,"
+Sec. 3.2.1, para.2, line 11: "to be phrased"
+Sec. 3.2.1, para.4, line 4: "(user),"
+Sec. 3.2.1, para.4, line 8: "operator does not need to"
+Sec. 3.2.1, para.6, line 8: "informal, so that they"
+Sec. 4, para.2, last line: "changes to the"
+Sec. 4.1, para.1, line 3: "solving"
+Sec. 4.1, para.1, line 4: .
+Sec. 4.2, para.2, line 2: "patterns"
+Sec. 4.2, para.2, line 4: "the following benefits"
+Sec. 4.2, para.2, line 11: "Frames"
+Sec. 4.3, para.1, line 13: "needs"
+Sec. 4.3, para.2, line 5: "for publishing"
+Sec. 4.3, para.3, line 10: "... want to develop a chat application for mobile devices. A bluetooth ..."
+Sec. 4.3, para.3, line 5: "phenomena Y1"
+Sec. 4.3, para.3, line 6: "text-message),"
+Sec. 4.3, para.3, line 7: "the C2 command sendMsgText" (Why "-services"??)
+Sec. 4.3, para.4, line 8: "sent"
+Sec. 4.3, para.4, line 9: "for displaying"
+Sec. 4.3, para.6, line 6: "Remember that they"
+Sec. 5, para.2, line 3: "referring to"
+Sec. 5, para.2, line 7: "patterns"
+Sec. 5, para.2, line 7: "used"
+Sec. 5, para.2, line 9: "attributes like usability explicitly in"
+Sec. 5, para.2, line 12: "laymen. Besides"
+Sec. 5, para.2, line 13: "developed,"
+Sec. 5, para.2, line 14: "refer to"
+Sec. 5, para.2, line 15: "be transformed"
+Sec. 5, para.3, line 1: "as shown"
+Sec. 5, para.3, line 2: "represents"
+Sec. 5, para.3, line 5: "problems"
+Sec. 5, para.4, line 2: "eases the further"
+Sec. 5, para.4, line 6: "use-cases,"
+Sec. 5, para.4, line 7: "Frames"
+Sec. 5, para.4, line 12: "diagrams"
+Sec. 5, para.4, line 14: "from" instead of to
+Sec. 5, para.4, line 16: remove "Whereas"
+Sec. 5, para.5, line 5: "could be"
+Sec. 5, para.5, line 7: "field. Based"
+Sec. 5, para.5, line 9: "used"Ref [1]: "Aamondt"Ref [1]: "Case-based"
+
+
+===================================================

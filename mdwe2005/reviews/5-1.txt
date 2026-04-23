@@ -1,0 +1,49 @@
+----------------------------------------------------------
+
+1) PAPER and REVIEW DETAILS
+
+- PAPER No.: 5
+- TITLE: Ontology-Driven Design of Conceptual Schema
+- AUTHORS: Moncef Alami-Chantoufi and José F. Aldana
+
+2) EVALUATION:
+
+- Technical accuracy: 2
+
+- Scientific quality/originality: 1
+
+- Appropriateness for the conference: 4
+
+- Quality of presentation: 1
+
+- Overall evaluation: 1
+
+- CONFIDENCE ON YOUR RATINGS (low, medium, high): medium
+
+
+4) JUSTIFICATION AND GENERAL COMMENTS:
+
+I found it rather difficult to actually determine what this paper was
+intending to discuss. A large proportion of the paper tended to describe
+general background issues, and the core of the paper appeared to be a
+general discussion of initial ideas, rather than any concrete outcomes. As a
+result it was very difficult to actually evaluate the contributions of the
+paper. Overall this would seem to imply that the work is too preliminary for
+inclusion. Additional minor comments include: 
+
+- poor grammar makes much of the paper very difficult to understand.
+
+- The section on related work describes general issues rather than work in
+this area (despite supposedly being on related work it did not contain a
+single reference!)
+
+
+5) FURTHER COMMENTS FOR AUTHORS:
+
+N/A
+
+6) CONFIDENTIAL COMMENTS FOR PC:
+
+N/A
+
+----------------------------------------------------------

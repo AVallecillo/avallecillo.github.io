@@ -1,0 +1,94 @@
+1) PAPER and REVIEW DETAILS 
+
+- PAPER No.: 1 
+- TITLE: Applying Model-Driven Development to Business Systems 
+- AUTHORS: Yoshihide Nagase, Daisuke Hashimoto, Miwa Sato 
+
+2) EVALUATION: 
+
+Please rate the following qualities from 0 to 5, 
+with 5 being the highest. 
+
+- Technical accuracy: 4 
+- Scientific quality/originality: 3 
+- Appropriateness for the conference: 4 
+- Quality of presentation: 4 
+- Overall evaluation: 4
+ 
+(0 = outside the scope of WODPEC, 
+1 = Very poor, 
+2 = Poor, 
+3 = Acceptable, 
+4 = Good, 
+5 = Excellent ) 
+
+3) CONFIDENCE LEVEL (low, medium, high): High 
+
+4) JUSTIFICATION AND GENERAL COMMENTS: 
+(A few lines are mandatory here to justify the numerical evaluation. 
+You may also include general comments, relevant for both author(s) 
+and the Programme Committee. 
+
+The paper presents a Model-Driven development process referencing 
+MDA and based on RM-ODP, EDOC and CCA. The use of these 3 standards 
+for each ODP Viewpoint is presented and limitations of ODP underlined. 
+Revisions to the standard are suggested. 
+
+
+- Weak points of the 
+
+* Clarification needed on use of RM-ODP, EDOC and CCA concepts and on 
+relationship between concepts of each standard, even if 7.1 gives a few hints. 
+For example, is Actor an Enterprise Viewpoint concept selected ? 
+The text does not say so but figure 2 introduces this concept. 
+How are identified entity components ? How are they used in the Computational Viewpoint ? 
+
+* Examples given in the figures do not show transformation nor 
+"traceability"/"seamless development" as said in Introduction. 
+Only Business and Information Models seem to be taken from the case study, 
+other figures are general examples, so the link between the examples is not obvious. 
+
+* References to be completed. 
+
+- Strong points of the paper: 
+
+* A very interesting application of standards to a domain case study 
+showing how you get the best of standards if you adapt them to your 
+development process. 
+
+* 7.1 gives hints for adding concepts to RM-ODP. 
+
+* The paper should open to good discussion on the use of standards 
+and in particular the use of RM-ODP in development process. 
+
+- Any suggestions for improvements: 
+
+As it is the paper can lead to good discussions, hoping to get more feedback 
+on the pilot project. 
+
+It could be improved by a short introduction of the different standards 
+and their main concepts. 
+
+5) FURTHER COMMENTS FOR AUTHORS: 
+
+Applying different standards to a domain case study should deliver good 
+guidance to users of these standards. 
+
+Defining for each standard the precise set of concepts selected by the 
+project, and moreover the set of concepts selected by the project in each 
+RM-ODP Viewpoint, could be good help for other projects, even those 
+dealing with other domains. Making explicit, i.e. in a table, the mapping 
+between concepts is also an important point. 
+
+6) CONFIDENTIAL COMMENTS FOR PC: 
+(not to be sent to authors) 
+
+The paper is appropriate for discussions at the Workshop. The use of 
+the 3 standards concepts does not seem very mature and MDA 
+is only a reference. Model transformation is purely a mapping in the 
+Technology viewpoint. 
+
+A question is: why not use UML at all and benefit from UML tools ? 
+
+But even if there is still work to be done this seems a good start 
+and can help to progress in the standard. 

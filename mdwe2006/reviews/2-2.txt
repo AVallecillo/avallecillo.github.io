@@ -1,0 +1,98 @@
+=======================================================
+*** MDWE 2006 REVIEW FORM
+
+
+1) PAPER and REVIEW DETAILS
+
+
+- PAPER No.:
+- TITLE: a multilayer extension to W2000: a fractal like approach to web design
+- AUTHORS:
+
+
+
+2) EVALUATION:
+
+
+Please rate the following qualities from 0 to 5, 
+with 5 being the highest.
+
+
+- Technical accuracy: 2
+
+
+- Scientific quality/originality: 2
+
+
+- Appropriateness for the conference: 2
+
+
+- Quality of presentation: 2
+
+
+- Overall evaluation: 0
+  (0 = outside the scope of the workshop,
+   1 = Very poor,
+   2 = Poor,
+   3 = Acceptable, 
+   4 = Good,
+   5 = Excellent )
+
+
+- CONFIDENCE ON YOUR RATINGS (low, medium, high):
+high
+
+
+4) JUSTIFICATION AND GENERAL COMMENTS:
+  (A few lines are mandatory here to justify 
+   the numerical evaluation. You may also include 
+   general comments, relevant for both author(s) 
+   and the Programme Committee.) 
+
+
+The paper is not focused on the workshop goals. It provides a poor description in the application of W2000 to a research laboratory activities. Although the authors try to use a web design method for their purposes, the approach is not related to any topic of MDD/MDA approach. In this situation, this paper cannot be accepted.
+
+
+- Summary and main contributions:
+
+
+Authors describes the customization of a web design method that help the management of adminitrative tasks in a research laboratory. 
+
+
+The goal of the authors is to create a web app that links together all projects developed in the laboratory. 
+
+
+- Weak points of the paper:
+
+
+The justification of the paper is poor. It does not contain any relevant information related to the workshop purposes (MDD/MDA). The paper has some important weak points:
+
+
+1.- The authors claim their approach is based on the W2000 approach. However, in the introduction section the authors do not reference the W2000 approach. This reference should be appeared in the paper.
+2.- The proposed extension to support multilayer consistency between functional blocks and projects is trivial. It cannot be considered as a new contribution since other web design methods (an also conventional design methods) provide the concept of "agregate".
+
+
+- Strong points of the paper:
+
+
+The effort to apply web engineering principles to other domains has some value.
+
+
+- Any suggestions for improvements: 
+
+
+In its current state the paper cannot be published in any event related to web engineering. The paper is difficult to improve. I suggest you focus the paper in a detailed description of the web management system you have developed. This description should provide a complete conceptual specification of the system following the W2000 approach. Then, focus the main contribution of the paper in something like " an application of the W2000 approach to the design of a web-based laboratory management system".   
+
+
+5) FURTHER COMMENTS FOR AUTHORS:
+
+
+
+6) CONFIDENTIAL COMMENTS FOR PC:
+   (not to be sent to authors)
+
+
+Poor paper that must be reejected. 
+
+
+===================================================

@@ -1,0 +1,82 @@
+*** MDWE 2005 REVIEW FORM
+
+
+1) PAPER and REVIEW DETAILS
+
+
+- PAPER No.: 6
+- TITLE: Conceptualization  of Navigational Maps for Web Applications
+- AUTHORS: Navarro et al.
+
+2) EVALUATION:
+
+
+Please rate the following qualities from 0 to 5, 
+with 5 being the highest.
+
+
+- Technical accuracy: 4
+
+
+- Scientific quality/originality: 3
+
+
+- Appropriateness for the conference: 5
+
+
+- Quality of presentation: 4
+
+
+- Overall evaluation: 4
+  (0 = outside the scope of the workshop,
+   1 = Very poor,
+   2 = Poor,
+   3 = Acceptable, 
+   4 = Good,
+   5 = Excellent )
+
+
+- CONFIDENCE ON YOUR RATINGS (low, medium, high): high
+
+
+
+4) JUSTIFICATION AND GENERAL COMMENTS:
+  (A few lines are mandatory here to justify 
+   the numerical evaluation. You may also include 
+   general comments, relevant for both author(s) 
+   and the Programme Committee.) 
+
+
+- Summary and main contributions:
+The paper is about the use of Pipe primitives for modeling conceptual maps at a high level of abstraction. Integration with the Conallen's UML-based method for detailed design is also presented.
+   
+- Weak points of the paper:
+Although the modeling of navigation maps by Pipe and the detailed design by UML are properly described, the mapping between the two spefications is not clear. Authors should supply at least one example of transformation.
+
+
+- Strong points of the paper:
+It is a nice paper, well written and focused. 
+It proposes a high-level method for specifyng navigation independently from implementation details.
+It also shows how such a high-level specification can be mapped onto a more detailed design expressed by means of the Conallen's UML-based notation.
+
+
+- Any suggestions for improvements: 
+I would like to understand better the way the Pipe high level constructs are mapped onto low-level design constructs. Can the author expand section 3.1 with more details about the function g? This extension would be beneficial for understanding in which measure the abstract specification can be mapped over design concepts, and also in which measure such a mapping can support automatic transformations from abstract to detailed implementation.
+
+
+5) FURTHER COMMENTS FOR AUTHORS:
+My only concern with the Pipe model is that while on one hand the simplicity of the model constitutes an advantage in terms of modeling efforts, on the other hand it does not fully support page modeling requirements. It seems that page components can just be panes (or frames). Did the authors try to model complex applications, with complex page layout? What about modeling the different ways information chunks can be composed within pages? Otherwise, how can they specify the composition of contents within panes?
+
+
+I suppose that this (possible) lack is related to the fact that contents are simply seen as pages displayed to users, and not as elementary items extracted from a data source and composed in different manners within pages. Therefore, there is no need to understand how contents must be displayed - for example they might be shown as index of entries, with links that lead to detailed data, or like hierarchical indexes, highlighting possible nesting relations among data items, and so on...
+
+
+Given the previous observation, I have some doubts about the capability of the model to describe the "dynamic" organization of contents extracted from a data source in a dynamic application. Can author comment about this point, possibly clarifying the method limits - if any?
+
+
+6) CONFIDENTIAL COMMENTS FOR PC:
+   (not to be sent to authors)
+
+
+
+===================================================

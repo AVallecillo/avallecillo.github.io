@@ -1,0 +1,201 @@
+
+           Workshop on ODP for Enterprise Computing (WODPEC 2005)
+                       In conjunction with EDOC 2005
+                 Enschede, The Netherlands, September 19, 2005
+                   (http://www.lcc.uma.es/~av/wodpec2005/)
+
+
+                         ***  Call for Papers ***
+
+ABOUT THE WORKSHOP
+
+
+Six years after its final adoption as ITU-T Recommendation and ISO/IEC
+International Standard, the Reference Model of Open Distributed
+Processing (RM-ODP) is increasingly relevant, mainly because the size
+and complexity of current IT systems is challenging most of the current
+software engineering methods and tools. These methods and tools were not
+conceived for use with large, open and distributed systems, which are
+precisely the systems that the RM-ODP addresses. As a result, we are
+now witnessing many major companies and organizations investigating
+RM-ODP as a promising alternative for specifying their IT systems, and
+for structuring their large-scale distributed software designs.
+
+
+There are however some issues that may hamper the widespread adoption of
+ODP by these companies. One of them is the fact that the Reference Model
+does not prescribe any specific notation for representing its concepts
+and viewpoint languages, which really hinders the development of
+commercial tools for writing and analysing ODP system specifications.
+
+
+The wide adoption of UML by industry, the number of available UML tools,
+and the increasing interest for model-driven development and the MDA
+initiative, motivated ISO/IEC and ITU-T to launch a joint project in
+2004, which aims to define the use of UML for ODP system specifications
+(ITU-T Rec. X.906 | ISO/IEC 19793). Thus, ODP modellers could use the
+UML notation for expressing their ODP specifications in a standard
+graphical way, and UML modellers could use the RM-ODP concepts and
+mechanisms to structure their UML system specifications. In addition,
+modelling tool suppliers will be able to develop UML-based tools capable
+of expressing RM-ODP viewpoint specifications.
+
+
+However, the use of UML as the language and notation of choice for ODP
+system modelling is not straightforward. For instance, the object models
+followed by UML and ODP do not match completely (e.g., UML is
+class-based, whilst ODP is object-based; their behavioural models are
+different; etc.). In addition, the loose semantics of UML may represent
+an impediment to achieving the precise specification and analysis of ODP
+systems and the development of tools, and some ODP concepts are
+difficult to map into UML (e.g., policy and accountability concepts). On
+the contrary, the simplicity and elegance of RM-ODP contrasts with the
+complexity and semantic vagueness of UML. Thus, clarification and
+simplification of UML semantics may be based on the RM-ODP in this
+context. Furthermore, using ODP for business modelling may provide an
+excellent basis for establishing technology- and tool-independent
+communication mechanisms between business and IT stakeholders.
+
+
+A second issue is the fact that some UML modellers are used to other
+design methodologies and architectural practices (e.g., RUP, IEEE Std.
+1471, the “4+1” views model, the Zachman’s framework, etc.) that define
+different sets of viewpoints on a system. The continuing relevance of
+RM-ODP in the context of these software architectural practices, and
+their relationship to RM-ODP needs to be determined in order to
+accomplish the degree of interoperability required.
+
+Finally, the precise role played in this picture by model driven 
+architectures (MDA), service oriented architectures (SOA), component-based 
+architectures (CBA), event driven architectures (EDA) and other architectural 
+approaches is still unclear--although the RM-ODP might well serve as a 
+coordinating framework for them all.
+
+
+SCOPE
+
+
+This Workshop will provide a discussion forum where researchers,
+practitioners, system modelers, tool developers and representatives of
+standardization bodies can meet and exchange experiences, problems and
+ideas related to the use of UML for ODP system specifications, and its
+relationship with other architectural practices and approaches (e.g.,
+MDA, SOA, CBA, EDA) in the realm of Enterprise Distributed Computing.
+
+
+The duration of the workshop is one day and this workshop will be held on
+September 19, 2005.
+
+
+TOPICS
+
+
+Topics of interest include, but are not limited to:
+
+
+* UML and RM-ODP
+  > specification of systems using approaches
+    based on UML and the RM-ODP;
+  > current issues, limitations and problems of using UML
+    to represent ODP concepts;
+  > Representation of specific concepts of ODP viewpoint
+    languages in UML, for example:
+    - policy concepts (obligations, permissions,
+        authorizations, prohibitions);
+    - accountability concepts (commitments, prescriptions,
+        evaluations, declarations and delegations);
+    - multiparty synchronous interactions.
+  > impact of UML 2.0 on the specification of RM-ODP concepts;
+  > use of UML and ODP for specific application domains
+    (finance, telecomms, health care, aerospace, etc.).
+* UML Profiles for RM-ODP
+  > formal semantics for subsets of UML or UML Profiles
+    to support the specification of RM-ODP concepts;
+  > foundations of RM-ODP based on exact philosophy of science
+    (such as that discussed by Bunge, Hayek and others);
+  > definition of UML Profiles for ODP viewpoints and for
+    extensions and refinements of the RM-ODP for particular
+    application domains.
+* Architectural practices/approaches and RM-ODP
+  > use of MDA concepts and mechanisms for ODP system
+    specifications;
+  > use of other modelling languages for ODP system
+    specification and implementation;
+  > relationship and integration of RM-ODP with other
+    architectural practices (e.g., IEEE Std. 1471, RUP)
+    and architectural approaches (e.g., SOA, CBA, or EDA).
+* Tooling
+  > requirements for supporting tools or tool chains
+    (currently in use or under development);
+  > use of existing tools for ODP system specifications.
+* Case studies and experiences
+  > knowledge gained from experiences with graphical
+    notations for large distributed system specifications;
+  > application of the RM-ODP for large-scale software projects;
+  > identification of potential problems for, and benefits from,
+    the industrial adoption of the UML for ODP system
+    specification.
+
+
+
+SUBMISSION GUIDELINES
+
+
+To enable lively and productive discussions, attendance will be limited
+to 25 participants and submission of a paper or a position statement is
+required. All submissions will be formally peer reviewed.
+
+
+Submissions should be 4 to 8 pages long in IEEE Computer Society format
+and include the author's name, affiliation and contact details. They
+should be submitted by e-mail as postscript or PDF files before June 13,
+2005, to the Workshop Chairs (wodpec2005@lcc.uma.es).
+
+
+Authors will be notified of acceptance by July 11, 2005. At least one
+author of accepted papers should participate in the Workshop. Workshop
+proceedings will be published on the conference CD-ROM, and all accepted
+papers will appear in the IEEE Digital Library.
+
+
+
+WORKSHOP CHAIRS
+
+
+Peter F. Linington      University of Kent (UK)
+Akira Tanaka            Hitachi (Japan)
+Sandy Tyndale-Biscoe    Open-IT (UK)
+Antonio Vallecillo      University of Málaga (Spain)
+
+
+
+WORKSHOP PROGRAM COMMITTEE
+
+
+Dave Akehurst           University of Kent (UK)
+Joao P. Almeida         University of Twente (The Netherlands)
+Jean Bérubé             Idigenic (Canada)
+Jonathan Billington     University of South Wales (Australia)
+Celso González          IBM (Canada)
+Haim Kilov              Stevens Institute of Technology (US)
+Lea Kutvonen            University of Helsinki (Finland)
+Peter F. Linington      University of Kent (UK)
+Arve Meisingset         Telenor (Norway)
+Joaquin Miller          X-Change Technologies (US)
+Tom Rutt                Coast Enterprises, INCITS T3 IR (US)
+Akira Tanaka            Hitachi (Japan)
+Sandy Tyndale-Biscoe    Open-IT (UK)
+Antonio Vallecillo      University of Málaga (Spain)
+Bryan Wood              Open-IT (UK)
+
+
+
+IMPORTANT DATES
+
+
+Workshop papers due:    13 June 2005
+Author notification:    11 July 2005
+Final papers due:       15 August 2005
+Workshop date:          19 September 2005
+
+

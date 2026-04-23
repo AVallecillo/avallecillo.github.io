@@ -1,0 +1,18 @@
+- Luciano Baresi         Politecnico di Milano, Italy
+* Jean Bézivin           University of Nantes, France
+- Sven Casteleyn         Vrije Universiteit Brussel, Belgium
+- Luis Ferreira Pires    University of Twente, The Netherlands
+* Robert France          Colorado State University, USA
+- Piero Fraternalli      Politecnico di Milano, Italy
+* Martin Gaedke          University of Karlsruhe, Germany
+- Jaime Gómez            Universidad de Alicante, Spain 
+* Gerti Kappel           Technische Universität Wien, Austria
+- Nora Koch              Institute for Informatics LMU, FAST GmbH, Germany
+- David Lowe             University of Technology of Sydney, Australia
+- Maristella Matera      Politecnico di Milano, Italy
+* Pierre-Alain Muller    INRIA, Rennes, France
+- Alfonso Pierantonio    Universita di L'Aquila, Italy
+- Vicente Pelechano      Universidad Politécnica de Valencia, Spain
+* Hans-Albrecht Schmidt  FH Konstanz, Germany
+- Daniel Schwabe         PUC-Rio de Janeiro, Brazil
+

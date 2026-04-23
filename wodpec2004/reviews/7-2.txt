@@ -1,0 +1,68 @@
+Paper 7: Challenges for ODP-based infrastructure for managing dynamic B2B networks
+
+2) EVALUATION:
+
+Please rate the following qualities from 0 to 5, 
+with 5 being the highest.
+
+- Technical accuracy: 4
+
+- Scientific quality/originality: 5
+
+- Appropriateness for the conference: 5
+
+- Quality of presentation: 4
+
+- Overall evaluation: 4
+  (0 = outside the scope of WODPEC,
+   1 = Very poor,
+   2 = Poor,
+   3 = Acceptable, 
+   4 = Good,
+   5 = Excellent )
+
+- CONFIDENCE LEVEL (low, medium, high): Medium
+
+4) JUSTIFICATION AND GENERAL COMMENTS:
+  (A few lines are mandatory here to justify 
+   the numerical evaluation. You may also include 
+   general comments, relevant for both author(s) 
+   and the Programme Committee. 
+
+This paper is extremely dense in its presentation style.
+
+There are no figures, and the concepts being discussed assume 
+quite a bit of exposure to ODP concepts and functions.
+
+However, I understood the paper, and think it provides an 
+important use of ODP for real enterprise collaborations and 
+realizations of evolvable federations.
+
+The presentation should provide a summary of the concepts 
+which are explained in the paper, and focus on successful use 
+of (and needed areas for improvement of), the particular ODP 
+standards cited in the paper.
+
+5) FURTHER COMMENTS FOR AUTHORS:
+Summary of Comments on Paper 7:
+
+Page: 1
+
+Abstract" par 3 "on under" ??? is it "or under"
+
+Page: 3
+
+2.1 last bullet "leave a"
+
+Page: 5
+
+2nd para:what are "VE approaches"
+
+6) CONFIDENTIAL COMMENTS FOR PC:
+   (not to be sent to authors) 
+
+The paper is dense, but provides an interesting study of the 
+extent of applicability of ODP concepts to a complex federation.  
+The author should provide an outline of the concepts in the 
+presentation, relying on the paper for details.
+ 

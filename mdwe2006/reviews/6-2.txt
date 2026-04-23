@@ -1,0 +1,96 @@
+
+=======================================================
+*** MDWE 2006 REVIEW FORM
+
+1) PAPER and REVIEW DETAILS
+
+- PAPER No.: 6
+- TITLE: Generating web applications from process models, the magrathea case-study
+- AUTHORS: J. Schulz-Hofen, S. Golega
+
+2) EVALUATION:
+
+Please rate the following qualities from 0 to 5, 
+with 5 being the highest.
+
+- Technical accuracy: 4 
+
+- Scientific quality/originality: 3
+
+- Appropriateness for the conference: 2 (out of the web scope)
+
+- Quality of presentation: 4
+
+- Overall evaluation: 
+  (0 = outside the scope of the workshop,
+   1 = Very poor,
+   2 = Poor,
+   3 = Acceptable, 
+   4 = Good,
+   5 = Excellent )
+
+3
+
+- CONFIDENCE ON YOUR RATINGS (low, medium, high):
+
+High
+
+
+4) JUSTIFICATION AND GENERAL COMMENTS:
+  (A few lines are mandatory here to justify 
+   the numerical evaluation. You may also include 
+   general comments, relevant for both author(s) 
+   and the Programme Committee.) 
+
+- Summary and main contributions:
+
+The paper discusses application generation from models of processes. 
+
+   
+- Weak points of the paper:
+
+The relation with web applications is not outlined in the paper. The authors do not show what is specific to web application development. 
+
+Much of the web specific parts seems to realized by external tools (Ruby on rails togheter with Hypersenses, qhich are not described in the paper) and it is not possible for the reader to really understand the contribution made by the authors.
+
+In the introduction, authors claim that section 4 "deepens the theoritical foundations for pre-engineered...". I do not see "theoretical foundations" in section 4. There is a description of a metamodel (by the way process should may be better be named pools, as the paper later explains that processes are expressed using pools...)
+
+section 4.3 should be named "templates" rather than "code patterns"
+
+
+section 5, is supposed to be an example. but there is only a short list of requirements. This is not an example.
+
+section 6, is either too long or too short.
+
+figure 2 is too small, and is not readable
+
+A real section on related work is missing
+
+
+- Strong points of the paper:
+
+the paper is easy to read
+
+
+
+- Any suggestions for improvements: 
+
+I would suggest too spend less time on the example of templates (that you named code patterns).
+
+Use a running example throughout the paper, show what is you contribution, and how you reuse/intercat with existing tools.
+
+Show more precisely how the process models are used to generate the logic of the web application.
+
+
+
+5) FURTHER COMMENTS FOR AUTHORS:
+
+
+6) CONFIDENTIAL COMMENTS FOR PC:
+   (not to be sent to authors)
+
+
+
+
+===================================================
+

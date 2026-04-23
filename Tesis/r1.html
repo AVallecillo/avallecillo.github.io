@@ -1,0 +1,56 @@
+<HTML>
+<HEAD> 
+<TITLE>Current Research of Antonio Vallecillo</TITLE>
+</HEAD>
+<BODY background="gif/fondo.gif">
+<P><B><FONT SIZE="6">Research</B></FONT>
+<HR>
+<P>
+My main research interests are focused on all the aspects related to the definition, design, development and formalization of component models for Open Systems. My work is part of the research carried out by the group <A HREF="//www.lcc.uma.es/~gisum">GISUM</A> (M&aacute;laga University Software Engineering Group), headed by Prof. Jos&eacute; M. Troya. 
+<P>
+In particular, I'm interesed in the following topics:
+<UL>
+<LI>Component Oriented Programming
+<LI>Interoperability
+<LI>Formal Methods for Open and Distributed Systems
+<LI>Software Architecture and Frameworks
+</UL>
+<P>
+<HR>
+<P>
+<H4>PhD</H4>
+<P>
+The main topic of my thesis has been the modular development of software applications in Open Systems using reusable components. In this work a component model for open system was proposed, in which components only encapsulate computation, the system needs only to deal with the creation and communication of components, and the rest of the context specific requirements are implemented by reflective reusable entities, called <I>controllers</I>.
+<P>
+Controllers are thought to be the natural evolution of the traditional object wrappers or filters to the realm of component-oriented programming. They are first-class entities that can be added to components in a modular way, modifying their behavior according to the requirements they implement. In our context, those requirements are called <I>properties</I> and then we talk about "adding properties to components".
+<P>
+Controllers are designed to solve most of the limitations that usual wrappers, filters or layers have. Some of the characteristics the controllers exhibit are the following: 
+<UL>
+<LI>They all share a common and uniform structure.
+<LI>Controllers are more then mere filters: they can reorder messages, reply to them, send messages by their own initiative, or reconfigure themselves with the responses.
+<LI>Controllers are defined and implemented independently from the components they will be attached to (in the future).
+<LI>Controllers are reusable, <I>off-the-shelf</I> entities that are individiually attached to components.
+<LI>Controllers can be composed to enforce several properties simultaneously to a component.
+<LI>Finally, controllers can be configured and parametrized according to the user's specific preferences and requirements.
+</UL>
+<P>Apart from the reusable controllers, the component model also defines some specific mechanisms for the development of applications in open and distributed systems: local broadcasting capabilities, inspection of services, and tubes (bi-directional channels for the efficient transmission of data among components).
+<P>The model is also supported by a formal framework that uses Object-Z and temporal logic for specifying the model's concepts and mechanisms, reasoning about the behavior of the components and the controllers, and expressing some of the important concepts in open systems, like evolution or substitutability of components.
+<P>Please see the <A HREF="publicaciones.html">publications</A> page for some references about this work. Further information and a copy of the complete thesis (in Spanish) can be found in a separate <A HREF="Tesis/tesis.html">page</A>.
+<HR>
+<P>
+<H4>Ongoing work</H4>
+<P>Currently we are concentrated in extending our work to deal with <A HREF="ecoop99/ws">object interoperability</A> at the protocol or the semantic levels.
+
+Apart from the intrinsic problems related to the development of software applications from components (like reusability, late composition and correctness), new issues appear when building up applications for Open and Distributed Systems: heterogeneity, evolution and dissemination of their parts, dynamic configuration of the systems, and the occurrence of communication failures or security violations. 
+<P>
+Our approach is based on the separation of computation from the rest of the concerns, which are independently encapsulated in "controllers", reusable meta-components that can be added to components in a modular way.
+<P>
+We propose a methodology for the systematic development and deployment of controllers that covers all their life cycle, from their formal specification to their implementation in the most commonly used component models, namely CORBA, DCOM and JavaBeans. Among the tasks already carried out, we have (1) identified some of the controllers that cover the most important requirements of the applications in Open Systems, (2) defined a general reflective component model and implemented a prototype in Java to show its expresiveness, (3) constructed a formal framework in Object-Z to specify the controllers and reason about their behavior when added to components, and (4) defined a definition language to describe components and controllers, configure them and compose the application using them. We are currently (5) mapping the model mechanisms into other component models, and (6) implementing the controllers already identified in those models, so developer of applications in those models can benefit from using our controllers.
+<HR>
+<P><A HREF="investigacion.html"><IMG SRC="gif/espanya.flag.gif" ALIGN="MIDDLE" WIDTH="32" HEIGHT="18" ></A> 
+<A HREF="investigacion.html">versi&oacute;n en espa&ntilde;ol de esta p&aacute;gina</A> 
+<HR>
+<FONT SIZE="2"> Last Modified: July 29, 1998. <BR>
+Comments to <A HREF="mailto:av@lcc.uma.es">av@lcc.uma.es</A></FONT> 
+</BODY>
+</HTML>

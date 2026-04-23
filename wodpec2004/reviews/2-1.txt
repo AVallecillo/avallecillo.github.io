@@ -1,0 +1,50 @@
+1) PAPER and REVIEW DETAILS
+
+- PAPER No.:  2 
+- TITLE:  The role of the RM-ODP Computational Viewpoint Concepts in the MDA approach 
+- AUTHORS:  J.P. Almeida, M. van Sinderen and L. Ferreira Pires 
+
+2) EVALUATION:
+
+Please rate the following qualities from 0 to 5, 
+with 5 being the highest.
+
+- Technical accuracy:  5 
+
+- Scientific quality/originality:  4 
+
+- Appropriateness for the conference:  5 
+
+- Quality of presentation:  4 
+
+- Overall evaluation:  5 
+  (0 = outside the scope of WODPEC,
+   1 = Very poor,
+   2 = Poor,
+   3 = Acceptable, 
+   4 = Good,
+   5 = Excellent )
+
+- CONFIDENCE LEVEL (low, medium, high):  high 
+
+
+4) JUSTIFICATION AND GENERAL COMMENTS:
+  (A few lines are mandatory here to justify 
+   the numerical evaluation. You may also include 
+   general comments, relevant for both author(s) 
+   and the Programme Committee. 
+   
+- Weak points of the paper: 
+
+Example is a little small with not enough detail, however 
+given the paper size it is appropriate. I'd just like to see 
+more as it is interesting. 
+
+- Strong points of the paper: 
+
+Good understanding and explanation of ODP comp and eng VPs,
+perhaps too much explanation for the workshop, given that the 
+audiance  could be expected to understand ODP anyway.
+The ideas relating MDA and the ODP comp and eng VPs is sound. 
+
+- Any suggestions for improvements: 

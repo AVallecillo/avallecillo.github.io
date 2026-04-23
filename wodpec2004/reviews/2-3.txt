@@ -1,0 +1,80 @@
+2) EVALUATION:
+
+Please rate the following qualities from 0 to 5, 
+with 5 being the highest.
+
+- Technical accuracy: 4
+
+- Scientific quality/originality: 3
+
+- Appropriateness for the conference: 5
+
+- Quality of presentation: 4
+
+- Overall evaluation: 3
+  (0 = outside the scope of WODPEC,
+   1 = Very poor,
+   2 = Poor,
+   3 = Acceptable, 
+   4 = Good,
+   5 = Excellent )
+
+- CONFIDENCE LEVEL (low, medium, high): Medium
+
+4) JUSTIFICATION AND GENERAL COMMENTS:
+  (A few lines are mandatory here to justify 
+   the numerical evaluation. You may also include 
+   general comments, relevant for both author(s) 
+   and the Programme Committee. 
+
+This paper focused essentially on the way the computational 
+and engineering viewpoints deal with the underlying platform. 
+
+In a footnote the authors mention that the paper is a revised 
+version of the MDA-IA Workshop. However, the paper does not clarify 
+the differences between this paper and the one presented in that Workshop.
+(Besides, after looking at the other paper, the differences are 
+really minor, and it does not add any relevant information to the previous one).
+
+
+No reference to the new ISO/IEC 19793 standard (working draft) is included, although it often handles with the same concepts.
+
+   
+- Weak points of the paper: 
+
+There is no "Future Work" section, or any indication to the future research or 
+development activities that the authors consider to address as the result of the
+work presented here.
+
+
+Not all concepts of the ODP Computational viewpoint are considered in the paper, and some of the concepts treated in the paper may need some more detailed analysis (e.g., QoS, bindings, and messages).
+The authors might wish to consider for instance concepts such as (object and interface) computational templates, and instanstiation. The treatment of environment contracts should be more thorough, too.
+
+
+The paper deals with the computational and engineering viewpoints. The authors might wish to consider the Technology Viewpoint too, since it is key in MDA's PSMs.
+
+
+
+- Strong points of the paper: 
+
+Relevant to the Workshop, good structure.
+
+The topic of relating MDA and RM-ODP is key, and may open up very interesting discussions and reserch lines.
+
+The way in which the paper deals with the relationship between MDA and ODP seems to be the proper one. It also addresses a very interesting issue about the platform independence of the Computational and Engineering Viewpoints.
+
+
+
+- Any suggestions for improvements: 
+
+Add some ideas about future work.
+
+Although the paper describes some transormations between PIMs and from PIM to PSM, it does not describe how these transformations can be implemented and carried out. Besides, the authors do not mention the benefits/impact/use these transformations may have within the context of ODP, and whether they could be used to define/establish/implement correspondences between the Computational and Engineering viewpoints.
+
+WG19 of ISO/JTC1/SC7 is developing a new standard on the "Use of UML for ODP Systems Specifications" (ISO/IEC 19793, ITU-T X.906). There is a WD already available within ISO, ITU-T and OMG. Many of the concepts and ideas presented and discussed in the paper are also discussed in that standard. A comparison study would be interesting.
+
+5) FURTHER COMMENTS FOR AUTHORS:
+
+
+6) CONFIDENTIAL COMMENTS FOR PC:
+   (not to be sent to authors) 

@@ -1,0 +1,78 @@
+=======================================================
+*** MDWE 2005 REVIEW FORM
+
+1) PAPER and REVIEW DETAILS
+
+- PAPER No.: 2
+- TITLE: An Approach to Model-Driven Portlet Development
+- AUTHORS: Yuriy Taranovych, Andreas Schweiger, Helmut Krcmar
+
+2) EVALUATION:
+
+Please rate the following qualities from 0 to 5, 
+with 5 being the highest.
+
+- Technical accuracy: 2
+
+- Scientific quality/originality: 3
+
+- Appropriateness for the conference: 5
+
+- Quality of presentation: 3
+
+- Overall evaluation: 3
+  (0 = outside the scope of the workshop,
+   1 = Very poor,
+   2 = Poor,
+   3 = Acceptable, 
+   4 = Good,
+   5 = Excellent )
+
+- CONFIDENCE ON YOUR RATINGS (low, medium, high): medium
+
+
+4) JUSTIFICATION AND GENERAL COMMENTS:
+  (A few lines are mandatory here to justify 
+   the numerical evaluation. You may also include 
+   general comments, relevant for both author(s) 
+   and the Programme Committee.) 
+
+- Summary and main contributions:
+The paper proposes a process based on the MDA approach for the 
+development of the portlets business logic. This proposal transform 
+Entity-Relationships and automaton models into XML descriptions to 
+build the final Java implementation.
+
+- Weak points of the paper:
+Authors address the generation of the portlet business logic in a very 
+simplistic way. Other issues such as how to perform the interaction with 
+different Broker Agents would have been more interesting.
+No related work is mentioned in the paper.
+
+- Strong points of the paper:
+The paper proposes the application of the MDA guidelines for the construction 
+of portlets business logic.
+
+
+- Any suggestions for improvements: 
+It is not clear why you depict the automation model (in figure 4) as graphical 
+and XML descriptions when you state that they are equivalent.
+The name of the entities and relationships included in the ERM presented in fig. 5 
+seems not to be quite appropriate. They are supposed to represent the domain, not 
+the events. Therefore, I would recommend you to model Clients, Trips and LineTrips 
+instead of Users, Requests and Responses.
+
+5) FURTHER COMMENTS FOR AUTHORS:
+Regarding the related work, it would be interesting to know if there is any other 
+proposal that faces the portlet development process. 
+
+
+6) CONFIDENTIAL COMMENTS FOR PC:
+   (not to be sent to authors)
+The topic covered in the work is very interesting, however the proposal presented 
+does not provide any novelty idea that most Web Engineering Methods do not use for
+Web development. In spite of that, I think that a discussion about the whole process 
+of portlet development is really suitable to this workshop.
+===================================================
+
+

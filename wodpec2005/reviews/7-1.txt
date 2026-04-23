@@ -1,0 +1,75 @@
+1) PAPER and REVIEW DETAILS
+
+- PAPER No.:    7
+- TITLE:        On interactions in the RM-ODP
+- AUTHORS:      Guy Genilloud and Gonzalo Génova
+
+2) EVALUATION:
+
+Please rate the following qualities from 0 to 5, with 5 being the highest.
+
+- Technical accuracy:   5
+
+
+- Scientific quality/originality:       5
+
+
+- Appropriateness for the conference:   4
+
+
+- Quality of presentation:      5
+
+
+- Overall evaluation:   4
+  (0 = outside the scope of the workshop,
+   1 = Very poor,
+   2 = Poor,
+   3 = Acceptable,        
+   4 = Good,
+   5 = Excellent )
+
+- CONFIDENCE ON YOUR RATINGS (low, medium, high): high
+
+
+4) JUSTIFICATION AND GENERAL COMMENTS:
+  (A few lines are mandatory here to justify
+   the numerical evaluation. You may also include
+   general comments, relevant for both author(s)
+   and the Programme Committee.)
+
+This is actually a very good piece of work, though I realise 
+that not all my fellow PC members would agree. Indeed, I do 
+not agree with all of the comments, or with the fixes in their 
+entirety, but the paper highlights one of the grossest errors 
+of Part 2, the statement that an action is the "occurrence" 
+of something that happens. 
+
+Not even the founding fathers can explain this ludicrous statement.
+
+
+- Summary and main contributions: 
+
+an examination of two inconsistencies in RM-ODP
+
+
+- Weak points of the paper: 
+
+well, it may be said that the whole paper is based on a too literal reading of one or two particular sub-clauses of Part 2. But if Part 2 cannot stand up to too literal reading it looses authority somewhat.
+
+- Strong points of the paper: 
+
+a very rigorous examination of a major weakness of RM-ODP
+
+
+- Any suggestions for improvements:
+
+none - he's bound to offend someone.
+
+
+5) FURTHER COMMENTS FOR AUTHORS:
+
+6) CONFIDENTIAL COMMENTS FOR PC:
+   (not to be sent to authors)
+
+
+===================================================

@@ -1,0 +1,82 @@
+2) EVALUATION:
+
+
+Please rate the following qualities from 0 to 5, 
+with 5 being the highest.
+
+
+- Technical accuracy: 3
+
+
+- Scientific quality/originality: 1
+
+
+- Appropriateness for the conference: 5
+
+
+- Quality of presentation: 4
+
+
+- Overall evaluation: 2
+  (0 = outside the scope of WODPEC,
+   1 = Very poor,
+   2 = Poor,
+   3 = Acceptable, 
+   4 = Good,
+   5 = Excellent )
+
+
+- CONFIDENCE LEVEL (low, medium, high): high
+
+
+
+4) JUSTIFICATION AND GENERAL COMMENTS:
+  (A few lines are mandatory here to justify 
+   the numerical evaluation. You may also include 
+   general comments, relevant for both author(s) 
+   and the Programme Committee. 
+   
+Summary:
+
+
+The paper presents 3 case studies of attempting to use RM-ODP for architectural
+descriptions. The 3 case studies are 
+1. A multimedia application for converging the Internet with Moble Telephony
+and Digital TV.
+2. A Customer Relationship Management System
+3. Integration of enterprise applications using Middleware
+
+
+- Weak points of the paper: 
+The paper lacks originality and stays at a superficial level. There is little
+detail presented of the 3 applications and no critical analysis of the
+approach. Thus there is little (if anything) here that can be used to progress
+the state of the art of ODP.
+
+
+- Strong points of the paper:
+
+
+- Any suggestions for improvements: 
+
+
+Suggest just take one application and give more details and describe the
+problems and limitations of the approach once implementations have been
+developed.
+
+
+5) FURTHER COMMENTS FOR AUTHORS:
+
+
+1. Define acronyms the first time they are introduced (eg CRM)
+2. Avoid long sentences (eg Sect. 2 Para 2, 2nd sentence)
+3. Explain why Fig 2 represents the computational view point. It just appears
+to be a high-level architectural view - there needs to be a computational model
+- not just a static architectural model.
+4. Similar comment for Fig 3.
+5. Top of page 2, Col. 2. Why do you consider PDAs, mobile phones and digital
+TV as "communication channels"? These are terminals and quite different in
+nature from the Internet which is given as part of the same set of examples. 
+6. Provide a more detailed explanation of what is going on in Fig 2, especially
+for Convergent service classes, and then refine to a computational model.
+7. Similar xcomments can be made for the other two case studies.

@@ -1,0 +1,146 @@
+===========================================
+1) PAPER and REVIEW DETAILS
+
+
+- PAPER No.: 7
+- TITLE:        On interactions in the RM-ODP
+- AUTHORS:      Guy Genilloud and Gonzalo G=E9nova
+
+
+- PC-MEMBER:    Peter Linington
+- REFEREE (if different from PC member):
+
+
+2) EVALUATION:
+
+
+Please rate the following qualities from 0 to 5, with 5 being the highest.
+
+
+- Technical accuracy: 2
+
+
+- Scientific quality/originality: 3
+
+
+- Appropriateness for the conference: 2
+
+
+- Quality of presentation: 3
+
+
+- Overall evaluation: 3
+   (0 =3D outside the scope of the workshop,
+    1 =3D Very poor,
+    2 =3D Poor,
+    3 =3D Acceptable,
+    4 =3D Good,
+    5 =3D Excellent )
+
+
+- CONFIDENCE ON YOUR RATINGS (low, medium, high): 5
+
+
+4) JUSTIFICATION AND GENERAL COMMENTS:
+
+
+The paper includes some interesting discussion of the concept of
+interaction and should be included on this basis. However, it is
+misleading in its current form and should be modified. It
+constructs an argument based on the wilful misreading of detailed
+pieces of text, and then proposal of something closer to the
+correct interpretation as if it was a new contribution. It is
+useful to point out difficult wording, and the areas identified
+should be clarified, but the matters are largely editorial and
+should be treated on that level.
+
+
+The two main pieces of wording causing trouble are:
+
+
+a) the use of the word always in "an internal action always takes
+place", where an objection is made that an action occurs only
+once. This shows confusion about the scope of elements in a
+specification language, and is like saying that the statement
+"an exploding grenade always kills the person holding it" is
+flawed on the grounds that any grenade only explodes once!
+In a specification, an action occurs once per instantiation
+of the scope containing it. If I define a piece of sub-behaviour,
+referenced from many places in the specification, there is no
+implication that only the first instantiation succeeds. This
+applies even more strongly to specification reuse.
+
+
+b) The text about an object contributing to its own
+environment is in a note and is clearly not the defining
+occurrence. In fact the phrase "in this context" is a
+strong hint that the usage is metaphorical. The point
+being made here is that when an object interacts with
+itself, there is a degree of decoupling, so that the
+constraints on the interaction arise from the object
+playing two roles, and for each role the actions of the
+other are as if from the environment. This implies that
+static analysis of the behaviour of an object as a
+configuration component may indicates liveness that is
+not guaranteed if the two roles are closely coupled by
+the internal behaviour of the object; the situation
+goes from possible liveness to necessary deadlock.
+
+
+More seriously, the discussion shows confusion about the
+nature of observability; in a specification, saying something
+is observable places an obligation on the interpreter of the
+specification to preserve its observability in refinements and
+does not imply that the information is secret, in the sense
+of defying reverse engineering in an implementation. The
+statement of observability is an assertion of the compositional
+properties of the specification fragment, and not an inherent
+property of the thing specified; this should be clear from
+consideration if the hiding operators in typical specification
+languages, which exist to modify the observability.
+
+
+The discussion of knowledge of the environment at the end
+of clause 2 would be clearer if the specification of a
+complete system and the specification of an object in 
+isolation as a reusable specification element were contrasted.
+
+
+5) FURTHER COMMENTS FOR AUTHORS:
+
+
+a) the discussion of observability in UML at the end of 2.1 seems
+   to point to a failing in UML, not ODP, but it more easily
+   explained from by the complete lack of a theory of conformance
+   in UML; such a theory would have to introduce implicit
+   interaction with observers to be viable.
+b) End of 2.2 para 1 "role in achieving"
+c) The discussion of actions is incomplete without a discussion of
+   what "atomic" means in the author's system, particularly with
+   regard to action refinement.
+d) Clause 5.1 last word "respectively".
+e) The discussion of interfaces in 6.1 departs from the ODP model.
+   It seems to assume a model of a primitive binding between objects
+   in which the original unbound interfaces have distinct visibility;
+   in the ODP model a primitive binding results in the sharing of a
+   single interface, although the participants may retain distinct
+   views of, for example, its type.
+f) The discussion of behaviour in 6.2 ignores the fact that the
+   respective action roles form part of the constraints associated
+   with the composition operators involved in constructing
+   the behaviour.
+g) The assertions that ODP is ignored are a piece of vicarious
+   rudeness and should be removed.
+
+
+6) CONFIDENTIAL COMMENTS FOR PC:
+    (not to be sent to authors)
+
+
+I think the minimum actions required are:
+a) revise the analysis to provide a more balanced analysis
+b) Take into account the points identified above that are
+   not currently covered
+c) revise the presentation to make it less polemical and
+   more generally balanced.
+

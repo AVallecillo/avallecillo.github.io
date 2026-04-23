@@ -1,0 +1,123 @@
+=======================================================
+
+*** MDWE 2005 REVIEW FORM
+ 
+1) PAPER and REVIEW DETAILS
+ 
+- PAPER No.: 7
+- TITLE: Incorporating Cooperative Portals in Web Application Development
+- AUTHORS: Moreno, Romero, Vallecillo
+
+====
+2) EVALUATION:
+ 
+Please rate the following qualities from 0 to 5,
+with 5 being the highest.
+ 
+- Technical accuracy: 2
+- Scientific quality/originality: 2
+- Appropriateness for the conference: 5
+- Quality of presentation: 3
+- Overall evaluation: 3
+   (0 = outside the scope of the workshop,
+    1 = Very poor,
+    2 = Poor,
+    3 = Acceptable,
+    4 = Good,
+    5 = Excellent )
+ 
+- CONFIDENCE ON YOUR RATINGS (low, medium, high): high
+
+4) JUSTIFICATION AND GENERAL COMMENTS:
+   (A few lines are mandatory here to justify
+    the numerical evaluation. You may also include
+    general comments, relevant for both author(s)
+    and the Programme Committee.)
+ 
+- Summary and main contributions:
+
+The paper discusses (yet) another approach for Web Application 
+Development. The presentation of the ideas does not particularly 
+clarify what the significant innovation is, but on the other hand 
+it nicely shows what could possibly be an effective approach.
+
+- Weak points of the paper:
+
+There are a large number of models discussed, and the paper 
+could be strengthened in its presentation of how the relationships 
+between models are found and managed, and thus how the integrated 
+design is obtained. The paper could mention more related approaches 
+(and make a comparison).
+
+ 
+
+- Strong points of the paper:
+
+The paper discusses a lot of issues that are relevant in the 
+modeling of the portlet cooperation. It is good to see how they 
+all affect the entire design.
+
+ 
+
+- Any suggestions for improvements:
+
+Restrict the number of issues discussed and concentrate on those: 
+give examples of the application of those ideas on real-life cases. 
+Do not refer to [13,14] all the time: by the time of the workshop 
+these publications might then exist, but they hardly express previous 
+work known by the readers by then.
+
+ 
+
+5) FURTHER COMMENTS FOR AUTHORS:
+ 
+
+Focus more on the real issues in the abstract (shorten it as well).
+
+Revise the text (language): there are a number of examples 
+that reveal that a native speaker could help out.
+
+Explain in chapter 2 how different the presented work is from 
+other web engineering approaches.
+
+The User and Context Models are discussed in a way that leads 
+more to questions than answers: one could consider to omit them 
+altogether (or explain them better).
+
+Give (comparative) references for all these models that are introduced!
+
+When talking about the object-oriented models: what is wrong with OOHDM?
+
+Explain clearly how all the viewpoints and models are combined in practice.
+
+The "architectural style" is quite unclear.
+
+You forgot step 3.
+
+In 3.1 it is said "we need to": why? On the basis of what?
+
+In the second part of 3.1 it looks like the requirements are set, 
+but again they could be motivated more explicitly.
+
+The splitting of the conceptual models neglects possible heterogeneity 
+and subsequent semantical differences.
+
+The text in 3.2 discusses both the method and the models at the same 
+time and that is sometimes confusing.
+
+The choice to use collaborations assumes that only "equalities" need 
+to be expressed: is this sufficient? No calculations and transformations needed?
+
+It would be helpful if the connection between the two viewpoints is sketched.
+
+In the concluding remarks the innovation with respect to [3] could be improved.
+
+ 
+
+6) CONFIDENTIAL COMMENTS FOR PC:
+
+    (not to be sent to authors)
+
+ 
+
+===================================================

@@ -1,0 +1,115 @@
+1) PAPER and REVIEW DETAILS
+
+- PAPER No.: 7
+- TITLE: On Interactions in the RM-ODP
+- AUTHORS: Genilloud/Genova
+
+2) EVALUATION:
+
+Please rate the following qualities from 0 to 5, with 5 being the ighest.
+- Technical accuracy: 3
+- Scientific quality/originality: 3
+- Appropriateness for the conference: 5
+- Quality of presentation: 4
+- Overall evaluation: 4
+
+   (0 = outside the scope of the workshop,
+
+    1 = Very poor,
+    2 = Poor,
+    3 = Acceptable,
+    4 = Good,
+    5 = Excellent )
+
+- CONFIDENCE ON YOUR RATINGS (low, medium, high): high
+
+4) JUSTIFICATION AND GENERAL COMMENTS:
+
+The authors' observations, considerations, reasoning, and proposals are 
+interesting and certainly deserve further discussion. At the same time, not all of 
+them appear to be appropriate or even correct, see below.
+
+
+The most important proposal, that of the need to "add proper explanations" 
+(Section 5), is very useful and relates to the need to update the non-normative 
+Part 1 of RM-ODP. 
+
+
+It is doubtful that "[a] solid background in formal methods is indeed 
+required to make sense of many definitions or important notes in the standard.". A 
+background in mathematics (defined as the art and science of effective 
+reasoning) and exact philosophy does indeed help (see, for example, Bunge's 
+_Philosophical Dictionary_). 
+
+
+While the term "model" may have different meanings in the ODP and UML 
+communities, this is not a shortcoming per se: firstly, there are various other 
+communities, and UML should not be more equal than others in this context; 
+secondly, as we know from RM-ODP, a name makes sense only in its context; and thirdly, 
+model(l)ing is described in RM-ODP 2-6 with reference to the universe of 
+discourse being model(l)ed. The paper under review does not mention these 
+considerations, referring instead to UML. It is rather well-known that terms not 
+defined in RM-ODP have been considered to have the definitions from the Oxford 
+English Dictionary, and its definition of a model is as follows: "A simplified or 
+idealized description or conception of a particular system, situation, or 
+process (often in mathematical terms: so mathematical model) that is put forward 
+as a basis for calculations, predictions, or further investigation". Therefore 
+the authors' reasoning related to the definition of a model appears to be 
+faulty.
+
+
+With respect to communication and observability, the authors appear to miss 
+important aspects of RM-ODP Part 2. Specifically, the statement that "[s]ince 
+the behaviour of implicit communication links is well understood and 
+anticipated by a specifier, these objects should perhaps not count as observers" appears 
+to be doubtful: nothing in Part 2 suggests that observers cannot be 
+well-understood. The following statements about observability in 2.2 also appear to be 
+doubtful.
+
+
+With respect to composition, it is doubtful that all the actions of the 
+component objects are also actions of the composite since composition is a form of 
+abstraction, and some or all of the actions of the component objects may well 
+be suppressed in this abstraction (see also Part 2-6). The need for 
+abstraction in model(l)ing is justified precisely by the ability to suppress irrelevant 
+details (using levels and viewpoints) thus enhancing understanding by humans. 
+If "interface references are not communicated outside of the composite" then 
+this may be a good realization of this suppression.
+
+
+The authors' proposal in 5.1 also seems to ignore the need for abstraction: 
+various objects (and actions) may be suppressed at various abstraction levels 
+and viewpoints, and so the fragment "all the objects" does not help in 
+understanding (especially taking into account that at different abstraction levels the 
+same object may be atomic or composite with different decompositions). 
+Furthermore, the concepts of inbox and outbox objects are probably at an excessive 
+level of detail not appropriate for the rather abstract Part 2. And the 
+proposals in 5.2 are rather difficult to read and understand, in comparison with the 
+existing text of Part 2.
+
+
+Finally, the authors' apparent skepticism with respect to RM-ODP is not 
+justified. Their statement that "[w]hile it may be claimed that the RM-ODP 
+Foundations standard is understood and used by its intended audience (the creators of 
+specification languages, etc), we wonder whether this is the case" does not 
+seem to be correct at least for two reasons. Firstly, the intended audience of 
+the standard is substantially wider than that since includes specifiers who 
+need to rely on a well-defined system of concepts to create specifications of 
+business and IT systems in such a manner that these specifications would be 
+readable and understandable by the appropriate project stakeholders. Secondly, as 
+described in literature, the (informal but rather rigorous) definitions of the 
+system of concepts provided by Part 2 of RM-ODP (while indeed having some 
+defects) have been successfully used in many projects for this purpose. And the 
+"UML community" -- whatever this term refers to -- has largely ignored RM-ODP 
+foundations mostly for non-technical reasons the elucidation of which may be an 
+excellent topic for another paper.
+
+
+>5) FURTHER COMMENTS FOR AUTHORS:
+>
+>6) CONFIDENTIAL COMMENTS FOR PC:
+>
+>    (not to be sent to authors)
+>
+>
+===================================================

@@ -1,0 +1,81 @@
+*** WODPEC 2005 REVIEW FORM
+
+1) PAPER and REVIEW DETAILS
+
+- PAPER No.:    6
+- TITLE:        Adopting the Practice of Enterprise Analysis in a Mid-Sized Company
+- AUTHORS:      Mary Burns Furr
+
+2) EVALUATION:
+
+Please rate the following qualities from 0 to 5, with 5 being the highest.
+
+- Technical accuracy: 3
+
+- Scientific quality/originality:       3
+
+
+- Appropriateness for the conference:   3
+
+- Quality of presentation:      4
+
+- Overall evaluation:  3
+  (0 = outside the scope of the workshop,
+   1 = Very poor,
+   2 = Poor,
+   3 = Acceptable,       
+   4 = Good,
+   5 = Excellent )
+
+- CONFIDENCE ON YOUR RATINGS (low, medium, high): high
+
+
+4) JUSTIFICATION AND GENERAL COMMENTS:
+  (A few lines are mandatory here to justify
+   the numerical evaluation. You may also include
+   general comments, relevant for both author(s)
+   and the Programme Committee.)
+
+An interesting paper, but I am suspicious of the mish-mash 
+of (probably incompatible) ideas that it attempts to synthesise. 
+It is disappointing that the author has not consulted the key 
+authority on the RM-ODP enterprise language - ISO 15414. 
+Reference to Part 3 only has given her an inadequate understanding 
+of the complexities and subtleties of the language.
+ 
+Bearing this in mind, and the fact that most of the paper is not 
+really about ODP at all, were it not for the fact that I'd do 
+anything to promote awareness of ODP, I'd be inclined to 
+reject the paper. However, she should probably be encouraged 
+and so  I'd accept as a marginal.
+
+
+- Summary and main contributions: 
+
+Review of enterprise modelling approaches
+
+
+- Weak points of the paper: 
+
+Doesn't concentrate on ODP; makes no reference to 15414
+
+
+- Strong points of the paper: 
+
+At least someone is taking this seriously, we should encourage her
+
+- Any suggestions for improvements:
+
+She needs to look at ISO 15414 and bring that into the discussion
+
+5) FURTHER COMMENTS FOR AUTHORS:
+
+She needs to look at ISO 15414 and bring that into the discussion
+
+6) CONFIDENTIAL COMMENTS FOR PC:
+   (not to be sent to authors)
+
+
+===================================================
+
+

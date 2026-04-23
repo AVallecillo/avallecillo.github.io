@@ -1,0 +1,87 @@
+1) PAPER and REVIEW DETAILS
+PAPER No.:	7
+TITLE:	Challenges for ODP-based infrastructure for managing dynamic B2B networks
+AUTHORS:	Lea Kutvonen
+
+2) EVALUATION:
+
+This evaluation is based on the assumption that the paper 
+intended to cover the following workshop topics:
+
+- experiences in the use of approaches based on RM-ODP for specific application domains;
+- Web Services.
+
+Please rate the following qualities from 0 to 5, with 5 being the highest.
+
+Technical accuracy: 			3
+Scientific quality/originality: 		4
+Appropriateness for the conference: 	4
+Quality of presentation: 			3
+Overall evaluation:  4 = Good,
+
+CONFIDENCE LEVEL Medium
+
+4) JUSTIFICATION AND GENERAL COMMENTS:
+
+- Weak points of the paper:
+
+1. The paper covers multiple topics, and their relationship with ODP 
+is not clearly stated, and is difficult to infer from the text itself.
+The title and one third of the abstract talks about ODP-based infrastructures, 
+but that topic is not covered in detail in the paper;
+The abstract introduces extensions to the RM-ODP for management and 
+communication facilities. This is covered to a certain extent;
+The paper discusses collaboration middleware based on ODP related 
+standards (Trader, type Repository, etc.)
+Finally the main topic is formalization of business interactions 
+using another ODP-related standard, the enterprise language.
+
+- Strong points of the paper:
+
+2. The topic of formalization of business interactions as a 
+prerequisite to offering, or using services in open environments 
+is well covered.
+
+- Any suggestions for improvements: 
+
+3. The title of the paper is "Challenges". One could expect a more 
+structured flow of logic between some statement of basic facts, 
+statements of other facts that make it a challenge, is the RM-ODP 
+usefull in tackling that challenge, has it been tackled in the 
+experiment or is it further work to do.
+
+For instance shared concepts are mentioned in the abstract, 
+shared ontologies are mentioned in 2.1, and then the conclusion 
+states that ontologies need to be defined. What the challenge was, 
+however, has not been established.
+
+4. Web Services architectures and implementation are currently using 
+either the eBXML set of standards, or the WS ones, one of which (eBXML) 
+is richer at the meta and business level. The paper mentions WS in a 
+cursory fashion. One would have expected more on these architectures, 
+and their relationship (or absence thereof) with ODP, if the intent 
+of the paper was either to discuss middleware and architecture for 
+collaboration, and/or formalization of business collaboration as a 
+pre-requisite to the use of these middleware.
+
+5. The paper would gain in clarity if the perspective with regards 
+to business collaboration was stated when required. The perspective 
+of the service provider is quite different than the perspective of 
+the service user, and thus the relationship with the RM-ODP. 
+
+6. The abstract introduces the notion of "open collaboration". 
+I understand this as total decoupling of the process of offering 
+a service to the process of using a service, the offered service 
+being documented to the point the potential service user can make 
+a decision on the integration of that service to its own business 
+processes. However as the paper progresses, one gets the feeling 
+that openness is abandoned to the profit of more rigourously defined 
+choreography between collaborating partners in one business process.
+
+5) FURTHER COMMENTS FOR AUTHORS:
+
+7. A little more detail on the web-Pilarcos project would be helpful 
+(timelines, deliverables, scope, etc.)
+
+6) CONFIDENTIAL COMMENTS FOR PC:
+

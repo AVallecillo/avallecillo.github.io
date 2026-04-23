@@ -1,0 +1,98 @@
+=======================================================
+*** MDWE 2005 REVIEW FORM
+
+
+1) PAPER and REVIEW DETAILS
+
+
+- PAPER No.: 12
+- TITLE:  Integrating Web Systems Design and Business Process Modeling
+- AUTHORS: Mario A. Bochicchio, Eng. Antonella Longo
+
+
+2) EVALUATION:
+
+
+Please rate the following qualities from 0 to 5, with 5 being the highest.
+
+- Technical accuracy: 3
+- Scientific quality/originality: 4
+- Appropriateness for the conference: 5
+- Quality of presentation: 4
+- Overall evaluation: 4
+   (0 = outside the scope of the workshop,
+    1 = Very poor,
+    2 = Poor,
+    3 = Acceptable,
+    4 = Good,
+    5 = Excellent )
+
+- CONFIDENCE ON YOUR RATINGS (low, medium, high): medium
+
+4) JUSTIFICATION AND GENERAL COMMENTS:
+   (A few lines are mandatory here to justify
+    the numerical evaluation. You may also include
+    general comments, relevant for both author(s)
+    and the Programme Committee.)
+
+- Summary and main contributions: 
+
+This paper argues why it is necessary to 
+revisit our web development methodologies so as to address 
+directly the concept of business process, instead of
+adopting a data-centric or system process-centric approach.
+
+- Weak points of the paper:
+  o The paper is not self-contained: it is almost required to read other
+    references about the UWA framework to understand what are the extensions
+    brought in the UWA+ framework. My recommendation here would be that a
+    small section reminds us the major concepts of UWA (or a quick tour of it),
+    then a subsequent section that lists, defines, and motivates all
+    extensions brought to the initial framework.
+  o The portion of the paper devoted to the motivations, although very well
+    written, is perhaps too large with respect to the portion
+    dedicated to the framework extension and the example: try to achieve a
+    better balance.
+  o The "travel agency" example in section 4.1 is rather disconnected from
+    the section 4 dedicated to UWA+. My recommendation would be to make the
+    example presented as a running example. For this purpose, structure
+    section 4 into more subsections corresponding to major steps
+    and provides the material that is produced as output for each step
+    related to the example. Of course, this could be long. So, focus
+    only on vital parts. In this way, it would be possible to follow the
+    methodology while having the example at hand all the time.
+  o Provide more material on the example
+
+
+- Strong points of the paper:
+  o There is an excellent discussion demonstrating why there is a need to
+    consider business process as first-class citizens.
+  o This discussion is very well motivated and positioned with respect to
+    other families of methodologies, but not to precise methodologies (e.g.,
+    WebML, OOHDM, etc.)
+  o The example clearly shows the connexion between involved models and
+    their future usage. This should be emphasized as this is
+    the most original part of the paper.
+
+
+- Any suggestions for improvements: 
+  See above in th "weak points" part
+
+
+
+5) FURTHER COMMENTS FOR AUTHORS:
+   o provide a quick tour of UWA first
+   o list, define and motivate the extensions brought to UWA+ afterward
+   o present the example as a running one by structuring section 4 into
+     steps and sub-steps.
+
+
+
+6) CONFIDENTIAL COMMENTS FOR PC:
+    (not to be sent to authors)
+This paper is better in its initial discussion and motivation than in its
+solution to address the problem. Therefore, I scored it better for this
+purpose since a workshop is more oriented towards discussion.
+
+
+=================================================== 

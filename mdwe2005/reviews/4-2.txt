@@ -1,0 +1,89 @@
+*** MDWE 2005 REVIEW FORM
+
+1) PAPER and REVIEW DETAILS
+
+- PAPER No.:
+- TITLE: A model-driven approach for the integration of external functionality in Web applications. The travel agency system.
+
+- AUTHORS:
+
+2) EVALUATION:
+
+Please rate the following qualities from 0 to 5,
+with 5 being the highest.
+
+- Technical accuracy: 4
+
+- Scientific quality/originality: 2
+
+- Appropriateness for the conference: 4
+
+- Quality of presentation: 5
+
+- Overall evaluation: 4
+  (0 = outside the scope of the workshop,
+   1 = Very poor,
+   2 = Poor,
+   3 = Acceptable,
+   4 = Good,
+   5 = Excellent )
+
+- CONFIDENCE ON YOUR RATINGS (low, medium, high): high
+
+4) JUSTIFICATION AND GENERAL COMMENTS:
+  (A few lines are mandatory here to justify
+   the numerical evaluation. You may also include
+   general comments, relevant for both author(s)
+   and the Programme Committee.)
+
+
+This paper is certainly worth to be presented in the workshop. It gives an
+excellent description how the travel agency system is modled with OOWS, and
+extends OOWS by a services model for the specification of external services. It
+is very well written.
+
+
+With regard to the model-driven approach, the paper describes the different
+models used by OOWS and explains them well using the example of the travel
+agency system. 
+
+
+With regard to the transformations between different models, two transformation
+are presented. One is the structural transformation between the CIM and the
+structural PIM in section 5.1 which is straightforward. The PIM business
+process modeling of the purchase offer process, as described in section 5.3,
+seems to me to be a refinement of a node from figure 3, and not a model
+transformation. Section 5.3 defines then two business processes for two of the
+three tasks of the broker agent task taxonomy. However, the broker agent task
+is unfortunately not shown in section 4; perhaps it could be added to section 4
+since the broker agent is an important example in the paper.
+
+
+Section 6 introduces a PSM for the services model. Astonishingly, this PSM is
+not generated from the PIM, but built manually. The explanation is that the
+sergvices PSM describes external providers that may use syntax and semantics
+that are different from the PIM. Since that differs from the usual use of PIM
+and PSM, the paper should refer to that difference and comment on it. Section 7
+shows how a Web service is generated for the broker agent from the business
+process model.
+
+
+In all other areas described by the paper, no PSM is used, but the PIM
+transformed directly into code. It might be worthwhile to comment on that
+approach, since it differs substantially from the mainly used two, resp.
+three-transformation step approach PIM-PSM-code, or CIM-PIM-PSM-code. Could you
+explain why no PSM is used?
+
+
+Overall, the paper is well-written and very interesting; but the model
+transformations play a less important role. It would be interesting to see the
+transformations that the OlivaNova transformation engine performs.
+
+
+5) FURTHER COMMENTS FOR AUTHORS:
+
+6) CONFIDENTIAL COMMENTS FOR PC:
+   (not to be sent to authors)
+
+
+===================================================

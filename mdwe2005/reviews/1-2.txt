@@ -1,0 +1,90 @@
+=======================================================
+*** MDWE 2005 REVIEW FORM
+
+
+1) PAPER and REVIEW DETAILS
+
+
+- PAPER No.: 1
+- TITLE:  Web Engineering does profit from a Functional Approach
+- AUTHORS: Torsten Gipp and Jurgen Ebert
+
+
+2) EVALUATION:
+
+
+Please rate the following qualities from 0 to 5, with 5 being the highest.
+
+- Technical accuracy: 4
+- Scientific quality/originality: 4
+- Appropriateness for the conference: 5
+- Quality of presentation: 4
+- Overall evaluation: 4
+   (0 = outside the scope of the workshop,
+    1 = Very poor,
+    2 = Poor,
+    3 = Acceptable,
+    4 = Good,
+    5 = Excellent )
+
+- CONFIDENCE ON YOUR RATINGS (low, medium, high): medium
+
+4) JUSTIFICATION AND GENERAL COMMENTS:
+   (A few lines are mandatory here to justify
+    the numerical evaluation. You may also include
+    general comments, relevant for both author(s)
+    and the Programme Committee.)
+
+- Summary and main contributions: 
+
+This paper shows how functional approaches can be used 
+successfully to model web engineering.
+
+
+- Strong points of the paper:
+  o The paper is very well written and organized. They manage to 
+    drive the reader through the whole process in a clear and convincing away.
+    So, reading this paper was a pleasure for me. 
+    
+  o The discussions are well motivated and, in general, the discussions on 
+    the example are not difficult to follow.
+  
+
+- Weak points of the paper:
+  o The reader unfamiliar with Haskell would appretiate a little more explanation 
+    on some pieces of the code presented. I therefore suggest teh authors to explain a 
+    little bit more the main concepts involved. In particular, it would be useful to 
+    add a visualization of the "code". 
+  
+  o I was surprised to see that you did not include in your paper one section 
+    integrating it all. Please consider adding that section just before section 3.
+    Part of the discussion you present in the conclusions, I think that could be part of this new section.
+    
+
+
+- Any suggestions for improvements: 
+  See above in th "weak points". 
+
+
+
+5) FURTHER COMMENTS FOR AUTHORS:
+    
+  - On section 2.4, it would be nice to see an example of a query.
+  
+  - on page 2, col 1, parag 2: can you proof the "it can be easily substituted" ?
+  
+  - Fig 2: maybe classes instead of entities? (just to avoid confusion with an ER)
+  
+  - the paragraph just after the APD definition: please verify the explanation of the 
+     "form" constructor; also, the begining of the paragraph should be "There are", instead of "The are"
+      
+  - page 4, col 2, parag 1: what are "normal links"?
+  
+  - section 2.6, parag 1, line 2: "that have to BE carried"
+
+6) CONFIDENTIAL COMMENTS FOR PC:
+    (not to be sent to authors)
+
+
+
+=================================================== 

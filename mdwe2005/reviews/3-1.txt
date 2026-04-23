@@ -1,0 +1,88 @@
+1) PAPER and REVIEW DETAILS
+
+ 
+
+- PAPER No.: 3
+
+- TITLE: The PIM to Servlet-Based PSM Transformation with OOHDMDA
+
+- AUTHORS: Schmid, Donnerhak
+
+
+==============================================================
+
+2) EVALUATION:
+
+Please rate the following qualities from 0 to 5,
+with 5 being the highest.
+
+- Technical accuracy: 4
+- Scientific quality/originality: 2
+- Appropriateness for the conference: 4
+- Quality of presentation: 3
+- Overall evaluation:
+  (0 = outside the scope of the workshop,
+   1 = Very poor,
+   2 = Poor,
+   3 = Acceptable,
+   4 = Good,
+   5 = Excellent )
+3
+ 
+- CONFIDENCE ON YOUR RATINGS (low, medium, high):
+high
+ 
+ 
+4) JUSTIFICATION AND GENERAL COMMENTS:
+  (A few lines are mandatory here to justify
+   the numerical evaluation. You may also include
+   general comments, relevant for both author(s)
+   and the Programme Committee.)
+ 
+- Summary and main contributions:
+This paper describing the PIM to PSM transformation nicely follows up 
+on earlier work by (one of) the authors; the authors might though 
+describe the innovation presented in this paper a bit more explicitly.
+
+- Weak points of the paper:
+
+Chapters 3 and 4 provide the user with many details explaining the 
+figures, and give the paper a rather "well yeah, I guess that makes sense" 
+nature.
+
+The "semi-formal" presentation of the transformation rules in chapter 5 
+give the ideas in the paper more a "quasi-formal" appearance.
+
+
+- Strong points of the paper:
+
+The paper gives a good presentation of the engineering done and this 
+is nice for fellow-engineers busy with the same problem. The other side 
+of the coin is that outsiders might want to see what this engineering brings 
+in terms of the results gained from this effort (there is no discussion on 
+a real application). 
+
+- Any suggestions for improvements:
+
+Explain why different PIms for dynamic and advanced navigation are a good idea.
+
+Explain what the consequences are of the choice to program the transformations 
+(last sentence in chapter 6).
+
+5) FURTHER COMMENTS FOR AUTHORS:
+
+There are some small typo's like "with with".
+
+The discussion of related work might include more of a comparison with 
+related work, and maybe a discussion how research in this area should progress.
+
+
+6) CONFIDENTIAL COMMENTS FOR PC:
+   (not to be sent to authors)
+
+It is certainly relevant and it is described in great detail, but it does not 
+include a spectacular innovation. For the solid contribution, participation in 
+the workshop is acceptable, but it is likely to be not much reason for 
+discussion at the workshop itself.
+
+===================================================

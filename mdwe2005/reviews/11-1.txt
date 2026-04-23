@@ -1,0 +1,115 @@
+1) PAPER and REVIEW DETAILS
+
+
+- PAPER No.:
+11
+- TITLE: Model Integration Through Mega Operations
+- AUTHORS: Th.Reiter, E.Kapsammer, W.Retschitzegger, W.Schwinger
+
+
+2) EVALUATION:
+
+
+Please rate the following qualities from 0 to 5, 
+with 5 being the highest.
+
+
+- Technical accuracy: 3
+
+
+- Scientific quality/originality: 4
+
+
+- Appropriateness for the conference:4 
+
+
+- Quality of presentation: 2
+
+
+- Overall evaluation: 3
+  (0 = outside the scope of the workshop,
+   1 = Very poor,
+   2 = Poor,
+   3 = Acceptable, 
+   4 = Good,
+   5 = Excellent )
+
+
+- CONFIDENCE ON YOUR RATINGS (low, medium, high):high
+
+
+
+4) JUSTIFICATION AND GENERAL COMMENTS:
+  (A few lines are mandatory here to justify 
+   the numerical evaluation. You may also include 
+   general comments, relevant for both author(s) 
+   and the Programme Committee.) 
+
+
+- Summary and main contributions:
+The paper proposes an approach for model integration at the metamodel level, 
+through a set of defined operations denoted mega operations. Model integration 
+constraints are defined along with these mega operations. 
+The paper separates between tight integration (meta model weaving) and loose 
+integration (meta model sewing). 
+Loose integration is basically to specify relationships between the metamodels 
+(synchronization relationships and dependency relationships), while tight 
+integration (weaving) includes operations like override, inherit and prune.
+
+
+   
+- Weak points of the paper:
+The abstract and the introduction section are not good. They should be 
+shortened, be much more focused, the language should be improved and the text 
+should be more precise. For instance the following sentence from the abstract: 
+"Existing approaches, such as the forthcoming QVT standard, will provide a 
+proper foundation for transforming models on a fine-grained level". First it 
+exemplifies existing approaches with an approach that is yet to come (is not 
+finalized). 
+Second it claims that these existing approaches will provide a proper foundation 
+for transforming models at a fine grained level, which in my opinion is highly 
+questionable and is yet to be proven. 
+Finally this sentence does not belong in an abstract in my opinion
+
+
+The abstract and introduction suffer from such kind of sentences, furthermore 
+the language is not good. Examples are the two next sentences of the abstract:
+They, however, do not provide appropriate abstractions... 
+
+
+
+I also miss some examples of QVT equivalents of the mega operations. The 
+introduction and Section 2.3 states that weaving operations can be reduced to 
+QVT specifications, but no examples are given.
+
+
+- Strong points of the paper:
+
+
+I found the content of the paper interesting. As the authors mention in their 
+further work section, it needs more research to see the feasibility of the 
+approach, but I believe it is an interesting contribution to the area. 
+The related work section is good.
+
+
+- Any suggestions for improvements: 
+
+
+As indicated above the abstract and introduction should be rewritten and should 
+be shorter. In addition I would like to see some mega operation equivalient QVT 
+specifications (based on the current QVT submission). 
+In general the language should be improved.
+
+
+
+5) FURTHER COMMENTS FOR AUTHORS:
+
+
+
+6) CONFIDENTIAL COMMENTS FOR PC:
+   (not to be sent to authors)
+This paper is on the edge between accept and reject. If the suggestions for 
+improvements are accomplished, this paper is OK.
+------------------
+
+

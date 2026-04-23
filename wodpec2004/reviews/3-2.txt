@@ -1,0 +1,106 @@
+2) EVALUATION:
+
+Please rate the following qualities from 0 to 5, 
+with 5 being the highest.
+
+- Technical accuracy:   2
+
+- Scientific quality/originality:   2
+
+- Appropriateness for the conference:  3
+
+- Quality of presentation: 2
+
+- Overall evaluation:   2
+  (0 = outside the scope of WODPEC,
+   1 = Very poor,
+   2 = Poor,
+   3 = Acceptable, 
+   4 = Good,
+   5 = Excellent )
+
+- CONFIDENCE LEVEL (low, medium, high): high
+
+
+4) JUSTIFICATION AND GENERAL COMMENTS:
+  (A few lines are mandatory here to justify 
+   the numerical evaluation. You may also include 
+   general comments, relevant for both author(s) 
+   and the Programme Committee. 
+   
+- Weak points of the paper:
+
+It's not clear what 'semantics' means in "semantics of 
+processing aspects."  The term 'semantics' is used in several 
+ways in the literature.  Sometime it is simply a fancy synonym 
+for meaning, sometimes it refers to a formal semantics, and 
+sometimes it is used with a specialist meaning having to do 
+with the behavior of programs.  It's not clear which, if any, 
+of these is intended in this case.
+
+"The computational viewpoint is responsible for the functional 
+decomposition in terms of object classes and their computational 
+interfaces, ..."  Actually, the computational viewpoint language 
+expresses specifications in terms of objects, not classes.  When 
+a computational specification includes several object of the same 
+class, of course the specification can be in terms of classes.  
+And classes do not have interfaces: objects do.  Of course, every 
+object of a given class may have an interface of the same interface 
+type.  But it is not possible to specify a system without specifying 
+some individual objects and interfaces.  There will be no harm to 
+their paper if the authors write:  "The computational viewpoint is 
+responsible for the functional decomposition in terms of objects 
+and their computational interfaces, ..."  
+
+In fact, this change will enable cleaning up the sequel.  
+For example:  "When a user class instance requires a service or 
+information, a stub object will provide functions to support 
+transparency in the request of a service and its response." will 
+become "When a user object requires a service or information, a 
+stub object will provide functions to support transparency in the 
+request of a service and its response."  And the mixed diagram, 
+instead of showing a class (UserClass) bound to an object (Stub), 
+will show one object (user) bound to another (stub). 
+
+I don't get "For example, in figure 3, P1, P2 and P3, transparently 
+obtain the information or service from the binder and stub objects 
+of the instances of the convergent services classes."  We are not 
+told what the Ps are, and what they are doing bound to protocol objects.
+
+I'm puzzled by "An example for the use of this architecture would be 
+a request of a service from a digital TV device that would enable a 
+search in a database server using the Internet, whose answer would 
+be delivered to the user’s mobile phone."  Does this mean someone 
+would make a request information through their television sent, and 
+get the information on their cell phone.  Could be, but a concrete 
+example would help.
+
+Regarding Figure 4: where's the meat?
+
+"the very company’s real state" does not mean anything to me; this 
+needs to be rewritten.
+
+I feel let down by section 4.  The earlier sections of the paper are 
+fairly high level, but somewhat concrete.  Section 4 does not show me 
+anything specific or useful.
+
+I would have rated the paper higher, except for section 4.
+
+
+
+- Strong points of the paper:
+
+- Any suggestions for improvements: 
+
+
+5) FURTHER COMMENTS FOR AUTHORS:
+
+
+6) CONFIDENTIAL COMMENTS FOR PC:
+   (not to be sent to authors)
+
+As a courtesy to the authors, a native speaker or other person fluent 
+in English should edit the paper before publication to repair the 
+grammatical and usage errors and awkwardisms.
+
+

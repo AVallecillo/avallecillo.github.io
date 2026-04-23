@@ -1,0 +1,122 @@
+1) PAPER and REVIEW DETAILS
+
+
+- PAPER No.: 3
+- TITLE: Architecting frameworks for specific applications with RM-ODP
+- AUTHORS: A.P. Goncalves Serra, S.A. Vicente, D. Karam Jr and M. Martucci
+
+
+2) EVALUATION:
+
+
+Please rate the following qualities from 0 to 5,
+with 5 being the highest.
+
+
+- Technical accuracy: 2
+
+
+- Scientific quality/originality: 3
+
+
+- Appropriateness for the conference: 2
+
+
+- Quality of presentation: 2
+
+
+- Overall evaluation: 2
+   (0 =3D outside the scope of WODPEC,
+    1 =3D Very poor,
+    2 =3D Poor,
+    3 =3D Acceptable,
+    4 =3D Good,
+    5 =3D Excellent )
+
+
+- CONFIDENCE LEVEL (low, medium, high): high
+
+
+
+4) JUSTIFICATION AND GENERAL COMMENTS:
+   (A few lines are mandatory here to justify
+    the numerical evaluation. You may also include
+    general comments, relevant for both author(s)
+    and the Programme Committee.
+
+
+This paper discusses three application areas for a reference model.
+It looks at what the framework is required to do and, specifically,
+how well the RM-ODP satisfies the requirements. Unfortunately, the
+interpretatios taken are not those generally accepted for RM-ODP, and
+the level of detail is rather limited, so the paper does not show 
+much aboout the strengths or weaknesses of this approach.
+
+
+- Weak points of the paper:
+
+
+The analysisof the RM-ODP as a convergence architecture has the most
+detail but is flawed because it places considerable engineering detail of
+the different channel types in the computational model. It would be
+interesting to do this analysis with a comparison of computational dialogue
+styles, looking at the abstract interaction patterns from the elements
+being converged, but the paper fails to do this. In the engineering
+description, it also integrates conversion functions into the functional
+stacks supporting; one would expect to see at least discussion of
+interceptor-based solutions here.
+
+
+The discussion of CRM systems focuses on the creation of an enterprise
+model; this is the most relevant part of the paper, and would be
+interesting to discuss in more detail However, it concentrates on role
+identification, and could say more about the behaviour associated with
+the CRM communities.
+
+
+The final area discussed is an integration middleware, but here
+again the use of viewpoints is surprising. The architecture proposed
+talks about information object adapters as providing conversion and
+dialogue management, describing functions that would be more naturally
+seen as computational or even engineering support. However, there is
+little detail and so it is hard to judge what is intended.
+
+
+
+- Strong points of the paper:
+It is always good to see a reference framework applied in a range
+of situations, and so the comparative aspets are welcome.
+
+
+- Any suggestions for improvements:
+See further comments.
+
+
+
+5) FURTHER COMMENTS FOR AUTHORS:
+
+
+It would have been better to go into more depth on a smaller number
+of points. It is good to see the different styles of application, but
+you could have concentrated more on direct feature comparisons
+between them.
+
+
+Some typos:
+
+
+figure 3 blinder -> binder
+3.1 line5 knowing -> knowledge
+section 4 para 3 last full line whish -> wish
+section 5 para 2 line 1 de ->the
+      rest of this sentence needs rewording around "such deed".
+
+
+
+6) CONFIDENTIAL COMMENTS FOR PC:
+    (not to be sent to authors)
+
+
+This is really rather borderline stuff. It would be good to encourage
+the authors by having them particpate, but I'm not really happy with
+it as it is; let's see what the other reviews are like!

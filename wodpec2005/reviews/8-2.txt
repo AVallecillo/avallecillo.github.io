@@ -1,0 +1,82 @@
+=======================================================
+*** WODPEC 2005 REVIEW FORM
+
+
+1) PAPER and REVIEW DETAILS
+
+
+- PAPER No.: 8
+- TITLE: "Modeling the ODP Computational Viewpoint with UML 2.0: The
+Templeman Library Example"
+- AUTHORS: Raul Romero, Antonio Vallecillo
+
+
+
+2) EVALUATION:
+
+
+Please rate the following qualities from 0 to 5, with 5 being the highest.
+
+
+- Technical accuracy: 5
+- Scientific quality/originality: 3
+- Appropriateness for the conference: 5
+- Quality of presentation: 4
+- Overall evaluation: 4
+   (0 = outside the scope of the workshop,
+    1 = Very poor,
+    2 = Poor,
+    3 = Acceptable,
+    4 = Good,
+    5 = Excellent )
+
+
+- CONFIDENCE ON YOUR RATINGS (low, medium, high): High
+
+4) JUSTIFICATION AND GENERAL COMMENTS:
+   (A few lines are mandatory here to justify
+    the numerical evaluation. You may also include
+    general comments, relevant for both author(s)
+    and the Programme Committee.)
+
+- Summary and main contributions:
+
+The paper proposes a UML Profile for RM-ODP Comp-VP and 
+illustrates its use on the Templeman Library Example.
+
+- Weak points of the paper:
+
+The Templeman Library Example is rather over used in the 
+RM-ODP literature, it would have been nice to see an 
+additional example rather than re-expressing
+an existing one.
+
+Not sure how useful the descriptions of the viewpoint 
+concepts are, I suspect most people at the w/s will be 
+familiar with them, or could read about them in existing 
+literature.
+
+
+- Strong points of the paper:
+
+A carefully thought through UML profile, nicely illustrating 
+that UML 2.0 is far more useable for this type of specification 
+than previous versions.
+
+- Any suggestions for improvements:
+
+More detail on the example, less on the RM-ODP background.
+
+5) FURTHER COMMENTS FOR AUTHORS:
+
+Have you considered the use of a Domain Specific Language 
+rather than a UML profile. Or at least compared the DSL 
+approach with the profile approach.
+
+
+6) CONFIDENTIAL COMMENTS FOR PC:
+    (not to be sent to authors)
+
+
+
+===================================================

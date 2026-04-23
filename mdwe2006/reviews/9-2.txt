@@ -1,0 +1,26 @@
+TITLE: A UML 2.0 Profile for WebML Modeling
+AUTHORS: Moreno, Fraternali, Vallecillo
+ 
+EVALUATION: (1=low, 5=high)
+
+Technical accuracy: 3
+Scientific quality/originality: 4
+Appropriateness for the conference: 4
+Quality of presentation: 2
+Overall evaluation: 3
+
+CONFIDENCE ON YOUR RATINGS (low, medium, high): medium
+
+
+JUSTIFICATION AND GENERAL COMMENTS:
+
+This paper addresses an interesting issue and appears to propose an approach which is carefully considered and suitably complete. The paper suffers from some significant grammatical problems which make reading it rather awkward - particularly in the abstract. The paper would also benefit from a much clearer rationale as to why a UML representation of WebML models is appropriate, rather than either just a straight WebML model or a native-UML model.
+
+The WebML meta-model is described relatively clearly, but the paper does not explain why the specific choices about the meta-model representation are made - i.e. why is the meta-model represented in the way that it is?
+
+Similarly, the specific choice about the mapping to UML is not explained - but rather it is simply stated!
+ 
+There are also a number of minor concerns with the content. In a number of case acronyms are introduced without being explained (e.g. MOF - presumably Meta-Object Facility?) There are also a number of minor technical inaccuracies - for example, MOF is described as a subset of UML - which is not correct.
+
+Despite the above concerns, the paper does have technical merit, and would be likely to be of interest to participants in the workshop.
+ 

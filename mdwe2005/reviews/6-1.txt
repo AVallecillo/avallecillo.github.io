@@ -1,0 +1,134 @@
+=======================================================
+*** MDWE 2005 REVIEW FORM
+
+
+1) PAPER and REVIEW DETAILS
+
+
+- PAPER No.: 6
+- TITLE: Conceptualization of Navigational Maps for Web Applications
+- AUTHORS: Antonio Navarro, José Luis Sierra, Alfredo Fernández-Valmayor,
+  Baltasar Fernández-Manjón
+
+
+2) EVALUATION:
+
+
+Please rate the following qualities from 0 to 5, with 5 being the highest.
+
+- Technical accuracy: 4
+- Scientific quality/originality: 4
+- Appropriateness for the conference: 5
+- Quality of presentation: 5
+- Overall evaluation: 4
+   (0 = outside the scope of the workshop,
+    1 = Very poor,
+    2 = Poor,
+    3 = Acceptable,
+    4 = Good,
+    5 = Excellent )
+
+
+- CONFIDENCE ON YOUR RATINGS (low, medium, high): high
+
+
+4) JUSTIFICATION AND GENERAL COMMENTS:
+   (A few lines are mandatory here to justify
+    the numerical evaluation. You may also include
+    general comments, relevant for both author(s)
+    and the Programme Committee.)
+
+
+- Summary and main contributions:
+  This paper motivates the need for modelling the navigation in web
+  applications and introduces a pipe-based definition of concepts to tackle
+  this problem.
+  The navigation model is tightly coupled with other potentially involved
+  models for web engineering. In particular, it is well addressed how the
+  newly introduced model does not reduce the compatibility with existing UML
+  models.
+  The traditional example of the Travel Agency is fully explained and
+  examplified, along with the UML-Conallen model.
+  The concepts introduced in the paper is really fine-grained so that it is
+  possible to define a navigation not only at a higher level of abstraction
+  than the code level, but also at a finer grain than existing models.
+
+
+- Weak points of the paper:
+  The modeling elements defined in section 3.2 are appropriate and sound,
+  but the mapping between these elements and the widgets used to support these
+  concepts are defined in an immuable way. For instance,
+  a nexus mode is mapped onto a window. This mapping is too much physical.
+  Could we imagine to map it onto a family of widgets that correspond to the
+  expected behavior such as a window, a dialog box, a pane, a frame. In this
+  case, a container node
+  could be not only a frame, but also a group box, a region delineated with
+  a separator, etc. Similarly, a push button is not the only way to trigger a
+  function.
+  It could be nice to introduce a little bit some comparison between the
+  Pipe notation and some other notation, like WebML which also pretty much
+  addresses the same kind of problem. In this way, one could better identify
+  where and how the Pipe notation
+  does a better job than other models.
+
+
+- Strong points of the paper:
+  The model introduced for navigation clearly distinguishes the static part
+  from the dynamic part. It also does a very good job in integrating the
+  different models involved in the methodology and does cover the user
+  interface of the web application in connexion with the set of the models.
+  The paper is not limited to the navigational model itself, it also
+  addresses how to combine it with other models, like the UML-Conallen one.
+  In addition, implementation issues are also addressed thus making this
+  paper very appropriate for a discussion of the results provided.
+  The question of scalability is a traditional one: if the model becomes
+  very large, is it still tractable and what are the consequences on the
+  viability of the rest of the development life cycle?
+
+
+
+- Any suggestions for improvements:
+  Also consider the following pieces of work and references as they are
+  related to yur work to some extent:
+  o Book, M., Gruhn, V.: Modeling Web-Based Dialog Flows for Automatic
+    Dialog Control. 19th IEEE International Conference on Automated Software
+    Engineering (ASE 2004), September 20-24, 2004, Linz, Austria. IEEE Computer
+    Society 2004, 100-109. See the work at:
+    http://www.matthiasbook.de/papers/index.html
+  o Winckler, M., Barboni, E., Farenc, C., Palanque, P. SWCEditor: a
+    Model-Based Tool for Interactive Modelling of Web Navigation. ACM
+    Computer-Aided Design of User Interfaces (CADUI'2004), Funchal, PT. (2004)
+    or
+    Winckler, M., Palanque, P. StateWebCharts: a Formal Description
+    Technique Dedicated to Navigation Modelling of Web Applications.
+    International Work-shop on Design, Specification and Verification of
+    Interactive Systems (DSVIS'2003), Funchal, PT. (2003)
+  o Ceri, S., Fraternali, P., Bongio, A. Web Modeling Language (WebML): a
+    Modeling Language for De-signing Web Sites. WWW9 Conference (2000)
+  o Limbourg, Q., Vanderdonckt, J., UsiXML: A User Interface Description
+    Language Supporting Multiple Levels of Independence, in Matera, M., Comai,
+    S. (Eds.), « Engineering Advanced Web Applications », Rinton Press, Paramus,
+    2004, pp. 325-338.
+
+
+5) FURTHER COMMENTS FOR AUTHORS:
+   Enhance section 4.2 with some screen shots of the final user interface,
+   perhaps with a link to the concepts belonging to the final design model. In
+   this way,
+   a reader could better see the relationship between the model and the
+   final results obtained by producing a web application from the model.
+   Try to better identify and report the differences (in better or worse)
+   between the Pipe notation and the notations existing in WebMD, HDM, WSDM,
+   etc. At least, try to
+   draw a small comparison table so that during the workshop, attendess
+   could immediately identify the positioning of the method.
+
+
+6) CONFIDENTIAL COMMENTS FOR PC:
+    (not to be sent to authors)
+
+
+No probem with this paper. The only major recommendation would be to make
+more salient the differences of the work presented here and the rest of the
+existing knowledge.
+=================================================== 

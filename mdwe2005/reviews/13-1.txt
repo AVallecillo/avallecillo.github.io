@@ -1,0 +1,50 @@
+*** MDWE 2005 REVIEW FORM
+
+
+1) PAPER and REVIEW DETAILS
+- PAPER No.: 13
+- TITLE: The Delta-Categorisation: Evaluating development strategies for technology-enhanced organizations
+- AUTHORS: David Lowe, Mario A. Bochicchio, Antonella Longo
+
+2) EVALUATION:
+Please rate the following qualities from 0 to 5,
+with 5 being the highest.
+- Technical accuracy: 0
+- Scientific quality/originality: 0
+- Appropriateness for the conference: 0
+- Quality of presentation: 0
+- Overall evaluation: 0
+(0 = outside the scope of the workshop,
+1 = Very poor,
+2 = Poor,
+3 = Acceptable,
+4 = Good,
+5 = Excellent )
+- CONFIDENCE ON YOUR RATINGS (low, medium, high): high
+
+
+4) JUSTIFICATION AND GENERAL COMMENTS:
+(A few lines are mandatory here to justify
+the numerical evaluation. You may also include
+general comments, relevant for both author(s)
+and the Programme Committee.)
+- Summary and main contributions:
+
+
+The paper proposes a categorisation for evaluating development approaches and methods. This work is outside the scope of the workshop: it is not related to model engineering. This paper could be appropriate in a business process management workshop.
+
+
+- Weak points of the paper:
+- Strong points of the paper:
+- Any suggestions for improvements:
+
+
+5) FURTHER COMMENTS FOR AUTHORS:
+
+
+6) CONFIDENTIAL COMMENTS FOR PC:
+(not to be sent to authors)
+
+
+===================================================
+

@@ -1,0 +1,77 @@
+
+=======================================================
+*** MDWE 2005 REVIEW FORM
+
+1) PAPER and REVIEW DETAILS
+
+- PAPER No.: 14
+- TITLE: Atomic Use case as a concept...
+- AUTHORS: Nguyen and Dillon
+
+2) EVALUATION:
+
+Please rate the following qualities from 0 to 5, 
+with 5 being the highest.
+
+- Technical accuracy: 3
+
+- Scientific quality/originality: 4
+
+- Appropriateness for the conference: 3
+
+- Quality of presentation: 4
+
+- Overall evaluation: 4
+  (0 = outside the scope of the workshop,
+   1 = Very poor,
+   2 = Poor,
+   3 = Acceptable, 
+   4 = Good,
+   5 = Excellent )
+
+- CONFIDENCE ON YOUR RATINGS (low, medium, high): high
+
+
+4) JUSTIFICATION AND GENERAL COMMENTS:
+  (A few lines are mandatory here to justify 
+   the numerical evaluation. You may also include 
+   general comments, relevant for both author(s) 
+   and the Programme Committee.) 
+
+- Summary and main contributions:
+
+The paper presents an approach to derive some of the application models (business logic, etc) from (a particular kind of) uses cases
+   
+- Weak points of the paper:
+
+The proposal seems to work for small and simple examples and applications. A real validation exercise would be required to serve as a proof of concept and to validate the proposal.
+
+Besides, there is the usual drawback of asking the software engineer to use formal methods (Object-Z in this case). In my experience, this does not work (even asking software engineers to use OCL is unrealistic)
+
+- Strong points of the paper:
+
+The paper is well written, and easy to follow and to understand.
+The proposal is clearly presented, and the approach seems to work.
+
+- Any suggestions for improvements: 
+
+a) Validation with real applications, where operations and object states are not so simple.
+
+b) A second suggetsion is made in point 5.b below.
+
+5) FURTHER COMMENTS FOR AUTHORS:
+
+a) The format of the paper does not follow the Workshop recommendations. I suggest the authors adhere to the requested format if the paper is finally accepted. (And please, do not send 5Mb files!!!! -- instead of sending a 5Mb PS file, you can convert it to PDF and then it occupies only 309Kb)
+
+b) Some of the claims of the authors about the limitations of UML and OCl are no longer true in the new version (2.0) of UML and OCL (for example, they say OCL does not have a notation to denote message sending; this is already possible in OCL 2.0).
+Furthemore, ITU-T's SDL and HMSC are already included in UML 2.0, which may be a good way of expressing object behaviour, instead of Object-Z. I therefore suggest the authors try to use as much as possible the new features of UML 2.0 (not all of them, of course, but at least those with some semantic underpinnings), instead of forcing the software engineer to use formal methods --- which, btw, are not easily connected to the graphical tools that handle models (at least, the connection is not automatable, and this hinders their application in industrial environments, with thousands of objects and operations).
+
+c) Finally, I miss some more tight connection with the vast amount of works related to the use of "use cases" to capture user requirements, and how to derive analysis and design from them. There are many approaches and methodologies which are worth considering, specially when they have proved to be valuable for building commercial applications.
+
+
+6) CONFIDENTIAL COMMENTS FOR PC:
+   (not to be sent to authors)
+
+
+===================================================
+

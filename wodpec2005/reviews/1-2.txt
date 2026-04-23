@@ -1,0 +1,86 @@
+=======================================================
+*** WODPEC 2005 REVIEW FORM
+
+
+1) PAPER and REVIEW DETAILS
+
+
+- PAPER No.: 1
+- TITLE: Modeling the Engineering Viewpoint of ODP systems with MODERN
+- AUTHORS: Hai-Quan NGUYEN
+
+
+
+2) EVALUATION:
+
+
+Please rate the following qualities from 0 to 5, with 5 being the highest.
+
+
+- Technical accuracy: 4
+- Scientific quality/originality: 3
+- Appropriateness for the conference: 3
+- Quality of presentation: 3
+- Overall evaluation: 3
+   (0 = outside the scope of the workshop,
+    1 = Very poor,
+    2 = Poor,
+    3 = Acceptable,
+    4 = Good,
+    5 = Excellent )
+
+
+- CONFIDENCE ON YOUR RATINGS (low, medium, high): high
+
+
+4) JUSTIFICATION AND GENERAL COMMENTS:
+   (A few lines are mandatory here to justify
+    the numerical evaluation. You may also include
+    general comments, relevant for both author(s)
+    and the Programme Committee.)
+
+
+- Summary and main contributions:
+
+
+- Weak points of the paper:
+
+o How MODERN language is used to model the entire engineering 
+viewpoint specification with author's extensions is not clearly described.  Overview of the XML schema covering MODERN tags may help.
+
+o Although the author is claiming that MODERN language is based on ODP
+Engineering Viewpoint, they are different.  For instance, Cluster and Cluster Manager are not incorporated, and the meaning of Channel is 
+modified (it is like simple communication link). It would be better to 
+have explanation of the implication.
+
+
+- Strong points of the paper:
+
+o Idea and proto-typing of "Integrated Analysis" is a strong point.  
+Also introduction of QoS related concepts into the author's metamodel 
+is a strong point.
+
+
+- Any suggestions for improvements:
+
+o Clarify or add explanation to the points above.
+
+o It is recommended to consult with English native person to 
+improve the text. In addition, there is a confusion of figure 
+numbers: figure 4 after Figure 1 seems figure 1, figure 4 after 
+Figure 2 seems figure 3, and figure 5 after Figure 3 seems 
+figure 4 (please check yourself).  And, the last sentence of 
+the first paragraph under "Deployment analysis" seems incomplete.
+
+
+5) FURTHER COMMENTS FOR AUTHORS:
+
+o There was a standardization effort on "Open Distributed 
+Processing - Reference Model - Quality of Service."
+
+
+6) CONFIDENTIAL COMMENTS FOR PC:
+    (not to be sent to authors)
+
+
+=================================================== 

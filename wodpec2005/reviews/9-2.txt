@@ -1,0 +1,110 @@
+=======================================================
+*** WODPEC 2005 REVIEW FORM
+
+1) PAPER and REVIEW DETAILS
+
+- PAPER No.: 9
+- TITLE: UML 2 Models for ODP Engineering/Technology Viewpoints
+- AUTHORS: Daisuke Hashimoto, Hiroshi Miyazaki, Akira Tanaka 
+
+2) EVALUATION:
+
+Please rate the following qualities from 0 to 5, with 5 being the highest.
+
+- Technical accuracy: 3
+
+- Scientific quality/originality: 3
+
+- Appropriateness for the conference: 5
+
+- Quality of presentation: 2
+
+- Overall evaluation: 3
+   (0 = outside the scope of the workshop,
+    1 = Very poor,
+    2 = Poor,
+    3 = Acceptable,
+    4 = Good,
+    5 = Excellent )
+
+- CONFIDENCE ON YOUR RATINGS (low, medium, high): high
+
+
+4) JUSTIFICATION AND GENERAL COMMENTS:
+   (A few lines are mandatory here to justify
+    the numerical evaluation. You may also include
+    general comments, relevant for both author(s)
+    and the Programme Committee.)
+
+- Summary and main contributions:
+
+	The authors discuss the representation of Engineering Viewpoint and
+	Technology Viewpoint specifications in UML 2.0.
+
+	I suggest the paper be positioned as exploring the issues in the relation 
+	between UML 2.0 and the Engineering and Technology Viewpoints, and not as 
+	proposing solutions for this representation, since the work is still rather 
+	immature. This should be reflected in the paper's title, introduction and 
+	conclusions for it to be accepted.
+
+
+- Weak points of the paper:
+
+	The issues are discussed briefly. Further insight would improve the discussion.
+
+	The presentation should be improved (language and structure of the paper). 
+
+	The examples should be better detailed. Currently, it is hard to assess the proposal and its implications.
+
+	Relation to other work is not discussed. In particular, what is the relation 
+	with the current draft of ISO/IEC 19793, ITU-T X.906 "Use of UML for specification 
+	of ODP systems" [http://www.lcc.uma.es/~av/UML4ODP/MAL-019%20v01-03.PDF] ?
+	What is the relation of this work and the metamodel for the Engineering Viewpoint 
+	provided in that draft?
+
+
+
+- Strong points of the paper:
+
+	The topic is relevant, and is a current issue in standardization activities.
+
+
+- Any suggestions for improvements:
+
+	I would suggest to focus on some of the issues and provide more details. 
+
+	I am surprised by the suggestion to use Enterprise Viewpoint concepts in 
+	the Engineering Viewpoint (section 2.4). I see no arguments or evidence to 
+	suggest this is a good idea. The same applies to the representation of 
+	"Implementation" in the Technology Viewpoint as a UML Activity Diagram.
+
+	The correspondence between the Engineering Viewpoint and the Computational 
+	Viewpoint defined in the paper excludes replication, since there is a 
+	one-to-one relationship between Computation Objects and Basic Engineering Objects.
+	(see 10.2 in RM-ODP Part 3)
+	"Except where transparencies which replicate objects are involved, each 
+	computational interface corresponds exactly to one engineering interface, 
+	and that engineering interface corresponds only to that computational interface."
+
+	Some Figures from RM-ODP referred to should be included in the paper. Is there 
+	any relation between these Figures and the examples in UML?
+
+	The examples should be better explained. In particular, the figures should be 
+	described in the text. Is there any relation between Figure 3 and 4? 
+
+
+
+5) FURTHER COMMENTS FOR AUTHORS:
+
+	References should be added in the introduction. Caption of Figure 5 missing.
+
+	I do not understand the sentence "We believe we have choices e.g. on 
+	abstract vs. instance..." (conclusions). What do you mean with "abstract vs. instance"?
+
+
+
+6) CONFIDENTIAL COMMENTS FOR PC:
+    (not to be sent to authors)
+`
+===================================================
+

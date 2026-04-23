@@ -1,0 +1,110 @@
+=======================================================
+*** MDWE 2005 REVIEW FORM
+
+
+1) PAPER and REVIEW DETAILS
+
+
+- PAPER No.: 5
+- TITLE: Ontology-Driven Design of Conceptual Schema
+- AUTHORS:
+
+
+2) EVALUATION:
+
+
+Please rate the following qualities from 0 to 5, 
+with 5 being the highest.
+
+
+- Technical accuracy: 3
+
+
+- Scientific quality/originality: 2
+
+
+- Appropriateness for the conference: 5
+
+
+- Quality of presentation: 1
+
+
+- Overall evaluation: 2
+  (0 = outside the scope of the workshop,
+   1 = Very poor,
+   2 = Poor,
+   3 = Acceptable, 
+   4 = Good,
+   5 = Excellent )
+
+
+- CONFIDENCE ON YOUR RATINGS (low, medium, high): high
+
+
+
+4) JUSTIFICATION AND GENERAL COMMENTS:
+
+
+  The presentation of the paper needs improvement. In general, 
+it is very hard to follow the approach, partly because it is described at too high a 
+level of abstraction and partly because of the bad sentence structures. For example, the
+following phrase from the abstract was difficult to parse 
+"...but it still not be applied as starting point in the design of conceptual schema, 
+what carries out to a great effort and development time.". 
+The poor presentation makes it very hard to read and judge the 
+technical merits of the paper.
+
+
+- Summary and main contributions:
+  The paper briefly discusses an appoach to using ontologies to derive 
+conceptual schemas. The existing ontology is extended to 
+cover the concepts of the target application. The resulting ontology is then pruned to
+exclude the parts that are not of interest.
+   
+- Weak points of the paper: The paper is not well-written. This makes it difficult to
+read and understand.
+
+
+- Strong points of the paper: The topic is relevent to the workshop
+
+
+- Any suggestions for improvements: 
+The paper needs to be rewritten carefully.
+
+
+
+5) FURTHER COMMENTS FOR AUTHORS:
+
+
+ - The authors include 19 references at the end of the paper, but use only 5 of them
+in their paper. The authors either have to point out where the references are used, or
+exclude the unsed references from the list.
+
+
+ - In the introduction the authors mention "reuse" as a benifit of using ontology.
+It is not clear how the reusability is increased. 
+
+
+ - The related work does not have a single citation.
+
+
+ - In the description of the approach, many points are described at too high a level of 
+abstraction. The following are some examples:
+    + It is not clear where one gets the "existing ontology" (1st paragraph in "Ontology
+driven design of conceptual schema"). Also it is not clear what is meant by
+"existing structure".
+    + It is not clear how the ontology can be extended. Where can the information that
+is needed for the extension be acquired?
+    + The same comment applies to the resriction. It is not clear if the restricton can be
+done automatically. As pointed out in the paper, some ontology may have up to 22,000 
+concepts. Excluding them manually would be unrealistic.
+
+
+
+
+6) CONFIDENTIAL COMMENTS FOR PC:
+   (not to be sent to authors)
+
+
+
+===================================================

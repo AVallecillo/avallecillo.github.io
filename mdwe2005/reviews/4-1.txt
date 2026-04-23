@@ -1,0 +1,84 @@
+*** MDWE 2005 REVIEW FORM
+
+1) PAPER and REVIEW DETAILS
+
+- PAPER No.: 4
+- TITLE: A Model Driven Approach for the Integration of External Functionality
+in Web Applications. The Travel Agency System
+- AUTHORS: Victoria Torres, Vicente Pelechano, Marta Ruiz, Pedro Valderas
+
+2) EVALUATION:
+
+Please rate the following qualities from 0 to 5,
+with 5 being the highest.
+
+- Technical accuracy: 3
+
+- Scientific quality/originality: 3
+
+- Appropriateness for the conference: 5
+
+- Quality of presentation: 5
+
+- Overall evaluation: 3
+   (0 = outside the scope of the workshop,
+    1 = Very poor,
+    2 = Poor,
+    3 = Acceptable,
+    4 = Good,
+    5 = Excellent )
+
+- CONFIDENCE ON YOUR RATINGS (low, medium, high): high
+
+
+4) JUSTIFICATION AND GENERAL COMMENTS:
+   (A few lines are mandatory here to justify
+    the numerical evaluation. You may also include
+    general comments, relevant for both author(s)
+    and the Programme Committee.)
+
+- Summary and main contributions:
+
+The main innovation with respect to the OOWS is the introduction of further
+steps to a development process of web solutions which are related to activities
+needed to perform when external functionality is to be integrated into a web
+solution.
+
+- Weak points of the paper:
+
+The paper deals just with web applications which ask external services for some
+information. It is not clear from the paper how the method is suited for
+integration of the whole external transactions with partial user interaction
+within the transactions. It seems that authors did not consider this situation.
+Workshop discussion in this context could be beneficial for authors and perhaps
+also for the community. Also, it is not clear what is a global contribution of
+this extension as similar extensions have been published already for example in
+the context of WebML (web services and workflows extension to WebML by Marco
+Brambrilla et al.), UWE (Business Process Modeling for UWE published at UML
+2004),  WIED (information flows in integration with business processes), or UML-
+Guide (semantic web apps. where state machines have been used to integrate
+external web services into navigation models). Authors should extend the paper
+with a comparison to related work.
+
+- Strong points of the paper:
+
+UML/MDA based.
+
+- Any suggestions for improvements:
+
+Authors mention the MDA but it is not clearly described how they benefit from
+MDA. Just a short paragraph is devoted to the MDA approach and transformation
+itself. This would be a strong part of the paper if it is ready already.
+Workshop discussion could be beneficial for the authors in this context as well.
+
+
+5) FURTHER COMMENTS FOR AUTHORS:
+
+
+6) CONFIDENTIAL COMMENTS FOR PC:
+    (not to be sent to authors)
+
+
+===================================================
+
+

@@ -1,0 +1,59 @@
+<HTML>
+<HEAD> 
+<TITLE>Tesis Doctoral de Antonio Vallecillo Moreno</TITLE>
+</HEAD>
+<BODY background="../gif/fondo.gif">
+<P><B><FONT SIZE=+1>Tesis Doctoral: Un Modelo de Componentes para el Desarrollo de Aplicaciones Distribuidas</B></FONT>
+<P><FONT SIZE=+1>Dirigida por el Dr. D. Jos&eacute; Mar&iacute;a Troya Linero</FONT><BR>
+Dpto. Lenguajes y Ciencias de la Computaci&oacute;n.<BR>
+Universidad de M&aacute;laga.<BR>
+Mayo, 1999.</FONT>
+<HR>
+<H4>Resumen</H4>
+<P>Adem&aacute;s de los problemas propios que ya plantea el desarrollo de aplicaciones software a partir de componentes (como la reutilizaci&oacute;n, la composici&oacute;n tard&iacute;a, o el estudio de la correcci&oacute;n de las aplicaciones obtenidas), el uso de sistemas abiertos y distribuidos introduce nuevas dificultades debidas a la heterogeneidad de sus partes, la falta de una visi&oacute;n global del sistema, los cambios din&aacute;micos en su configuraci&oacute;n, o la evoluci&oacute;n de los componentes. 
+<P>
+Nuestro trabajo propone un modelo de componentes espec&iacute;ficamente dise&ntilde;ado para la construcci&oacute;n modular de aplicaciones en este tipo de sistemas, separando los diferentes aspectos que componen los requisitos espec&iacute;ficos de las aplicaciones (a los que hemos denominado "propiedades"), y en su adici&oacute;n modular e independiente a los componentes que forman parte de ellas (mediante el uso de "controladores reutilizables"). As&iacute; es posible simplificar tanto a los componentes como a los propios sistemas, pues los primeros s&oacute;lo han de encapsular computaci&oacute;n, mientras que los segundos se encargan de la creaci&oacute;n y la comunicaci&oacute;n entre los componentes.
+<P>
+El modelo est&aacute; soportado por un marco formal de trabajo en Object-Z que permite especificar los conceptos y mecanismos que introduce, y razonar sobre el comportamiento de los componentes y los controladores que se construyen en &eacute;l. Tambi&eacute;n se ha definido una metodolog&iacute;a para la construcci&oacute;n de aplicaciones basadas en el modelo de componentes, a partir de componentes y controladores reutilizables. Finalmente, se han definido los mecanismos adecuados para la integraci&oacute;n de componentes heterog&eacute;neos (CORBA, DCOM, Beans, ...) en las aplicaciones construidas con el modelo, permiti&eacute;ndoles beneficiarse de las facilidades que &eacute;ste ofrece para el desarrollo de aplicaciones en sistemas abiertos y distribuidos.
+<P>
+<HR>
+<H4>Principales contribuciones</H4>
+<P>
+En concreto, en este trabajo hemos 
+<OL>
+<LI>definido un modelo general de componentes para sistemas abiertos con capacidades reflexivas, que define los conceptos de componentes y de controladores reutilizables, y ofrece una serie de mecanismos espec&iacute;ficos para el desarrollo de aplicaciones en este tipo de sistemas;
+<LI>implementado un prototipo suyo en Java para probar su viabilidad y mostrar su expresividad; 
+<LI>identificado algunas de las propiedades de especial importancia en los sistemas abiertos, y que pueden ser implementadas mediante controladores reutilizables; 
+<LI>construido un marco formal de trabajo en Object-Z y l&oacute;gica temporal que permite especificar los controladores y razonar sobre su comportamiento cuando se a&ntilde;aden a los componentes;
+<LI>definido una metodolog&iacute;a para el desarrollo de aplicaciones distribuidas basadas en componentes y en controladores;
+<LI>definido un lenguaje de descripci&oacute;n de componentes y controladores para configurarlos y construir aplicaciones con ellos; 
+<LI>definido los mecanismos necesarios para permitir la integraci&oacute;n de componentes heterog&eacute;neos de otros modelos (CORBA, DCOM, JavaBeans) en aplicaciones construidas con nuestro modelo; y 
+<LI>implementado un conjunto de aplicaciones t&iacute;picas de este tipo de sistemas (subastas distribuidas, granjas din&aacute;micas de procesos, etc.) para probar el modelo.
+</OL>
+<P>
+<HR>
+<P><B>Formato Electr&oacute;nico</B>
+<P>Es posible hacerse con una copia de la tesis en formato dvi (comprimido con <A HREF="tesis.dvi.gz">gzip</A> o <A HREF="tesisdvi.zip">zip</A>, 371K).
+<P>
+Tambi&eacute;n est&aacute; disponible en formato postscript. En este caso el manuscrito se ha dividido en 5 partes, cada una con el siguiente contenido:
+<UL>
+<LI>El t&iacute;tulo, el &iacute;ndice, el pr&oacute;logo  y el cap&iacute;tulo 1 "Introducci&oacute;n" (p&aacute;ginas <I>i</I> a <I>xvi</I> y 1 a 74) 
+ (formatos <A HREF="caps0y1.ps.gz">gzip</A> o <A HREF="caps0y1.zip">zip</A>, 1360K). 
+<LI>Cap&iacute;tulo 2 "El modelo de componentes" (p&aacute;ginas 75 a 112), en donde se describe el modelo que proponemos.
+ (formatos <A HREF="cap2.ps.gz">gzip</A> o <A HREF="cap2.zip">zip</A>, 671K). 
+<LI>Cap&iacute;tulo 3 "Especificaci&oacute;n del modelo" (p&aacute;ginas 113 a 148), que describe los aspectos formales del trabajo, en particular el marco formal de trabajo en Object-Z y l&oacute;gica temporal que soporta el modelo, sus conceptos y sus mecanismos.
+ (formatos <A HREF="cap3.ps.gz">gzip</A> o <A HREF="cap3.zip">zip</A>, 514K). 
+<LI>Cap&iacute;tulo 4 "Una metodolog&iacute;a para la construcci&oacute;n modular de aplicaciones" (p&aacute;ginas 149 a 184), en donde se describe la metodolog&iacute;a propuesta, el lenguaje CDL de descripci&oacute;n de componentes y controladores, y la implementaci&oacute;n realizada, as&iacute; como la integraci&oacute;n del modelo con otros modelos y plataformas de componentes: CORBA, DCOM, JavaBeans 
+ (formatos <A HREF="cap4.ps.gz">gzip</A> o <A HREF="cap4.zip">zip</A>, 585K). 
+<LI>Cap&iacute;tulo 5 "Conclusiones", junto con el Glosario de t&eacute;rminos,  el Ap&eacute;ndice y la Bibliograf&iacute;a (p&aacute;ginas 185 a 240)
+ (formatos <A HREF="cap5yfinal.ps.gz">gzip</A> o <A HREF="cap5yfinal.zip">zip</A>, 583K). 
+</UL>
+<HR>
+<B>Prototipo</B>
+<P>Es posible tambi&eacute;n acceder al prototipo del modelo que hemos construido. (En preparaci&oacute;n).
+<P>
+<HR>
+Esta p&aacute;gina se modific&oacute; por &uacute;ltima vez el 17 de Mayo de 1999.<BR>
+Comentarios a <A HREF="mailto:av@lcc.uma.es">av@lcc.uma.es</A></FONT> 
+</BODY>
+</HTML>

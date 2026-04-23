@@ -1,0 +1,53 @@
+2) EVALUATION:
+
+Please rate the following qualities from 0 to 5, 
+with 5 being the highest.
+
+- Technical accuracy: 5
+
+- Scientific quality/originality: 3
+
+- Appropriateness for the conference: 4
+
+- Quality of presentation: 5
+
+- Overall evaluation: 3
+  (0 = outside the scope of WODPEC,
+   1 = Very poor,
+   2 = Poor,
+   3 = Acceptable, 
+   4 = Good,
+   5 = Excellent )
+
+- CONFIDENCE LEVEL (low, medium, high):
+High
+
+4) JUSTIFICATION AND GENERAL COMMENTS:
+  (A few lines are mandatory here to justify 
+   the numerical evaluation. You may also include 
+   general comments, relevant for both author(s) 
+   and the Programme Committee. 
+
+The paper has good structure and form. The contents is 
+relevant, but may be conveyed in the Working group.
+   
+- Weak points of the paper: 
+
+The contents is close to a Technical Corrigendum to a standard.
+
+- Strong points of the paper: 
+
+Clear presentation, good structure, good English
+
+- Any suggestions for improvements: No
+
+
+5) FURTHER COMMENTS FOR AUTHORS: No
+
+
+6) CONFIDENTIAL COMMENTS FOR PC:
+   (not to be sent to authors) 
+
+The contents is relevant for the Workshop, but can 
+be conveyed via the Working Group and need not have 
+high priority for the Workshop.

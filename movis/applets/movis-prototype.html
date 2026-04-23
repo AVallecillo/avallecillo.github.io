@@ -1,0 +1,87 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<TITLE>
+Movis, Metáforas de visualización
+</TITLE>
+</head>
+
+<body>
+
+
+<h1 align="center">MOVIS: Metáforas de Visualización<br></h1>
+
+<hr>
+
+<p>La presente página muestra algunos ejemplos de visualización de 
+aplicaciones software basadas en componentes, realizados dentro 
+del proyecto <b>MOVIS</b> (P07-TIC-03184). Los ejemplos han sido generados 
+automáticamente por la herramienta que hemos desarrollado en 
+el proyecto. Para mostrar los componentes usamos <a href=http://www.prefuse.org/>Prefuse</a>.
+
+
+<p>Cada una de las dos metáforas escogidas (RadialGraph y GraphView) 
+se muestra con sistemas de prueba de 50, 100 y 250 componentes, 
+respectivamente. Dichos componentes y sus relaciones han sido generados 
+de forma aleatoria para disponer rápidamente de ejemplos de prueba. 
+Se espera sustituir pronto estos sistemas de prueba por 
+los reales.
+
+<p>Haz click en cualquiera de esas visualizaciones para interactuar con ella. 
+Los tamaños y colores de los componentes y los conectores entre ellos se 
+muestran utilizando los indicadores de calidad que hemos definido dentro del 
+proyecto. Estos indicadores se explican al final de esta página.
+
+<p>&nbsp;<Table align = center> 
+<tr><td><A href=radial50.html> RadialGraph con 50 Componentes <img width = 400px src="r50.jpg"> </A>
+	<td><A href=radial100.html> RadialGraph con 100 Componentes <img width = 400px src="r100.jpg"> </A>
+
+	<td><A href=radial250.html> RadialGraph con 250 Componentes <img width = 400px src="r250.jpg"> </A></tr>
+
+<tr><td><A href=graph50.html> GraphView con 50 Componentes <img width = 400px src="g50.jpg"> </A>
+	<td><A href=graph100.html> GraphView con 100 Componentes <img width = 400px src="g100.jpg"> </A>
+	<td><A href=graph250.html> GraphView con 250 Componentes <img width = 400px src="g250.jpg"> </A></tr>
+
+</table>
+
+
+<p><b>Leyenda</b>: Los tamaños y colores de los componentes y los conectores 
+entre ellos se muestran utilizando las medidas que hemos definido 
+dentro del proyecto. En concreto:
+<ul>
+<li>El tamaño de los componentes indica el número de métodos publicos de un componente 
+	(mayor tamaño cuanto mas metodos ofrece)</li>
+<li>El color de los componentes indica su 
+    &quot;<a href="http://www.ibm.com/developerworks/java/library/j-cq04256/">instability</a>&quot;, 
+	que es un valor entre 0 (<span style="background-color: #00FF00">verde</span>) 
+	y 1 (<span style="background-color: #FF0000">rojo</span>). La <i>instability</i> 
+	indica el ratio entre el <i>efferent coupling</i> y la suma del efferent y 
+	el <i>afferent coupling</i>, es decir,<b> <i>i</i> = <i>ec</i>/(<i>ec</i>+<i>ac</i>)</b>. 
+	<ul>
+	<li>El efferent coupling (<i>ec</i>) de un componente indica el número 
+		de componentes de los que depende (es decir, el numero de componentes de 
+	    los cuales usa algún método). </li>
+	<li>El afferent coupling (<i>ac</i>) de un componente indica el número 
+	    de componentes que dependen de él (es decir, el numero de componentes 
+		que usan alguno de sus métodos).</li>
+	<li>En general, &quot;efferent coupling works against a package's stability: 
+		The more a package relies on other packages, the more susceptible it is 
+		to ripple effects in the face of change. Conversely, the more a package 
+		is relied on, the less likely it is to change. When designing and 
+		implementing an architecture, depending on stable packages is 
+		advantageous because those packages are less likely to change. Similarly, 
+		unstable package dependencies increase the risk of collateral damage 
+		within your architecture during times of change.&quot;</li>
+	</ul>
+</li>
+<li>El grosor de los conectores indica el número de métodos utilizados</li>
+<li>El color de los conectores indica el ratio entre el número de métodos utilizados de los 
+que ofrece un componente y el número de metodos totales ofrecidos por ese componente. 
+El valor varía entre 1 (<span style="background-color: #00FF00">verde</span>) cuando 
+todos los metodos de un componente son utilizados por otros componentes y 0 (<span style="background-color: #FF0000">rojo</span>) 
+cuando nadie utiliza ninguno de los metodos que ofrece un componente</li>
+</ul>
+
+</body>
+
+</html>

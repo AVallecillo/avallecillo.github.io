@@ -1,0 +1,65 @@
+=======================================================
+*** MDWE 2005 REVIEW FORM
+
+
+1) PAPER and REVIEW DETAILS
+
+
+- PAPER No.: 1
+- TITLE: Web Engineering does profit from a Functional Approach
+- AUTHORS: Torsten Gipp and Jurgen Ebert
+
+2) EVALUATION:
+
+
+Please rate the following qualities from 0 to 5,
+with 5 being the highest.
+
+
+- Technical accuracy: 2
+
+
+- Scientific quality/originality: 1
+
+
+- Appropriateness for the conference: 5
+
+
+- Quality of presentation: 3
+
+
+- Overall evaluation: 2
+  (0 = outside the scope of the workshop,
+   1 = Very poor,
+   2 = Poor,
+   3 = Acceptable,
+   4 = Good,
+   5 = Excellent )
+
+
+- CONFIDENCE ON YOUR RATINGS (low, medium, high): high
+
+
+
+4) JUSTIFICATION AND GENERAL COMMENTS:
+
+
+The paper presents the interesting idea of using a language like Haskell to specify significant parts of Web applications. The authors explain what to do and how to specify some aspects, but what is completely missing is the reason why such an approach is better than others. The section on related work briefly comments on this, but it does not answer the question. Is this a pure theoretical exercise or are there significant motivations for moving from approaches like OOHDM and WebML to this approach? Can they be mixed? What are the actual benefits?
+
+
+I think that these are the key questions that must be addressed to set the actual applicability of the approach.
+
+
+
+5) FURTHER COMMENTS FOR AUTHORS:
+
+
+
+6) CONFIDENTIAL COMMENTS FOR PC:
+   (not to be sent to authors)
+
+
+The idea behind the paper could motivate an interesting discussion.
+
+
+=======================================================

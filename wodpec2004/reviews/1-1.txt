@@ -1,0 +1,55 @@
+- PAPER No.:   1
+- TITLE:  Applying Model-Driven Development to Business Systems using RM-ODP and EDOC 
+- AUTHORS:  Y. Nagase, D. Hashimoto and M. Sato 
+
+2) EVALUATION:
+
+Please rate the following qualities from 0 to 5, 
+with 5 being the highest.
+
+- Technical accuracy:  3 
+
+- Scientific quality/originality:  3 
+
+- Appropriateness for the conference:  3 
+
+- Quality of presentation:  3 
+
+- Overall evaluation:  3 
+  (0 = outside the scope of WODPEC,
+   1 = Very poor,
+   2 = Poor,
+   3 = Acceptable, 
+   4 = Good,
+   5 = Excellent )
+
+- CONFIDENCE LEVEL (low, medium, high):  high 
+
+
+4) JUSTIFICATION AND GENERAL COMMENTS:
+  (A few lines are mandatory here to justify 
+   the numerical evaluation. You may also include 
+   general comments, relevant for both author(s) 
+   and the Programme Committee. 
+   
+- Weak points of the paper: 
+The written english could be improved. 
+
+- Strong points of the paper: 
+Given the space available, it contains a good discussion of 
+the use of RM-ODP with the EDOC profile and .NET. 
+I particularly like the relationship between ODP and MDA. 
+
+- Any suggestions for improvements: 
+improve the english, it is not too bad, but could do 
+with being read over by a native speaker.
+
+5) FURTHER COMMENTS FOR AUTHORS:
+ You state that the comp VP doesn't have components. I don't 
+believe it needs them, comp VP objects play the same role as  
+a component! Also comp VP language has three diff communication 
+concepts, stream, signal and operational...I am quite sure 
+that one of these is perfect for message based communication. 
+
+6) CONFIDENTIAL COMMENTS FOR PC:
+   (not to be sent to authors)

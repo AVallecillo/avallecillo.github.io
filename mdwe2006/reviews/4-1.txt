@@ -1,0 +1,105 @@
+
+=======================================================
+*** MDWE 2006 REVIEW FORM
+
+1) PAPER and REVIEW DETAILS
+
+- PAPER No.:4
+
+- TITLE:Bridging existing Web Modeling Languages to Model-
+Driven Engineering: A Metamodel for WebML
+
+- AUTHORS:Andrea Schauerhuber, Manuel Wimmer, Elisabeth Kapsammer
+
+
+2) EVALUATION:
+
+Please rate the following qualities from 0 to 5,
+with 5 being the highest.
+
+- Technical accuracy: 4
+
+- Scientific quality/originality: 2
+
+- Appropriateness for the conference: 5
+
+- Quality of presentation: 4
+
+- Overall evaluation: 3
+  (0 = outside the scope of the workshop,
+   1 = Very poor,
+   2 = Poor,
+   3 = Acceptable,
+   4 = Good,
+   5 = Excellent )
+
+- CONFIDENCE ON YOUR RATINGS (low, medium, high):
+
+
+4) JUSTIFICATION AND GENERAL COMMENTS:
+
+The paper presents a technique for deriving a MOF-based metamodel
+from a DTD representing the syntax of a web conceptual model. The
+contribution is rather limited from the technical standpoint, but
+goes in the right direction of mapping proprietary web modeling
+notations into a shared format that will allow formal comparison and
+possibly some unification of the MDWE methodologies.
+
+
+ - Weak points of the paper:
+
+The transformation of an XML DTD is quite a simple task and there
+are antecedents of DTD processing, cited by the authors.
+
+The authors have implemented their method, but do nor provide a
+description of the tool.
+
+There are already some other methodologies equipped with MOF
+metamodels; the authors could have attempted a first-cut comparison
+of features.
+
+Mapping a domain specific language like WebML into UML using a meta
+model keeps the comparison at the syntactic level and does not
+attain the semantic level. Instead, using a UML profile would force
+the correlation of domain specific language features to the standard
+semantics of UML concepts. This is a complementary, but very useful,
+way of investigating existing design notations, which tries to find
+a common denominator also at the semantic level.
+
+ - Strong points of the paper:
+
+The problem of finding a common denominator to the variety of web
+modeling notations proposed in the web engineering community is a
+relevant and the paper provides a useful step in this direction.
+
+
+
+The method for deriving the MOF-based metamodel is systematic, so in
+principle it could be applied to other DTD-baed notations.
+
+The paper is well written and clear.
+
+The mapping to Ecore could provide a basis for implementing an
+editor of WebML diagrams in  the Eclipse framework and for building
+useful tools like multi-language model-checker and code generators
+in that feature-rich and popular environment, contributing to the
+widespread adoption of MDWE methods.
+
+The availability of an EMF-based tool could provide a basis for
+comparing MOF-based and ad-hoc tool implementation. Metamodel-based
+tools are more flexible and interoperable, but their performance in
+editing and generating code with real-world large specifications
+needs to be assessed.
+
+
+ - Any suggestions for improvements:
+
+
+5) FURTHER COMMENTS FOR AUTHORS:
+
+
+6) CONFIDENTIAL COMMENTS FOR PC:
+   (not to be sent to authors)
+
+
+===================================================

@@ -1,0 +1,120 @@
+======================================================
+*** MDWE 2005 REVIEW FORM
+
+
+1) PAPER and REVIEW DETAILS
+
+
+- PAPER No.: 2
+- TITLE: An Approach to Model-Driven Portlet Development
+- AUTHORS: Yuriy Taranovych, Andreas Schweiger, Helmut Krcmar
+
+
+2) EVALUATION:
+
+
+Please rate the following qualities from 0 to 5,
+with 5 being the highest.
+
+
+- Technical accuracy: 4
+
+
+- Scientific quality/originality: 2
+
+
+- Appropriateness for the conference: 4
+
+
+- Quality of presentation: 3
+
+
+- Overall evaluation: 3
+  (0 = outside the scope of the workshop,
+   1 = Very poor,
+   2 = Poor,
+   3 = Acceptable,
+   4 = Good,
+   5 = Excellent )
+
+
+- CONFIDENCE ON YOUR RATINGS (low, medium, high): high
+
+
+
+4) JUSTIFICATION AND GENERAL COMMENTS:
+  (A few lines are mandatory here to justify
+   the numerical evaluation. You may also include
+   general comments, relevant for both author(s)
+   and the Programme Committee.)
+
+
+- Summary and main contributions:
+
+
+The authors propose an MDA approach to portlet development based
+on ER and state diagrams.
+
+
+- Weak points of the paper:
+
+
+The paper lacks a clear problem statement, which makes it difficult 
+to asses. The style of writing is somewhat 'flat', i.e., too descriptive, 
+with little stress on what is really important or original.
+
+
+The method proposed considers only the business logic, ignoring GUI 
+aspects which, as the authors admit, are an important part of portlets.
+The modelling approach is not entirely convincing, considering the 
+state of the art.
+
+
+- Strong points of the paper:
+
+
+The paper is generally well-written. An example is provided which 
+illustrates all aspects and stages of the method, including a mapping 
+of the models to the XML descriptors and Java classes that make up the 
+portlet.
+
+
+- Any suggestions for improvements:
+
+
+ER diagrams are not really first choice for the problem at hand: 
+Since the entities you model have behavior, class diagrams would be 
+much more suitable. Moreover, it says in p.6, bottom of 1st column, 
+that "parameter types of methods have to be inserted manually" because 
+they cannot be deduced from the state machine. This is exactly where 
+class diagrams would make the difference!
+
+
+Also, in UML terms, the state transition diagrams depicted specify 
+sequences of actions without events. This is much better captured by 
+activity diagrams than statecharts.
+
+
+5) FURTHER COMMENTS FOR AUTHORS:
+
+
+page 1,
+1st column, par 1: results *in* a rising
+2nd column, par 2: presents *a* concept of MDA. (better *the*)
+
+
+page 3:
+2nd column, par3: The XML description at PIM level: Did you invent 
+that yourself? Why not use UML standard and XMI, which comes for 
+free with a number of tools?
+
+
+
+6) CONFIDENTIAL COMMENTS FOR PC:
+   (not to be sent to authors)
+
+
+none
+
+
+===================================================

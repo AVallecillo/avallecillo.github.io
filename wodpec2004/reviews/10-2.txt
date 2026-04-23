@@ -1,0 +1,61 @@
+1) PAPER and REVIEW DETAILS
+
+- PAPER No.: 10
+- TITLE: Proposal  for a Model Driven Approach to Creating a Tool to Support the
+         RM-ODP
+- AUTHORS: D. Akehurst.
+
+2) EVALUATION:
+
+Please rate the following qualities from 0 to 5,
+with 5 being the highest.
+
+- Technical accuracy: 5
+
+
+- Scientific quality/originality: 4
+
+- Appropriateness for the conference: 5
+
+- Quality of presentation: 5
+
+- Overall evaluation: 5
+  (0 = outside the scope of WODPEC,
+   1 = Very poor,
+   2 = Poor,
+   3 = Acceptable,
+   4 = Good,
+   5 = Excellent )
+
+- CONFIDENCE LEVEL (low, medium, high): high
+
+
+4) JUSTIFICATION AND GENERAL COMMENTS:
+  (A few lines are mandatory here to justify
+   the numerical evaluation. You may also include
+   general comments, relevant for both author(s)
+   and the Programme Committee.
+  
+- Weak points of the paper: 
+
+The lack of discussion of some of the practical 
+issues facing significant adoption of the approach, e.g. 
+the need for common agreement on the metamodel definitions 
+and the obstacles presented by the take up of UML.
+
+
+Lack of comparison of the approach with the use of UML profiling.
+
+- Strong points of the paper: 
+
+The concept of applying developments in modelling technology 
+to develop ODP modelling tools - addressing a major obstacle 
+to the exploitation of ODP concepts.
+
+- Any suggestions for improvements: 
+
+The addition of some discussion of the issues raised under weak points above.
+
+
+5) FURTHER COMMENTS FOR AUTHORS: None
+

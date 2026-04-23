@@ -1,0 +1,178 @@
+@font-face {
+	font-family: UM;
+	src:url(UM.eot);
+}
+.imginfo {
+	BACKGROUND-COLOR: #c71763
+}
+.txtinfo {
+	PADDING-LEFT: 5px; FONT-WEIGHT: normal; FONT-SIZE: normal; WIDTH: 161px; COLOR: #ffffff; FONT-FAMILY: UM, Verdana, Terminal; BACKGROUND-COLOR: #dc4888
+}
+.txtinfo_on {
+	PADDING-LEFT: 5px; FONT-WEIGHT: normal; FONT-SIZE: normal; WIDTH: 161px; COLOR: #ffffff; FONT-FAMILY: UM, Verdana, Terminal; BACKGROUND-COLOR: #dc4888
+}
+.txtinfo_on {
+	BACKGROUND-COLOR: #c71763
+}
+A.info:link {
+	COLOR: #ffffff; TEXT-DECORATION: none
+}
+A.info:visited {
+	COLOR: #ffffff; TEXT-DECORATION: none
+}
+A.info:hover {
+	COLOR: #ffffff; TEXT-DECORATION: none
+}
+.imgayuda {
+	BACKGROUND-COLOR: #cbc4a3
+}
+.imgperfil {
+	BACKGROUND-COLOR: #9fcb54
+}
+.txtayuda {
+	PADDING-RIGHT: 5px; PADDING-LEFT: 5px; FONT-WEIGHT: normal; FONT-SIZE: normal; WIDTH: 12normal; COLOR: #716843; FONT-FAMILY: UM, Verdana, Terminal; BACKGROUND-COLOR: #e1dbc1
+}
+.txtayuda_on {
+	PADDING-RIGHT: 5px; PADDING-LEFT: 5px; FONT-WEIGHT: normal; FONT-SIZE: normal; WIDTH: 12normal; COLOR: #716843; FONT-FAMILY: UM, Verdana, Terminal; BACKGROUND-COLOR: #e1dbc1
+}
+.txtayuda_on {
+	BACKGROUND-COLOR: #cbc4a3
+}
+A.ayuda:link {
+	COLOR: #716843; TEXT-DECORATION: none
+}
+A.ayuda:visited {
+	COLOR: #716843; TEXT-DECORATION: none
+}
+A.ayuda:hover {
+	COLOR: #716843; TEXT-DECORATION: none
+}
+.imgutilidades {
+	BACKGROUND-COLOR: #f2d474
+}
+.txtutilidades {
+	PADDING-LEFT: 5px; FONT-WEIGHT: normal; FONT-SIZE: normal; WIDTH: 139px; COLOR: #a96f14; LINE-HEIGHT: normal; FONT-FAMILY: UM, Verdana, Terminal; BACKGROUND-COLOR: #f6eebd
+}
+.txtutilidades_on {
+	PADDING-LEFT: 5px; FONT-WEIGHT: normal; FONT-SIZE: normal; WIDTH: 139px; COLOR: #a96f14; LINE-HEIGHT: normal; FONT-FAMILY: UM, Verdana, Terminal; BACKGROUND-COLOR: #f6eebd
+}
+.txtutilidades_on {
+	BACKGROUND-COLOR: #f2d474
+}
+A.utilidades:link {
+	COLOR: #a96f14; TEXT-DECORATION: none
+}
+A.utilidades:visited {
+	COLOR: #a96f14; TEXT-DECORATION: none
+}
+A.utilidades:hover {
+	COLOR: #a96f14; TEXT-DECORATION: none
+}
+.imgactualidad {
+	BACKGROUND-COLOR: #28a8ce
+}
+.txtactualidad {
+	PADDING-LEFT: 5px; FONT-WEIGHT: normal; FONT-SIZE: normal; WIDTH: 161px; COLOR: #014b60; FONT-FAMILY: UM, Verdana, Terminal; BACKGROUND-COLOR: #85cbe0
+}
+.txtactualidad_on {
+	PADDING-LEFT: 5px; FONT-WEIGHT: normal; FONT-SIZE: normal; WIDTH: 161px; COLOR: #014b60; FONT-FAMILY: UM, Verdana, Terminal; BACKGROUND-COLOR: #85cbe0
+}
+.txtactualidad_on {
+	BACKGROUND-COLOR: #28a8ce
+}
+A.actualidad:link {
+	COLOR: #014b60; TEXT-DECORATION: none
+}
+A.actualidad:visited {
+	COLOR: #014b60; TEXT-DECORATION: none
+}
+A.actualidad:hover {
+	COLOR: #014b60; TEXT-DECORATION: none
+}
+.txtperfil {
+	PADDING-LEFT: 5px; FONT-WEIGHT: normal; FONT-SIZE: normal; WIDTH: 161px; COLOR: #014b60; FONT-FAMILY: UM, Verdana, Terminal; BACKGROUND-COLOR: #cde99e
+}
+.txtperfil_on {
+	PADDING-LEFT: 5px; FONT-WEIGHT: normal; FONT-SIZE: normal; WIDTH: 161px; COLOR: #014b60; FONT-FAMILY: UM, Verdana, Terminal; BACKGROUND-COLOR: #cde99e
+}
+.txtperfil_on {
+	BACKGROUND-COLOR: #9fcb54
+}
+A.perfil:link {
+	COLOR: #014b60; TEXT-DECORATION: none
+}
+A.perfil:visited {
+	COLOR: #014b60; TEXT-DECORATION: none
+}
+A.perfil:hover {
+	COLOR: #014b60; TEXT-DECORATION: none
+}
+.titayuda {
+	PADDING-RIGHT: 5px; PADDING-LEFT: 5px; FONT-WEIGHT: bold; FONT-SIZE: normal; PADDING-BOTTOM: 5px; COLOR: #ffffff; PADDING-TOP: 5px; FONT-FAMILY: UM, Verdana, Terminal; BACKGROUND-COLOR: #b0a881
+}
+.titinfo {
+	PADDING-RIGHT: 5px; PADDING-LEFT: 5px; FONT-WEIGHT: bold; FONT-SIZE: normal; PADDING-BOTTOM: 5px; COLOR: #ffffff; PADDING-TOP: 5px; FONT-FAMILY: UM, Verdana, Terminal; BACKGROUND-COLOR: #940a46
+}
+.titutilidades {
+	PADDING-RIGHT: 5px; PADDING-LEFT: 5px; FONT-WEIGHT: bold; FONT-SIZE: normal; PADDING-BOTTOM: 5px; COLOR: #ffffff; PADDING-TOP: 5px; FONT-FAMILY: UM, Verdana, Terminal; BACKGROUND-COLOR: #ecb319
+}
+.titactualidad {
+	PADDING-RIGHT: 5px; PADDING-LEFT: 5px; FONT-WEIGHT: bold; FONT-SIZE: normal; PADDING-BOTTOM: 5px; COLOR: #ffffff; PADDING-TOP: 5px; FONT-FAMILY: UM, Verdana, Terminal; BACKGROUND-COLOR: #0d8cb1
+}
+.titperfil {
+	PADDING-RIGHT: 5px; PADDING-LEFT: 5px; FONT-WEIGHT: bold; FONT-SIZE: normal; PADDING-BOTTOM: 5px; COLOR: #ffffff; PADDING-TOP: 5px; FONT-FAMILY: UM, Verdana, Terminal; BACKGROUND-COLOR: #669900
+}
+#menu1Container {
+	DISPLAY: none
+}
+#menu2Container {
+	DISPLAY: none
+}
+#menu3Container {
+	DISPLAY: none
+}
+#menu4Container {
+	DISPLAY: none
+}
+#menu5Container {
+	DISPLAY: none
+}
+.menu {
+	MARGIN: 0px; sfilter: alpha(opacity=30)
+}
+.menu A {
+	PADDING-RIGHT: 0px; DISPLAY: block; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; PADDING-TOP: 0px
+}
+.menu A:visited {
+	PADDING-RIGHT: 0px; DISPLAY: block; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; PADDING-TOP: 0px
+}
+#menu1Container A {
+	COLOR: white; TEXT-DECORATION: none
+}
+#menu1Container A:visited {
+	COLOR: white; TEXT-DECORATION: none
+}
+#menu2Container A {
+	COLOR: #a96f14; TEXT-DECORATION: none
+}
+#menu2Container A:visited {
+	COLOR: #a96f14; TEXT-DECORATION: none
+}
+#menu3Container A {
+	COLOR: #014b60; TEXT-DECORATION: none
+}
+#menu3Container A:visited {
+	COLOR: #014b60; TEXT-DECORATION: none
+}
+#menu4Container A {
+	COLOR: #716843; TEXT-DECORATION: none
+}
+#menu4Container A:visited {
+	COLOR: #716843; TEXT-DECORATION: none
+}
+#menu5Container A {
+	COLOR: #4b6322; TEXT-DECORATION: none
+}
+#menu5Container A:visited {
+	COLOR: #4b6322; TEXT-DECORATION: none
+}

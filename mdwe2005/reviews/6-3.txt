@@ -1,0 +1,54 @@
+=======================================================
+*** MDWE 2005 REVIEW FORM
+
+1) PAPER and REVIEW DETAILS
+
+- PAPER No.: 6
+- TITLE: "Conceptualization of Navigational Maps for Web Applications"
+- AUTHORS: Antonio Navarro et al
+
+
+2) EVALUATION:
+
+Please rate the following qualities from 0 to 5,
+with 5 being the highest.
+
+- Technical accuracy: 4
+
+- Scientific quality/originality: 3
+
+- Appropriateness for the conference: 5
+
+- Quality of presentation: 5
+
+- Overall evaluation: 4
+  (0 = outside the scope of the workshop,
+   1 = Very poor,
+   2 = Poor,
+   3 = Acceptable,
+   4 = Good,
+   5 = Excellent )
+
+- CONFIDENCE ON YOUR RATINGS (low, medium, high): medium
+
+
+4) JUSTIFICATION AND GENERAL COMMENTS:
+ A very well written paper, interesting and relevant to the workshop.  It has been written with a particular approach in mind (Pipe), and that makes it focused and easy to follow.  Having said that, it is not clear in the discussion why the Pipe approach is better.  I was particularly frustrated to read the final paragraph of section 4.1, where the authors say "in our opinion the Pipe characterization ... is clearer than the navigational map that can be derived from the UML characterization ..."  Why?  Whether I agree or not, I would like to hear why they think that.  I think the advantages of their technique should be spelt out more clearly in the paper.
+
+- Summary and main contributions:
+Interesting approach to an important problem.
+- Weak points of the paper:
+It doesn't clearly indicate what are the advantages of the Pipe approach
+- Strong points of the paper:
+Well written, easy to follow
+- Any suggestions for improvements:
+To include a specific discussion of why they think the Pipe approach is good/better
+
+5) FURTHER COMMENTS FOR AUTHORS:
+None
+
+6) CONFIDENTIAL COMMENTS FOR PC:
+   (not to be sent to authors)
+Pretty good, worth discussing during the workshop.
+
+===================================================

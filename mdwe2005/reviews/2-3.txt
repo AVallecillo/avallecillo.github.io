@@ -1,0 +1,81 @@
+=======================================================
+*** MDWE 2005 REVIEW FORM
+
+1) PAPER and REVIEW DETAILS
+
+Paper#2: Yuriy Taranovych, Andreas Schweiger, Helmut Krcmar "An Approach to
+Model-Driven Portlet Development"
+
+2) EVALUATION:
+
+Please rate the following qualities from 0 to 5,
+with 5 being the highest.
+
+- Technical accuracy: 1
+
+- Scientific quality/originality:1
+
+- Appropriateness for the conference:2
+
+- Quality of presentation:3
+
+- Overall evaluation: 1
+  (0 = outside the scope of the workshop,
+   1 = Very poor,
+   2 = Poor,
+   3 = Acceptable,
+   4 = Good,
+   5 = Excellent )
+
+- CONFIDENCE ON YOUR RATINGS (low, medium, high): high
+
+
+4) JUSTIFICATION AND GENERAL COMMENTS:
+  (A few lines are mandatory here to justify
+   the numerical evaluation. You may also include
+   general comments, relevant for both author(s)
+   and the Programme Committee.)
+
+- Summary and main contributions:
+
+An approach mimicking MDA and related to the production of enterprise portals.
+
+- Weak points of the paper:
+
+MDA misinterpretation. Reinventing new standards. 
+
+- Strong points of the paper:
+
+The subject may have been interesting. However it is treated with such a naïve point of view that the work may not be of great help to any reader.
+
+- Any suggestions for improvements:
+
+Having an updated presentation of MDA. Then stating carefully what are the metamodels in the problem. Finally giving the precise transformations that should apply. 
+
+
+5) FURTHER COMMENTS FOR AUTHORS:
+
+Your paper is badly written. Several sentences don't make sense. 
+
+This is likely due to insufficient mastering of the English language,
+
+but also to many flaws in the logical expression.
+
+There are also many naïve expressions.
+
+Finally you should also suppress a number of repetitions.
+
+6) CONFIDENTIAL COMMENTS FOR PC:
+   (not to be sent to authors)
+
+This work is not only scientifically weak, it is misleading.
+
+If accepted this paper could harm:
+
+1. the workshop ; 2. the MDA approach (yet another hype paper)
+
+and 3. mainly the authors themselves.
+
+ 
+
+=======================================================

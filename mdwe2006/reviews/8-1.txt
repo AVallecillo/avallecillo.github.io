@@ -1,0 +1,138 @@
+
+=======================================================
+*** MDWE 2006 REVIEW FORM
+
+1) PAPER and REVIEW DETAILS
+
+- PAPER No.:8
+
+- TITLE: Formalizing and Validating UML Architecture Description
+of Web Systems
+
+- AUTHORS: Yujian Fu, Zhijiang Dong, Xudong He
+
+- REFEREE (if different from PC member):
+
+2) EVALUATION:
+
+Please rate the following qualities from 0 to 5,
+with 5 being the highest.
+
+- Technical accuracy: 3
+
+- Scientific quality/originality: 2
+
+- Appropriateness for the conference: 4
+
+- Quality of presentation: 2
+
+- Overall evaluation: 3
+  (0 = outside the scope of the workshop,
+   1 = Very poor,
+   2 = Poor,
+   3 = Acceptable,
+   4 = Good,
+   5 = Excellent )
+
+- CONFIDENCE ON YOUR RATINGS (low, medium, high):
+high
+
+4) JUSTIFICATION AND GENERAL COMMENTS:
+
+The paper deals with the semi-automatic translation of UML component
+& connector view diagrams into SO-SAM, a formal model based on
+algebraic Petri Nets and temporal logic. The motivation is the need
+of a more formal representation of architectures for a better
+analysis of properties. However, the paper does not contain any
+example of such analysis. Besides, the addressed systems have very
+little to do with the web, as they represent generic
+component-based, message-driven  architectures.
+
+- Summary and main contributions:
+
+The paper presents an approach for translating UML component and
+connector view diagrams (a kind of class diagrams), augmented with
+statecharts for message protocol disambiguation, into So-SAM
+specifications, which are based on Petri nets, algebraic
+specifications  and temporal logic. The ultimate goal should be to
+enable a deeper analysis of system properties.
+
+- Weak points of the paper:
+
+The paper has several weak points:
+
+- the sound and completeness of the translation is not demonstrated,
+but only claimed informally
+
+- the promised deeper level of analysis is not demonstrated. The
+claim is that the SO-SAM model enables deeper reasoning because it
+exposes hidden semantics embedded implicitly in the UML class
+diagrams and statecharts. But there is no example of the usage of
+such explicit information exploited for assessing useful system
+properties. In absence of such result, the translation is little
+more than an exercise, which represents the system architecture with
+a more elaborate (and difficult to master) approach.
+
+- the technical writing is rather poor. Some temporal formulas are
+ill defined and not clear. For instance the "circle" operator is
+used at some point, but is does not seem to be defined.
+
+- the authors say that it is impossible to prove the correctness of
+the transformation. Why is this so? Statecharts have a formal
+semantics, class diagrams have a formal syntactic structure, and the
+bindings between the two could be formalized as well. So it should
+be possible to prove the correctness of the transformation.
+
+The idea of using extended Petri Nets for validation is not new.
+What is the original contribution of SO-SAM? How does it take into
+account specific features of web systems? What are the benefits of
+using temporal logic instead of simpler logical languages capable of
+describing the semantics of events and actions  (e.g., transaction
+logic - http://www.cs.toronto.edu/~bonner/transaction-logic.html).
+You do not use "time" after all.
+
+- Strong points of the paper:
+
+I understand the goal of formalizing UML specifications in order to
+allow deeper reasoning. But I would be more convinced by some
+examples of the benefits of resorting to a more complex formal
+framework like SO-SAM.
+
+
+ - Any suggestions for improvements:
+
+Use the transformation to prove non obvious properties of the
+architecture.
+
+Relate your work to the literature on system verification based on
+Petri Nets and to the work on the formalization of UML.
+
+Make a better connection to **Web** applications and architectures.
+
+
+Revise the English writing.
+
+Check for grammar errors and cut sentences, like this, on page 1:
+
+"The importance of web system architecture descriptions has been
+widely.. "
+
+Remove this item from the footer in page 1: IWSOSE’06, May
+2728,2006, ShangHai, China
+
+Check the names of model elements in the figures and in the running
+text, because sometimes they do not match, like at page 5 - Rule 2 -
+second bullet, where you use RawData instead of RawDataInput,
+frameout instead of FrameOutput, and dataready, which is not in
+figure 2 (a).
+
+
+ 5) FURTHER COMMENTS FOR AUTHORS:
+
+
+6) CONFIDENTIAL COMMENTS FOR PC:
+   (not to be sent to authors)
+
+
+
+===================================================

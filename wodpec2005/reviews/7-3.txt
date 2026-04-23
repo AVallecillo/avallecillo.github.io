@@ -1,0 +1,105 @@
+
+1) PAPER and REVIEW DETAILS
+
+
+- PAPER No.: 7
+- TITLE: On Interactions in the RM-ODP
+- AUTHORS: Genilloud, Genova
+
+
+2) EVALUATION:
+
+Please rate the following qualities from 0 to 5, with 5 being the highest.
+
+- Technical accuracy: 2
+
+- Scientific quality/originality: 1
+
+- Appropriateness for the conference: 5
+
+- Quality of presentation: 4/1
+
+- Overall evaluation: 1
+
+  (0 = outside the scope of the workshop,
+   1 = Very poor,
+   2 = Poor,
+   3 = Acceptable,
+   4 = Good,
+   5 = Excellent )
+
+
+- CONFIDENCE ON YOUR RATINGS (low, medium, high):
+
+high
+
+4) JUSTIFICATION AND GENERAL COMMENTS:
+  (A few lines are mandatory here to justify
+   the numerical evaluation. You may also include
+   general comments, relevant for both author(s)
+   and the Programme Committee.)
+
+Reject.   I justify the numerical evaluation below. 
+
+- Summary and main contributions:
+
+Summary
+
+The first paragraph of Part 2 Subclause 8.3 is to be taken at face value.  The third paragraph and the single paragraph of 8.2 do not make sense.  This can be corrected by using a theory of specification and model and a theory of sign, signified, and interpretant.
+
+The paper also raises questions about behavior and interface.  As these are secondary, I have not considered them here.
+
+The main contribution is negative; the paper as it stands does less than help.
+
+- Weak points of the paper:
+
+I limit this discussion to three deep problems, sufficient to reject the paper.  I call attention to these deep problems by numbering them as I mention them.
+
+To try to fit my criticism in one sentence: The authors call attention to some texts that are not well drafted, misread those texts, misread others which are quite clear enough, and build an incoherent theory on the misreadings.
+
+
+specification and model
+
+The authors build the paper on (1) the idea that "a model is a semantic interpretation of a specification."  
+
+This is unexplained and certainly ideosyncratic.  This has no basis in Part 2.  It does not fit at all with Clauses 5, 6 and 15.
+
+
+object and action
+
+There are certainly problems with Part 2 of RM-ODP.  One is the glaring inconsistency between 8.1 Object and 8.3 Action.  The authors, instead of calling attention to this discrepancy, ignore it and hang their hat on (2) the idea that the phrase “actions in a specification” does not make sense.
+
+
+sign and signified
+
+The sign/signified distinction is an important one.  The authors also appeal to a third concept, interpretant.  By inserting in brackets in the quotation from Peirce of the word, 'interpretant,' make the claim that the an interpretant is somebody.  The rest of the discussion relies on this reading.  They have this dead wrong.  To understand Peirce's interpretant requires study.  It is enough here to know that many, maybe most, interpretants are signs, and no interpretant is a person. The authors are in over their head here.
+
+Setting 'interpretant' aside (or replacing it with, say, 'interpreter') does not clear things up.  The authors fail to connect the sign/signified distinction with central concepts of RM-ODP; they make (3) no connection with the basic concepts, term and entity, nor the "specification" concepts, type and instance.
+
+
+
+The result is the author's own theory of a distinction between model and specification, not connected with Clause 5, and the authors' own theory of signs and the interpretation of signs, not connected with the solid basic concepts of Clauses 6 and 7. 
+
+
+- Strong points of the paper:
+
+
+- Any suggestions for improvements:
+
+Back up and start over.
+
+
+5) FURTHER COMMENTS FOR AUTHORS:
+
+There is a spurious parenthesis after the name of the school.
+
+I believe there is an error in composition at 3.3: The first paragraph reads like part of the text proper; it should be in a Roman face and not indented.
+
+
+6) CONFIDENTIAL COMMENTS FOR PC:
+   (not to be sent to authors)
+
+I have a lot more to say about this paper, many specific problems.  I am willing to present and discuss these.  But i feel the decision to reject the paper should be based on what i have written above.
+
+By accepting this paper we will not serve ourselves, the discipline, nor the authors. 
+

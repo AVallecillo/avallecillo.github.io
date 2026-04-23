@@ -1,0 +1,79 @@
+1) PAPER and REVIEW DETAILS
+
+PAPER No.:	10
+
+TITLE:	Generic model for services: health domain study.
+AUTHORS:	Zoran Milosevic.
+
+2) EVALUATION:
+
+This evaluation is based on the assumption that the paper intended to cover the following workshop topics:
+- Relationship and integration of RM-ODP with other architectural practices.
+
+Please rate the following qualities from 0 to 5, with 5 being the highest.
+
+Technical accuracy: 3
+
+Scientific quality/originality: 4
+
+Appropriateness for the conference: 3
+
+Quality of presentation: 4
+
+Overall evaluation: 4 = Good,
+
+CONFIDENCE LEVEL High
+
+4) JUSTIFICATION AND GENERAL COMMENTS:
+
+- Summary and main contribution:
+
+See strong points below.
+
+- Weak points of the paper:
+
+1. The title promises a "Generic model for services", however that generic model is not articulated clearly and then mapped to ODP concepts when they apply, or recommended for addition when they are no corresponding ODP concepts.
+
+The introduction poses the problem, but the document does not provide a clear answer. It just reiterates applicable definitions. For instance at the end of the introduction, one is not clear whether Business and ICT services should be:
+
+- Correponding (the same), 
+- a subset of one another,
+- a view of one another,
+- a subtype of one another,
+- two subtypes of a supertype, or
+- different but related.
+
+Clarifying early in the document (a short section between 1 and 2) the difference between the concept and the term (It is not because two "things" are called "service" that they designate the same concept), establishing the generic concept of service and then define business services and ICT services as subtypes would improve understandability of the document. All the required text is already dispersed in the document.
+
+2. The treatment of the computational viwepoint is less conclusive that the treatment of the enterprise viewpoint.
+
+The conclusion for the enterprise viewpoint is that is needs more constructs to model business services. However, for the computational viewpoint, the conclusion is not obvious (are all the right constructs to model ICT services there or not);
+
+Assuming the conceptual relationship between business services and ICT services has been better established earlier (see above), then the discussion between the corresponding relationship between the enterprise and computational viewpoints could be the topic for more articulated conclusions.
+
+- Strong points of the paper:
+
+3. The selection of the health care domain as the universe of discourse is an excellent choice, since the business system and the information system can be well differentiated (as opposed to information-based industries such as insurance, where the distinction between the business system service "settle claim" and the information system service "settle claim" is more difficult to articulate).
+
+4. The discussion of the enterprise viewpoint.
+
+- Any suggestions for improvements: 
+
+5. The statement in the introduction that "SOA approaches…..in a way that more closely reflects the business logic of the enterprise" is bold and unsubtantiated (in the document), as are the two others in the introduction about "monolithic" and "duplicates". The argumentation needs to be better articulated.
+
+It has always been possible to architecture applications "that more closely reflect the business logic" if you took the trouble to understand and model that business logic at the beginning of the modelling cycle. The added value of SOA approaches is the emphasis it puts on that aspect.
+
+For "monolithic" the line of reasonning is that there is a structure clash between business systems and information systems, and that a modular architecture (again not a new concept) enables the mapping between both. SOA approaches promote modularity, and enable restructuring of ICT service units in business-congruent structures.
+
+6. A few words about the architecture of health-care business systems should go in the introduction. The paper oscillates between multiple subsystems, and it is not clear which one is discussed for a specific point, such as:
+
+The operational system (professionals "caring" for patients);
+The operational control system (workflow and case management);
+The management system (costs, legistlation, policy, etc.).
+
+7. Figure 1 illustrates one problem that the paper is trying to correct. The business and information aspects are clearly health-related, whereas the application aspects contains generic application terms. Health-specific application names whould be used. One could also argue that messaging, access control and workflow are really infrastructure, not application services, and should appear in the technology aspects.
+
+8. Section 5.1 discusses the relationship in terms of existing enterprise viewpoint constructs (heavily policy biased). A few words about the relationship with the proposed new constructs would be helpful.
+
+5) FURTHER COMMENTS FOR AUTHORS:
+

@@ -1,0 +1,74 @@
+*** MDWE 2005 REVIEW FORM
+
+1) PAPER and REVIEW DETAILS
+
+- PAPER No.: 14
+- TITLE: Atomic Use case as a concept...
+- AUTHORS: Nguyen and Dillon
+
+2) EVALUATION:
+
+Please rate the following qualities from 0 to 5, 
+with 5 being the highest.
+
+- Technical accuracy: 3
+
+- Scientific quality/originality: 3
+
+- Appropriateness for the conference: 4
+
+- Quality of presentation: 3
+
+- Overall evaluation: 3
+  (0 = outside the scope of the workshop,
+   1 = Very poor,
+   2 = Poor,
+   3 = Acceptable, 
+   4 = Good,
+   5 = Excellent )
+
+- CONFIDENCE ON YOUR RATINGS (low, medium, high): medium
+
+
+4) JUSTIFICATION AND GENERAL COMMENTS:
+  (A few lines are mandatory here to justify 
+   the numerical evaluation. You may also include 
+   general comments, relevant for both author(s) 
+   and the Programme Committee.) 
+
+- Summary and main contributions:
+
+This paper elaborates the Atomic Use Case idea (presented previously by
+the authors)
+to the field of Web Engineering particularly showing how to use it in the
+context of UWE
+
+- Weak points of the paper:
+
+The specificity of Web applications is barely mentioned in the paper;
+particularly the
+explanation in pages 1 to 9, applies to any software application.
+This aspect should be improved
+
+
+- Strong points of the paper:
+
+Solid idea, well explained, reasonable examples.
+
+- Any suggestions for improvements: 
+
+Please, improve the paper by trying to mention which aspects of the
+approach fit well with
+the Web Engineering domain. Perhaps devote more space to the UWE example
+reducing the presentation of the basic approach
+
+5) FURTHER COMMENTS FOR AUTHORS:
+
+The paper is reasonable (please try to improve the size of the paper!!!)
+though not completely focus to the workshop's intent; this cab be fixed
+easily by improving it with some of the previous suggestions.
+Particularly, I would like to read more on the specifities of the Web
+Engineering domain and a bit less on the fundamental. Finally, can you
+compare your work with other similar approaches to requirement
+specification and their introduction in Web design methodologies?
+

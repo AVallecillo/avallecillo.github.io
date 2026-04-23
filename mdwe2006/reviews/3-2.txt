@@ -1,0 +1,65 @@
+
+=======================================================
+*** MDWE 2006 REVIEW FORM
+
+1) PAPER and REVIEW DETAILS
+
+- PAPER No.: 3
+- TITLE:Transformation Techniques in the Model-Driven Development Process of UWE
+- AUTHORS:NORA KOCH
+
+2) EVALUATION: 
+
+Please rate the following qualities from 0 to 5, 
+with 5 being the highest.
+
+- Technical accuracy:5
+
+- Scientific quality/originality: 4
+
+- Appropriateness for the conference: 5
+
+- Quality of presentation: 4
+
+- Overall evaluation: 5
+  (0 = outside the scope of the workshop,
+   1 = Very poor,
+   2 = Poor,
+   3 = Acceptable, 
+   4 = Good,
+   5 = Excellent )
+
+- CONFIDENCE ON YOUR RATINGS (low, medium, high): high
+
+
+4) JUSTIFICATION AND GENERAL COMMENTS:
+  (A few lines are mandatory here to justify 
+   the numerical evaluation. You may also include 
+   general comments, relevant for both author(s) 
+   and the Programme Committee.) 
+
+- Summary and main contributions:
+
+The paper describes the development process of the UWE defined as a model-driven development approach describing the metamodels and transformation involved in the process. 
+   
+- Weak points of the paper:
+
+Sometimes there is an explosion of notations (metamodels) and it is not clear what is the contribution of the paper with respect to previous works (which are though correctly referred).
+
+- Strong points of the paper:
+
+I believe it is a neat, well written paper and structured paper. The content is presented with aboundance of examples and diagrams illustrating the approach. Despite the comments above I believe this work describe the overall development process with UWE.
+
+- Any suggestions for improvements: 
+I would make more clear what is the contribution of the paper - I believe just having a sistematic description of what has been done elsewhere is already relevant to the scope of the conference. Moreover, I would summarize the different metamodels involved and the kind of transformations used (with the kind of language, abstraction level, ect) in a two tables.
+
+
+5) FURTHER COMMENTS FOR AUTHORS:
+
+
+6) CONFIDENTIAL COMMENTS FOR PC:
+   (not to be sent to authors)
+
+
+===================================================
+

@@ -1,0 +1,76 @@
+
+=======================================================
+*** MDWE 2006 REVIEW FORM
+
+1) PAPER and REVIEW DETAILS
+
+- PAPER No.:5
+- TITLE: PATTERN-BASED DEVELOPMENT OF USER-FRIENDLY WEB APPLICATIONS
+- AUTHORS: WENTZLAFF, SPECKER
+
+2) EVALUATION:
+
+Please rate the following qualities from 0 to 5,
+with 5 being the highest.
+
+- Technical accuracy: 4
+
+- Scientific quality/originality: 3
+
+- Appropriateness for the conference: 3
+
+- Quality of presentation: 4
+
+- Overall evaluation: 3
+  (0 = outside the scope of the workshop,
+   1 = Very poor,
+   2 = Poor,
+   3 = Acceptable,
+   4 = Good,
+   5 = Excellent )
+
+- CONFIDENCE ON YOUR RATINGS (low, medium, high): HIGH
+
+
+4) JUSTIFICATION AND GENERAL COMMENTS:
+  (A few lines are mandatory here to justify
+   the numerical evaluation. You may also include
+   general comments, relevant for both author(s)
+   and the Programme Committee.)
+
+- Summary and main contributions:
+The paper presents a pattern-based software development process.
+The main peculiarity is that the adopted design patterns are achieved
+by the integration of software engineering patterns and HCI patterns.
+This allows one to take into account non-functional qualities,
+such as usability, generally neglected in the SE field.
+
+- Weak points of the paper:
+The presented approach seems quite general for software systems.I am
+wondering if the authors have worked on integrating also proper Web Engineering issues.
+Several Web Engineering patterns have been so far proposed (see for example
+papers by Rossi&Schwabe published in 2000).
+
+- The adoption of the presented method is quite unfeasible without a tool's support.
+Indeed, in the conclusions authors say that they are working on the implementation of
+a tool complementing their method. It would be interesting to anticipate
+some details about how a tool can make the PF selection and the different transformations automatic.
+In which measure can the planned tool support any planned transformation step? Is there any limitation?
+
+- Strong points of the paper:
+The paper is well written, and the methodology is well presented: it adequately
+describes all the step required to transform problem frames into problem
+solutions, and to integrate patterns from SE and HCI.
+
+- Any suggestions for improvements:
+I would suggest authors to clarify the two points I mentioned above.
+English must be improved.
+
+5) FURTHER COMMENTS FOR AUTHORS:
+
+
+6) CONFIDENTIAL COMMENTS FOR PC:
+   (not to be sent to authors)
+
+
+===================================================

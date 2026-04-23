@@ -1,0 +1,45 @@
+
+2) EVALUATION:
+
+Please rate the following qualities from 0 to 5,
+with 5 being the highest.
+
+- Technical accuracy:  3
+
+- Scientific quality/originality:      2
+
+- Appropriateness for the conference:   1
+
+- Quality of presentation: N/A
+
+- Overall evaluation:     0
+  (0 = outside the scope of WODPEC,
+   1 = Very poor,
+   2 = Poor,
+   3 = Acceptable,
+   4 = Good,
+   5 = Excellent )
+
+- CONFIDENCE LEVEL (low, medium, high):        M
+
+
+4) JUSTIFICATION AND GENERAL COMMENTS:
+  (A few lines are mandatory here to justify
+   the numerical evaluation. You may also include
+   general comments, relevant for both author(s)
+   and the Programme Committee.
+  
+- Weak points of the paper: 
+This is  a highly personal view on an interesting 
+topic which would make a good basis for a bar discussion, 
+but misses the target for WODPEC almost completely. 
+Its mention of ODP is cursory at best.
+
+- Strong points of the paper:
+
+- Any suggestions for improvements:
+
+
+5) FURTHER COMMENTS FOR AUTHORS:
+
+

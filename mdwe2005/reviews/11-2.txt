@@ -1,0 +1,83 @@
+
+
+** MDWE 2005 REVIEW FORM
+
+
+1) PAPER and REVIEW DETAILS
+- PAPER No.: 11
+- TITLE: "Mega Operations for a Meta-model based Model Integration"
+- AUTHORS: Wieland Schwinger et al.
+
+
+2) EVALUATION:
+Please rate the following qualities from 0 to 5,
+with 5 being the highest.
+- Technical accuracy: 2
+- Scientific quality/originality: 2
+- Appropriateness for the conference: 3
+- Quality of presentation: 4
+- Overall evaluation: 3
+(0 = outside the scope of the workshop,
+1 = Very poor,
+2 = Poor,
+3 = Acceptable,
+4 = Good,
+5 = Excellent )
+- CONFIDENCE ON YOUR RATINGS (low, medium, high): medium
+
+
+4) JUSTIFICATION AND GENERAL COMMENTS:
+(A few lines are mandatory here to justify
+the numerical evaluation. You may also include
+general comments, relevant for both author(s)
+and the Programme Committee.)
+- Summary and main contributions:
+
+
+The authors propose several operations aimed at the model integration in the MDA context.
+
+
+- Weak points of the paper:
+
+
+1. The proposal is not specific to model driven web engineering, but the model integration is a general problem in the MDA context.
+
+
+2. The authors have not considered the QVT 2.0 (AD/2005-03-02)
+
+
+3. The "weaving operation" is not motivated by an example to illustrate the need for creating the "woven model", because it can be sufficient maintaining the semantics relations among elements of the models (proposal of Bezivin). The implementation of the weaving operator is very easy in QVT.
+
+
+4. The semantics of the sewing operators is included in the QVT 2.0 (relation language): synchronyzes (matching rules) and depends (checkonly and enforce modifiers). Therefore I do not see any interesting contribution.
+
+
+5. The example in the Section 3 create confusion: the example shows a model (M2) and a metamodel (M1), but it is not clear which would be the instances. It would be more appropriate an example like the authors mention in the Introduction (reservation systems).
+
+
+6. In the section 3.2, the role of the mediator is superficially explained.
+
+
+7. Can the Marius/QVT tool be downloaded?
+
+
+- Strong points of the paper:
+
+
+The overview of other approaches is interesting.
+
+
+- Any suggestions for improvements:
+
+
+The authors should rethink the megaoperations bearing in mind the QVT 2.0 and describe the mediator in a way more precise.
+
+
+5) FURTHER COMMENTS FOR AUTHORS:
+
+
+6) CONFIDENTIAL COMMENTS FOR PC:
+(not to be sent to authors)
+
+
+===================================================

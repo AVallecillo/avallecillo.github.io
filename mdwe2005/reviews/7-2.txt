@@ -1,0 +1,75 @@
+*** MDWE 2005 REVIEW FORM
+
+1) PAPER and REVIEW DETAILS
+
+- PAPER No.: 7
+- TITLE: Incorporating Cooperative Portlets in Web Application Development
+- AUTHORS: Nathalie Moreno, Raul Romero and Antonio Vallecillo
+
+2) EVALUATION:
+
+Please rate the following qualities from 0 to 5,
+with 5 being the highest.
+
+- Technical accuracy: 4
+
+- Scientific quality/originality: 4
+
+- Appropriateness for the conference: 5
+
+- Quality of presentation: 4
+
+- Overall evaluation: 4
+  (0 = outside the scope of the workshop,
+   1 = Very poor,
+   2 = Poor,
+   3 = Acceptable,
+   4 = Good,
+   5 = Excellent )
+
+- CONFIDENCE ON YOUR RATINGS (low, medium, high): medium
+
+
+4) JUSTIFICATION AND GENERAL COMMENTS:
+  (A few lines are mandatory here to justify
+   the numerical evaluation. You may also include
+   general comments, relevant for both author(s)
+   and the Programme Committee.)
+
+- Summary and main contributions:
+
+The authors propose an MDA approach to web application development based
+on portlets, motivated by integration problems between portlets at the
+business logic level.
+
+- Weak points of the paper:
+
+I could not quite figure out how the integration problems are solved in
+the end. Is MDA the only answer? I would expect that a clear separation
+of the notions of portlets (at the interface) and web services (for the
+appication logic and data) could solve the integration problems,
+effectively delegating them to the level of the underlying services.
+
+- Strong points of the paper:
+
+Good motivation and introduction to the problem. Well-defined
+methodology and use of UML models. Generally well written and sound.
+
+
+- Any suggestions for improvements:
+
+The presentation of the reference model is rather generic. It could have
+been profited from an example to illustrate the various points, or at
+least from making reference to portlets from time to time. Not all views
+occur in the example. Please document which and why.
+
+5) FURTHER COMMENTS FOR AUTHORS:
+
+page 1, 2nd column, line 3: ..., which act*s* as hub (remove s)
+            line 4: service consumer -> service requestor
+            line 18: ... integration *of* both ...
+
+6) CONFIDENTIAL COMMENTS FOR PC:
+   (not to be sent to authors)
+
+none

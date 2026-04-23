@@ -1,0 +1,85 @@
+
+=======================================================
+*** WODPEC 2005 REVIEW FORM
+
+1) PAPER and REVIEW DETAILS
+
+- PAPER No.: 1
+- TITLE: Modeling the engineering viewpoint...
+- AUTHORS: Hai-Quan NGUYEN
+
+2) EVALUATION:
+
+Please rate the following qualities from 0 to 5, 
+with 5 being the highest.
+
+- Technical accuracy: 3
+
+- Scientific quality/originality: 4
+
+- Appropriateness for the conference: 5
+
+- Quality of presentation: 2
+
+- Overall evaluation: 3
+  (0 = outside the scope of WODPEC,
+   1 = Very poor,
+   2 = Poor,
+   3 = Acceptable, 
+   4 = Good,
+   5 = Excellent )
+
+- CONFIDENCE ON YOUR RATINGS (low, medium, high): high
+
+
+4) JUSTIFICATION AND GENERAL COMMENTS:
+  (A few lines are mandatory here to justify 
+   the numerical evaluation. You may also include 
+   general comments, relevant for both author(s) 
+   and the Programme Committee.) 
+
+- Summary and main contributions:
+
+The paper presents an approach for modeling the ODP Engineering viewpoint using a language (called MODERN), that allows not only the expression of the engineering language concepts, but also several kinds of system analysis using different tools.
+   
+- Weak points of the paper:
+
+The paper is poorly written, and the English needs to be thoroughly reviewed by a native speaker. Furthermore, there are many typos and some of the sentences are difficult to read (e.g., "In this viewpoint, concerns such as the distribution, the technical concern should be specified in this level" in page 1, col 2, lin 15) or not even finished (e.g., "The second analysis verifies" in page 7, col 2, lin 15)
+
+Another example of a sentence difficult to understand is the following, taken from page 5: "For example, the passivation of the instances of component during it does not have there a request of
+these customers can make the resources available for
+other components. Another example is the
+instantiation of new instance of component or the
+reactivation of the existing instances for requests these
+of the customers."
+
+Not only the language should be improved, but also the style. It is a pity that such a nice piece of work gets so difficult ro read and to understand because of its poor literary style. In particular, (1) many of the ideas are presented, but not justified; (2) the authors say what they do, and what can be done with MODERN, but not how it is done or achieved (e.g., the analysis tests). 
+
+Examples include:
+- "Furthermore, behavioural contracts are added to the components" (page 5) but there is no hint on how these contracts are expressed, and later enforced.
+- "we transform the behavioural elements into FSP processes" (page 7) but there is no indication on how this transformation is achieved, and whether it can be automated or not.
+
+- Strong points of the paper:
+
+The idea is good, and the realization seems to be good, too (although poorly explained -- see my previous comments)
+
+- Any suggestions for improvements: 
+
+Please describe not only what you do (many of the paragraphs can be removed, they contain just "marketing" informantion about MODERN) but also how you do it, and how users can use it.
+
+I like the MODERN metamodel, although some of its parts (e.g., the QoS elements) seem to be literally taken from other sources. Have you considered using the UML (2.0) profiling mechanisms to organize and define MODERN? Thus, you could concentrate in the specialization of the UML 2.0 elements that you need, and use (or even specialize) other profiles (e.g., the OMG Profile for QoS and RT, which seems to be fully aligned with your part).
+ 
+
+
+5) FURTHER COMMENTS FOR AUTHORS:
+
+MODERN seems to be a visual language, but then you use XML excerpts in other parts. Could you please clarify this? Which is/are the syntax of MODERN?
+
+Again, I suggest that you review your paper in detail (have you noticed that there are two Figures "1")
+
+6) CONFIDENTIAL COMMENTS FOR PC:
+   (not to be sent to authors)
+
+
+===================================================
+

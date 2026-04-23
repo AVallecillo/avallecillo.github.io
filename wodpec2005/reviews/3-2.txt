@@ -1,0 +1,81 @@
+=======================================================
+*** WODPEC 2005 REVIEW FORM
+
+
+1) PAPER and REVIEW DETAILS
+
+
+- PAPER No.: 3
+- TITLE    : "Change management in multi-view systems"
+- AUTHORS  : Nesrine Yahiaoui, Bruno Traverson, Nicole Levy
+
+
+
+2) EVALUATION:
+
+Please rate the following qualities from 0 to 5, with 5 being the highest.
+
+- Technical accuracy: 5
+- Scientific quality/originality: 4
+- Appropriateness for the conference: 5
+- Quality of presentation: 3
+- Overall evaluation: 4
+   (0 = outside the scope of the workshop,
+    1 = Very poor,
+    2 = Poor,
+    3 = Acceptable,
+    4 = Good,
+    5 = Excellent )
+
+- CONFIDENCE ON YOUR RATINGS (low, medium, high): High
+
+4) JUSTIFICATION AND GENERAL COMMENTS:
+   (A few lines are mandatory here to justify
+    the numerical evaluation. You may also include
+    general comments, relevant for both author(s)
+    and the Programme Committee.)
+
+
+- Summary and main contributions:
+
+The paper addresses the issue of inter-viewpoint 
+correspondences, illustrating the
+need and proposing a viewpoint correspondence view.
+
+
+- Weak points of the paper:
+
+English is quite bad in places, but I have read worse, 
+it could do with being read and edited by a native speaker.
+The references should not be in a table !
+
+- Strong points of the paper:
+
+An issue that I definitely believe needs addressing, this is a good starting point.
+
+
+- Any suggestions for improvements:
+
+With respect to Implicit links and the example of Enterprise to Engineering as an implicit link,
+I believe there could well be specific correspondences between 
+Enterprise and Engineering that
+do not involve the Computational specification. Thus it would be necessary not redundant. E.g. various policies could be 
+specifically addressed to concepts specified in the engineering 
+view.
+
+
+Although you mention MDA, have you considered the use of 
+Transformations as a means to specify inter-viewpoint correspondences?
+
+
+
+5) FURTHER COMMENTS FOR AUTHORS:
+
+
+
+6) CONFIDENTIAL COMMENTS FOR PC:
+    (not to be sent to authors)
+
+
+
+===================================================
